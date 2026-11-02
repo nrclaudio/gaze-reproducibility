@@ -1,0 +1,41 @@
+{
+  "historical_targets": 50,
+  "source_workbooks": 13,
+  "specimens": 867,
+  "all_frozen_measurements_reproduced_from_source": true,
+  "decisions": {
+    "exclude_distinct_compound_mismatch": 1,
+    "restore_specific_feature": 3,
+    "retain_existing_target": 45,
+    "retain_with_identifier_qualification": 1
+  },
+  "annotation_issues": [],
+  "graph_nodes": 3687,
+  "graph_has_androsterone_sulfate_node": false,
+  "graph_has_sulfate_hmdb": false,
+  "score_based_selection": false,
+  "model_predictions_examined": false,
+  "scope": "Source-file consistency and recorded compound identities. This does not independently re-identify compounds from mass spectra or validate every annotation in the full1152-feature dataset.",
+  "source_sha256": {
+    "cluster-downloads/ALICE/Metabolomics-RNA/source-data/geo_data/Tumour_metabolism/pancancer_metabolomics/data/metabolomics_processed/PreprocessedData_BRCA1.xlsx": "10ff5b9deccc69f0a75dfa06b42b2f0fdc61a5d5191374be69115ce3f586b74b",
+    "cluster-downloads/ALICE/Metabolomics-RNA/source-data/geo_data/Tumour_metabolism/pancancer_metabolomics/data/metabolomics_processed/PreprocessedData_BRCA2.xlsx": "48fa7c23cb6a83d44ca6cfd808f600d5862f8decbfa1447f40ac74bd6b895248",
+    "cluster-downloads/ALICE/Metabolomics-RNA/source-data/geo_data/Tumour_metabolism/pancancer_metabolomics/data/metabolomics_processed/PreprocessedData_DLBCL.xlsx": "a8a84e7590896860aa7cad2eba3254cb4eefc1b92fe6828bc40effbbab6b7f7e",
+    "cluster-downloads/ALICE/Metabolomics-RNA/source-data/geo_data/Tumour_metabolism/pancancer_metabolomics/data/metabolomics_processed/PreprocessedData_GBM.xlsx": "e5088932a77049184ca9f112a034bed12f301c7e5daf92f752b3e293206f63f8",
+    "cluster-downloads/ALICE/Metabolomics-RNA/source-data/geo_data/Tumour_metabolism/pancancer_metabolomics/data/metabolomics_processed/PreprocessedData_HCC.xlsx": "a37aa97287e2fc8971c1a0223ad3a53b81d2acca36e38410a28c77d66472ea2b",
+    "cluster-downloads/ALICE/Metabolomics-RNA/source-data/geo_data/Tumour_metabolism/pancancer_metabolomics/data/metabolomics_processed/PreprocessedData_HurthleCC.xlsx": "da52b3b6948a12ad0f9679ed53a2c72042a845a68fbe8c8a8d004b918f3b4e1e",
+    "cluster-downloads/ALICE/Metabolomics-RNA/source-data/geo_data/Tumour_metabolism/pancancer_metabolomics/data/metabolomics_processed/PreprocessedData_ICC.xlsx": "6682234f35926edb8037f1d3f71cf1af72dccc428bb93788079c1c88bec199f3",
+    "cluster-downloads/ALICE/Metabolomics-RNA/source-data/geo_data/Tumour_metabolism/pancancer_metabolomics/data/metabolomics_processed/PreprocessedData_PDAC.xlsx": "e5f408848824394d6be875d7284b77d0a0aabd433d0f2db8ebe01886c29a7ecd",
+    "cluster-downloads/ALICE/Metabolomics-RNA/source-data/geo_data/Tumour_metabolism/pancancer_metabolomics/data/metabolomics_processed/PreprocessedData_PRAD.xlsx": "f66304464ae8ac3da6294307665793b31d0b0268f690d5b2ca6550ad3ca66e27",
+    "cluster-downloads/ALICE/Metabolomics-RNA/source-data/geo_data/Tumour_metabolism/pancancer_metabolomics/data/metabolomics_processed/PreprocessedData_ccRCC1.xlsx": "ab626f0f29c80edc7e3624c0741c19370f714841b76e1da802bccab052217ac2",
+    "cluster-downloads/ALICE/Metabolomics-RNA/source-data/geo_data/Tumour_metabolism/pancancer_metabolomics/data/metabolomics_processed/PreprocessedData_ccRCC2.xlsx": "a946f93f848f9cccc86495fe669da6945d9152b1571d72e2cacbf0840fce0f6f",
+    "cluster-downloads/ALICE/Metabolomics-RNA/source-data/geo_data/Tumour_metabolism/pancancer_metabolomics/data/metabolomics_processed/PreprocessedData_ccRCC3.xlsx": "8cfcbc6fe52647d6d4eb3a4f1f102adcf2af1de2058481b9de4cfe9acc7b5cc1",
+    "cluster-downloads/ALICE/Metabolomics-RNA/source-data/geo_data/Tumour_metabolism/pancancer_metabolomics/data/metabolomics_processed/PreprocessedData_ccRCC4.xlsx": "8d49e154ea26fb4b08fa573f3fd12b6af16204288c80c915333de5aeeaa436fb",
+    "cluster-downloads/ALICE/Metabolomics-RNA/source-data/geo_data/Tumour_metabolism/pancancer_metabolomics/data/MetinfoFromData.xlsx": "5ab03516f626d78c24a8d4a5974a5a9273f4b2ef6e37a3da1cb866212ee31f3d",
+    "external_validation_recovery/rebuttal_suite/runs/20261027_rebuttal/inputs/camp_reanalysis.h5mu": "cdf6522f6eb20d35efe5f7744e85a8989bcb563296700cc453a3ba1b198bb658",
+    "external_validation_recovery/rebuttal_suite/runs/20261027_rebuttal/inputs/graph.pt": "289b21ab7242fd24a21d34c6aac9245a243d6bf0f0894b3f077264c2268f5038",
+    "external_validation_recovery/rebuttal_suite/runs/20261027_rebuttal/inputs/lomo_phase1.csv": "c81430a9c115c72c27d26a2f5264d5edfc027472b129ff3714027ac9e7bea1cf",
+    "external_validation_recovery/rebuttal_20261030/panel_selection_final.csv": "5559fde0a76d3126cf8bc20adb0252df081827a6e880b5fda08c5cca0ac63fb0",
+    "external_validation_recovery/annotation_resolution_20261030/manual_resolutions.json": "ee92e6f8a52e0d6eed8adc463add380a4d292ee6a0f519f8d9c512672d2b0ab0",
+    "external_validation_recovery/annotation_resolution_20261030/audit_sources.py": "72b9394a32daf9dd2ad8b08e90c5733b0939b07fd8fa3f8eed28918e859b44c9"
+  }
+}

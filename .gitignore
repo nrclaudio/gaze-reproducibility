@@ -136,7 +136,7 @@ spatial_results/
 *.hdf5
 
 # Data directory (users download separately)
-data/
+/data/
 
 # Large data files
 *.h5mu
@@ -154,3 +154,15 @@ temp_*/
 # SLURM temporary scripts
 tmp_slurm_scripts/
 tmp_lomo_scripts/
+
+# Downloadable release artifacts (code and manifests stay in Git).
+/revision/experiments/*/inputs/
+/revision/experiments/*/results/
+/revision/experiments/*/summary/
+/revision/experiments/*/review/
+/revision/experiments/*/recovery_*/
+/revision/external/artifacts/
+/revision/external/runs/
+/revision/manuscript_data/
+/revision/release_manifest.json
+/revision/downloads/

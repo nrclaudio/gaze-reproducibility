@@ -1,0 +1,13 @@
+{
+  "source_code": "/Users/c.novellarausell/GAZE/external_validation_recovery/code/src",
+  "original_lomo_bundle_sha256": "450b0906aae4a19522af535bee6d3e9a3adb7273eed2e9d02b6433b420b2e3c7",
+  "panel_sha256": "9b734306df71d1ee074fc45c0f33204c26bc47dd7b886953c849889d538b3734",
+  "original_runs_modified": false,
+  "reused_training_results": 0,
+  "artifact_sources": {
+    "camp_reanalysis.h5mu": "cdf6522f6eb20d35efe5f7744e85a8989bcb563296700cc453a3ba1b198bb658",
+    "graph.pt": "289b21ab7242fd24a21d34c6aac9245a243d6bf0f0894b3f077264c2268f5038",
+    "gene_mapping.json": "7cb1839305292b5beed154bc32eb931179ee6eaff083039563dea6d91457875c",
+    "phase1_manifest.csv": "9aa96e954157c47f99a6fd88a3f072d9a75c5412592e23d1a2b7539927554199"
+  }
+}

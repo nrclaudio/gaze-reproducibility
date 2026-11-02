@@ -1,0 +1,173 @@
+{
+  "created": "2023-04-28T03:21:23.317074+00:00",
+  "modified": "2023-04-28T14:26:37.804033+00:00",
+  "id": 7874228,
+  "conceptrecid": "7150252",
+  "doi": "10.5281/zenodo.7874228",
+  "conceptdoi": "10.5281/zenodo.7150252",
+  "doi_url": "https://doi.org/10.5281/zenodo.7874228",
+  "metadata": {
+    "title": "A Multimodal Atlas of Tumor Metabolism Reveals the Architecture of Gene-Metabolite  Covariation",
+    "doi": "10.5281/zenodo.7874228",
+    "publication_date": "2022-10-05",
+    "description": "<p>pancancer metabolomics study</p>",
+    "access_right": "open",
+    "creators": [
+      {
+        "name": "Elisa Benedetti",
+        "affiliation": "Weill Cornell Medicine"
+      },
+      {
+        "name": "Eric Minwei Liu",
+        "affiliation": "Memorial Sloan Kettering Cancer Center"
+      },
+      {
+        "name": "Cerise Tang",
+        "affiliation": "Memorial Sloan Kettering Cancer Center"
+      },
+      {
+        "name": "Fengshen Kuo",
+        "affiliation": "Memorial Sloan Kettering Cancer Center"
+      },
+      {
+        "name": "Mustafa Buyukozkan",
+        "affiliation": "Weill Cornell Medicine"
+      },
+      {
+        "name": "Tricia Park",
+        "affiliation": "Memorial Sloan Kettering Cancer Center"
+      },
+      {
+        "name": "Jinsung Park",
+        "affiliation": "Memorial Sloan Kettering Cancer Center"
+      },
+      {
+        "name": "Fabian Correa",
+        "affiliation": "Memorial Sloan Kettering Cancer Center"
+      },
+      {
+        "name": "A Ari Hakimi",
+        "affiliation": "Memorial Sloan Kettering Cancer Center"
+      },
+      {
+        "name": "Andrew M Intlekofer",
+        "affiliation": "Memorial Sloan Kettering Cancer Center"
+      },
+      {
+        "name": "Jan Krumsiek",
+        "affiliation": "Weill Cornell Medicine"
+      },
+      {
+        "name": "Ed Reznik",
+        "affiliation": "Memorial Sloan Kettering Cancer Center"
+      }
+    ],
+    "version": "0.3.4",
+    "resource_type": {
+      "title": "Journal article",
+      "type": "publication",
+      "subtype": "article"
+    },
+    "license": {
+      "id": "cc-by-4.0"
+    },
+    "relations": {
+      "version": [
+        {
+          "index": 7,
+          "is_last": true,
+          "parent": {
+            "pid_type": "recid",
+            "pid_value": "7150252"
+          }
+        }
+      ]
+    }
+  },
+  "title": "A Multimodal Atlas of Tumor Metabolism Reveals the Architecture of Gene-Metabolite  Covariation",
+  "links": {
+    "self": "https://zenodo.org/api/records/7874228",
+    "self_html": "https://zenodo.org/records/7874228",
+    "preview_html": "https://zenodo.org/records/7874228?preview=1",
+    "doi": "https://doi.org/10.5281/zenodo.7874228",
+    "self_doi": "https://doi.org/10.5281/zenodo.7874228",
+    "self_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7874228",
+    "reserve_doi": "https://zenodo.org/api/records/7874228/draft/pids/doi",
+    "parent": "https://zenodo.org/api/records/7150252",
+    "parent_html": "https://zenodo.org/records/7150252",
+    "parent_doi": "https://doi.org/10.5281/zenodo.7150252",
+    "parent_doi_html": "https://zenodo.org/doi/10.5281/zenodo.7150252",
+    "self_iiif_manifest": "https://zenodo.org/api/iiif/record:7874228/manifest",
+    "self_iiif_sequence": "https://zenodo.org/api/iiif/record:7874228/sequence/default",
+    "files": "https://zenodo.org/api/records/7874228/files",
+    "media_files": "https://zenodo.org/api/records/7874228/media-files",
+    "archive": "https://zenodo.org/api/records/7874228/files-archive",
+    "archive_media": "https://zenodo.org/api/records/7874228/media-files-archive",
+    "latest": "https://zenodo.org/api/records/7874228/versions/latest",
+    "latest_html": "https://zenodo.org/records/7874228/latest",
+    "versions": "https://zenodo.org/api/records/7874228/versions",
+    "draft": "https://zenodo.org/api/records/7874228/draft",
+    "access_links": "https://zenodo.org/api/records/7874228/access/links",
+    "access_grants": "https://zenodo.org/api/records/7874228/access/grants",
+    "access_users": "https://zenodo.org/api/records/7874228/access/users",
+    "access_request": "https://zenodo.org/api/records/7874228/access/request",
+    "access": "https://zenodo.org/api/records/7874228/access",
+    "communities": "https://zenodo.org/api/records/7874228/communities",
+    "communities-suggestions": "https://zenodo.org/api/records/7874228/communities-suggestions",
+    "request_deletion": "https://zenodo.org/api/records/7874228/request-deletion",
+    "file_modification": "https://zenodo.org/api/records/7874228/file-modification",
+    "quota_increase": "https://zenodo.org/api/records/7874228/quota-increase",
+    "requests": "https://zenodo.org/api/records/7874228/requests"
+  },
+  "updated": "2023-04-28T14:26:37.804033+00:00",
+  "recid": "7874228",
+  "revision": 2,
+  "files": [
+    {
+      "id": "c4440fcb-675c-42d7-a250-a6d1cbf0f37d",
+      "key": "supplementary_dataset_v0.3.4.zip",
+      "size": 8099238,
+      "checksum": "md5:5f96216ce52d314cfe7405e977ba0075",
+      "links": {
+        "self": "https://zenodo.org/api/records/7874228/files/supplementary_dataset_v0.3.4.zip/content"
+      }
+    },
+    {
+      "id": "a5578d9b-1792-4e08-9b67-9b6005c1da0c",
+      "key": "data_for_scripts_v0.3.4.tar.gz",
+      "size": 1443776799,
+      "checksum": "md5:c51fff8bdd46f35fda4e1cb4b0b01b18",
+      "links": {
+        "self": "https://zenodo.org/api/records/7874228/files/data_for_scripts_v0.3.4.tar.gz/content"
+      }
+    },
+    {
+      "id": "312331c6-f1c0-4d8b-8a70-f461ef06cde5",
+      "key": "pancancer_metabolomics_v.0.3.4.tar.gz",
+      "size": 408007225,
+      "checksum": "md5:d86574fff5395b88e9888cc40f92d1cf",
+      "links": {
+        "self": "https://zenodo.org/api/records/7874228/files/pancancer_metabolomics_v.0.3.4.tar.gz/content"
+      }
+    }
+  ],
+  "swh": {},
+  "owners": [
+    {
+      "id": "326061"
+    }
+  ],
+  "status": "published",
+  "stats": {
+    "downloads": 2618,
+    "unique_downloads": 1903,
+    "views": 3502,
+    "unique_views": 3088,
+    "version_downloads": 2067,
+    "version_unique_downloads": 1454,
+    "version_unique_views": 2218,
+    "version_views": 2569
+  },
+  "state": "done",
+  "submitted": true
+}

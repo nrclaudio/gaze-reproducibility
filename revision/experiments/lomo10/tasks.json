@@ -1,0 +1,122 @@
+[
+  {
+    "index": 0,
+    "id": "lomo_n1001_full_s42",
+    "kind": "lomo",
+    "variant": "full",
+    "seed": 42,
+    "stage": "panel_addition",
+    "feature": "phenylacetylglycine",
+    "node": 1001,
+    "historical_fold": 3,
+    "n_observed": 58
+  },
+  {
+    "index": 1,
+    "id": "lomo_n1445_full_s42",
+    "kind": "lomo",
+    "variant": "full",
+    "seed": 42,
+    "stage": "panel_addition",
+    "feature": "N-acetyl-glucosamine 1-phosphate",
+    "node": 1445,
+    "historical_fold": 6,
+    "n_observed": 372
+  },
+  {
+    "index": 2,
+    "id": "lomo_n176_full_s42",
+    "kind": "lomo",
+    "variant": "full",
+    "seed": 42,
+    "stage": "panel_addition",
+    "feature": "glycerol 3-phosphate (G3P)",
+    "node": 176,
+    "historical_fold": 18,
+    "n_observed": 724
+  },
+  {
+    "index": 3,
+    "id": "lomo_n138_full_s42",
+    "kind": "lomo",
+    "variant": "full",
+    "seed": 42,
+    "stage": "panel_addition",
+    "feature": "creatine phosphate",
+    "node": 138,
+    "historical_fold": 19,
+    "n_observed": 101
+  },
+  {
+    "index": 4,
+    "id": "lomo_n451_full_s42",
+    "kind": "lomo",
+    "variant": "full",
+    "seed": 42,
+    "stage": "panel_addition",
+    "feature": "homocarnosine",
+    "node": 451,
+    "historical_fold": 24,
+    "n_observed": 38
+  },
+  {
+    "index": 5,
+    "id": "lomo_n2731_full_s42",
+    "kind": "lomo",
+    "variant": "full",
+    "seed": 42,
+    "stage": "panel_addition",
+    "feature": "2,3-diphosphoglycerate",
+    "node": 2731,
+    "historical_fold": 30,
+    "n_observed": 48
+  },
+  {
+    "index": 6,
+    "id": "lomo_n141_full_s42",
+    "kind": "lomo",
+    "variant": "full",
+    "seed": 42,
+    "stage": "panel_addition",
+    "feature": "betaine aldehyde",
+    "node": 141,
+    "historical_fold": 34,
+    "n_observed": 75
+  },
+  {
+    "index": 7,
+    "id": "lomo_n1910_full_s42",
+    "kind": "lomo",
+    "variant": "full",
+    "seed": 42,
+    "stage": "panel_addition",
+    "feature": "sedoheptulose-7-phosphate",
+    "node": 1910,
+    "historical_fold": 36,
+    "n_observed": 292
+  },
+  {
+    "index": 8,
+    "id": "lomo_n3523_full_s42",
+    "kind": "lomo",
+    "variant": "full",
+    "seed": 42,
+    "stage": "panel_addition",
+    "feature": "pantetheine",
+    "node": 3523,
+    "historical_fold": 37,
+    "n_observed": 60
+  },
+  {
+    "index": 9,
+    "id": "lomo_n2342_full_s42",
+    "kind": "lomo",
+    "variant": "full",
+    "seed": 42,
+    "stage": "panel_addition",
+    "feature": "xylulose",
+    "node": 2342,
+    "historical_fold": 46,
+    "n_observed": 178
+  }
+]

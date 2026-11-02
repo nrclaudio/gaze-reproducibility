@@ -135,7 +135,7 @@ def merge_graphs(input_stage='with_SMILES_with_embeddings', identifier=''):
         raise ValueError(f"Invalid input_stage: {input_stage}. Options: {list(stage_configs.keys())}")
     
     config = stage_configs[input_stage]
-    base_directory = '/home/cnovellarausell/data1/concat-smiles-model/data/graphs'
+    base_directory = os.path.join(os.environ.get('GAZE_DATA_DIR', os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))), 'data')), 'graphs')
     
     # Set input and output directories
     input_dir = os.path.join(base_directory, config['input_dir'])

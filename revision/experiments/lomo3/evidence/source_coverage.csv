@@ -1,0 +1,690 @@
+workbook,feature,source_data_feature_present,matched_specimens,observed_specimens,annotation_rows,source_value_match
+PreprocessedData_BRCA1.xlsx,1-methylimidazoleacetate,True,108,23,1,True
+PreprocessedData_BRCA1.xlsx,1-methylnicotinamide,True,108,102,1,True
+PreprocessedData_BRCA1.xlsx,2'-deoxyadenosine,False,108,0,0,True
+PreprocessedData_BRCA1.xlsx,"2,3-diphosphoglycerate",False,108,0,0,True
+PreprocessedData_BRCA1.xlsx,3-ureidoisobutyrate,False,108,0,0,True
+PreprocessedData_BRCA1.xlsx,4-acetamidophenol,False,108,0,0,True
+PreprocessedData_BRCA1.xlsx,4-acetaminophen sulfate,True,108,19,1,True
+PreprocessedData_BRCA1.xlsx,"5,6-dihydrouracil",True,108,68,1,True
+PreprocessedData_BRCA1.xlsx,N(1)-acetylspermine,False,108,0,0,True
+PreprocessedData_BRCA1.xlsx,N-6-trimethyllysine,False,108,0,0,True
+PreprocessedData_BRCA1.xlsx,N-acetyl-glucosamine 1-phosphate,False,108,0,0,True
+PreprocessedData_BRCA1.xlsx,"N1,N12-diacetylspermine",False,108,0,0,True
+PreprocessedData_BRCA1.xlsx,UDP-galactose,False,108,0,0,True
+PreprocessedData_BRCA1.xlsx,UDP-glucuronate,True,108,25,1,True
+PreprocessedData_BRCA1.xlsx,acetylcarnitine,True,108,108,1,True
+PreprocessedData_BRCA1.xlsx,agmatine,False,108,0,0,True
+PreprocessedData_BRCA1.xlsx,androsterone sulfate,True,108,37,1,True
+PreprocessedData_BRCA1.xlsx,argininosuccinate,False,108,0,0,True
+PreprocessedData_BRCA1.xlsx,ascorbate (Vitamin C),True,108,41,1,True
+PreprocessedData_BRCA1.xlsx,betaine aldehyde,False,108,0,0,True
+PreprocessedData_BRCA1.xlsx,carnosine,False,108,0,0,True
+PreprocessedData_BRCA1.xlsx,cortisol,True,108,15,1,True
+PreprocessedData_BRCA1.xlsx,creatine phosphate,False,108,0,0,True
+PreprocessedData_BRCA1.xlsx,cystine,True,108,91,1,True
+PreprocessedData_BRCA1.xlsx,docosahexaenoate (DHA; 22:6n3),True,108,107,1,True
+PreprocessedData_BRCA1.xlsx,galactose,True,108,104,1,True
+PreprocessedData_BRCA1.xlsx,gluconate,True,108,78,1,True
+PreprocessedData_BRCA1.xlsx,"glutathione, oxidized (GSSG)",True,108,88,1,True
+PreprocessedData_BRCA1.xlsx,glycerol 3-phosphate (G3P),True,108,107,1,True
+PreprocessedData_BRCA1.xlsx,heme,True,108,102,1,True
+PreprocessedData_BRCA1.xlsx,heme*,False,108,0,0,True
+PreprocessedData_BRCA1.xlsx,histidine,True,108,108,1,True
+PreprocessedData_BRCA1.xlsx,homocarnosine,True,108,1,1,True
+PreprocessedData_BRCA1.xlsx,hypoxanthine,True,108,108,1,True
+PreprocessedData_BRCA1.xlsx,isovalerylglycine,False,108,0,0,True
+PreprocessedData_BRCA1.xlsx,malonylcarnitine,False,108,0,0,True
+PreprocessedData_BRCA1.xlsx,pantetheine,False,108,0,0,True
+PreprocessedData_BRCA1.xlsx,phenylacetylglycine,True,108,32,1,True
+PreprocessedData_BRCA1.xlsx,prostaglandin E2,False,108,0,0,True
+PreprocessedData_BRCA1.xlsx,putrescine,True,108,63,1,True
+PreprocessedData_BRCA1.xlsx,pyridoxate,True,108,4,1,True
+PreprocessedData_BRCA1.xlsx,ribitol,True,108,34,1,True
+PreprocessedData_BRCA1.xlsx,riboflavin (Vitamin B2),True,108,55,1,True
+PreprocessedData_BRCA1.xlsx,ribulose 5-phosphate,False,108,0,0,True
+PreprocessedData_BRCA1.xlsx,ribulose/xylulose 5-phosphate,True,108,45,1,True
+PreprocessedData_BRCA1.xlsx,sedoheptulose-7-phosphate,True,108,29,1,True
+PreprocessedData_BRCA1.xlsx,spermidine,True,108,105,1,True
+PreprocessedData_BRCA1.xlsx,sphinganine,True,108,43,1,True
+PreprocessedData_BRCA1.xlsx,sphingosine,True,108,56,1,True
+PreprocessedData_BRCA1.xlsx,testosterone,False,108,0,0,True
+PreprocessedData_BRCA1.xlsx,threonine,True,108,108,1,True
+PreprocessedData_BRCA1.xlsx,tyrosine,True,108,108,1,True
+PreprocessedData_BRCA1.xlsx,xylulose,True,108,23,1,True
+PreprocessedData_BRCA2.xlsx,1-methylimidazoleacetate,False,18,0,0,True
+PreprocessedData_BRCA2.xlsx,1-methylnicotinamide,False,18,0,0,True
+PreprocessedData_BRCA2.xlsx,2'-deoxyadenosine,False,18,0,0,True
+PreprocessedData_BRCA2.xlsx,"2,3-diphosphoglycerate",False,18,0,0,True
+PreprocessedData_BRCA2.xlsx,3-ureidoisobutyrate,False,18,0,0,True
+PreprocessedData_BRCA2.xlsx,4-acetamidophenol,True,18,3,1,True
+PreprocessedData_BRCA2.xlsx,4-acetaminophen sulfate,True,18,5,1,True
+PreprocessedData_BRCA2.xlsx,"5,6-dihydrouracil",True,18,16,1,True
+PreprocessedData_BRCA2.xlsx,N(1)-acetylspermine,False,18,0,0,True
+PreprocessedData_BRCA2.xlsx,N-6-trimethyllysine,False,18,0,0,True
+PreprocessedData_BRCA2.xlsx,N-acetyl-glucosamine 1-phosphate,False,18,0,0,True
+PreprocessedData_BRCA2.xlsx,"N1,N12-diacetylspermine",False,18,0,0,True
+PreprocessedData_BRCA2.xlsx,UDP-galactose,False,18,0,0,True
+PreprocessedData_BRCA2.xlsx,UDP-glucuronate,True,18,18,1,True
+PreprocessedData_BRCA2.xlsx,acetylcarnitine,True,18,18,1,True
+PreprocessedData_BRCA2.xlsx,agmatine,True,18,18,1,True
+PreprocessedData_BRCA2.xlsx,androsterone sulfate,True,18,16,1,True
+PreprocessedData_BRCA2.xlsx,argininosuccinate,False,18,0,0,True
+PreprocessedData_BRCA2.xlsx,ascorbate (Vitamin C),True,18,18,1,True
+PreprocessedData_BRCA2.xlsx,betaine aldehyde,False,18,0,0,True
+PreprocessedData_BRCA2.xlsx,carnosine,True,18,10,1,True
+PreprocessedData_BRCA2.xlsx,cortisol,False,18,0,0,True
+PreprocessedData_BRCA2.xlsx,creatine phosphate,False,18,0,0,True
+PreprocessedData_BRCA2.xlsx,cystine,True,18,5,1,True
+PreprocessedData_BRCA2.xlsx,docosahexaenoate (DHA; 22:6n3),True,18,18,1,True
+PreprocessedData_BRCA2.xlsx,galactose,False,18,0,0,True
+PreprocessedData_BRCA2.xlsx,gluconate,True,18,18,1,True
+PreprocessedData_BRCA2.xlsx,"glutathione, oxidized (GSSG)",True,18,17,1,True
+PreprocessedData_BRCA2.xlsx,glycerol 3-phosphate (G3P),True,18,18,1,True
+PreprocessedData_BRCA2.xlsx,heme,True,18,17,1,True
+PreprocessedData_BRCA2.xlsx,heme*,False,18,0,0,True
+PreprocessedData_BRCA2.xlsx,histidine,True,18,18,1,True
+PreprocessedData_BRCA2.xlsx,homocarnosine,False,18,0,0,True
+PreprocessedData_BRCA2.xlsx,hypoxanthine,True,18,18,1,True
+PreprocessedData_BRCA2.xlsx,isovalerylglycine,False,18,0,0,True
+PreprocessedData_BRCA2.xlsx,malonylcarnitine,True,18,16,1,True
+PreprocessedData_BRCA2.xlsx,pantetheine,False,18,0,0,True
+PreprocessedData_BRCA2.xlsx,phenylacetylglycine,False,18,0,0,True
+PreprocessedData_BRCA2.xlsx,prostaglandin E2,False,18,0,0,True
+PreprocessedData_BRCA2.xlsx,putrescine,True,18,18,1,True
+PreprocessedData_BRCA2.xlsx,pyridoxate,True,18,7,1,True
+PreprocessedData_BRCA2.xlsx,ribitol,True,18,17,1,True
+PreprocessedData_BRCA2.xlsx,riboflavin (Vitamin B2),False,18,0,0,True
+PreprocessedData_BRCA2.xlsx,ribulose 5-phosphate,False,18,0,0,True
+PreprocessedData_BRCA2.xlsx,ribulose/xylulose 5-phosphate,True,18,17,1,True
+PreprocessedData_BRCA2.xlsx,sedoheptulose-7-phosphate,True,18,11,1,True
+PreprocessedData_BRCA2.xlsx,spermidine,True,18,18,1,True
+PreprocessedData_BRCA2.xlsx,sphinganine,True,18,17,1,True
+PreprocessedData_BRCA2.xlsx,sphingosine,True,18,18,1,True
+PreprocessedData_BRCA2.xlsx,testosterone,False,18,0,0,True
+PreprocessedData_BRCA2.xlsx,threonine,True,18,18,1,True
+PreprocessedData_BRCA2.xlsx,tyrosine,True,18,18,1,True
+PreprocessedData_BRCA2.xlsx,xylulose,True,18,14,1,True
+PreprocessedData_DLBCL.xlsx,1-methylimidazoleacetate,False,62,0,0,True
+PreprocessedData_DLBCL.xlsx,1-methylnicotinamide,True,62,17,1,True
+PreprocessedData_DLBCL.xlsx,2'-deoxyadenosine,False,62,0,0,True
+PreprocessedData_DLBCL.xlsx,"2,3-diphosphoglycerate",False,62,0,0,True
+PreprocessedData_DLBCL.xlsx,3-ureidoisobutyrate,False,62,0,0,True
+PreprocessedData_DLBCL.xlsx,4-acetamidophenol,True,62,6,1,True
+PreprocessedData_DLBCL.xlsx,4-acetaminophen sulfate,True,62,18,1,True
+PreprocessedData_DLBCL.xlsx,"5,6-dihydrouracil",True,62,61,1,True
+PreprocessedData_DLBCL.xlsx,N(1)-acetylspermine,False,62,0,0,True
+PreprocessedData_DLBCL.xlsx,N-6-trimethyllysine,False,62,0,0,True
+PreprocessedData_DLBCL.xlsx,N-acetyl-glucosamine 1-phosphate,False,62,0,0,True
+PreprocessedData_DLBCL.xlsx,"N1,N12-diacetylspermine",False,62,0,0,True
+PreprocessedData_DLBCL.xlsx,UDP-galactose,True,62,7,1,True
+PreprocessedData_DLBCL.xlsx,UDP-glucuronate,True,62,59,1,True
+PreprocessedData_DLBCL.xlsx,acetylcarnitine,True,62,62,1,True
+PreprocessedData_DLBCL.xlsx,agmatine,True,62,43,1,True
+PreprocessedData_DLBCL.xlsx,androsterone sulfate,False,62,0,0,True
+PreprocessedData_DLBCL.xlsx,argininosuccinate,True,62,4,1,True
+PreprocessedData_DLBCL.xlsx,ascorbate (Vitamin C),True,62,62,1,True
+PreprocessedData_DLBCL.xlsx,betaine aldehyde,False,62,0,0,True
+PreprocessedData_DLBCL.xlsx,carnosine,True,62,8,1,True
+PreprocessedData_DLBCL.xlsx,cortisol,False,62,0,0,True
+PreprocessedData_DLBCL.xlsx,creatine phosphate,False,62,0,0,True
+PreprocessedData_DLBCL.xlsx,cystine,True,62,18,1,True
+PreprocessedData_DLBCL.xlsx,docosahexaenoate (DHA; 22:6n3),True,62,62,1,True
+PreprocessedData_DLBCL.xlsx,galactose,False,62,0,0,True
+PreprocessedData_DLBCL.xlsx,gluconate,True,62,35,1,True
+PreprocessedData_DLBCL.xlsx,"glutathione, oxidized (GSSG)",True,62,61,1,True
+PreprocessedData_DLBCL.xlsx,glycerol 3-phosphate (G3P),True,62,62,1,True
+PreprocessedData_DLBCL.xlsx,heme,True,62,24,1,True
+PreprocessedData_DLBCL.xlsx,heme*,False,62,0,0,True
+PreprocessedData_DLBCL.xlsx,histidine,True,62,62,1,True
+PreprocessedData_DLBCL.xlsx,homocarnosine,False,62,0,0,True
+PreprocessedData_DLBCL.xlsx,hypoxanthine,True,62,62,1,True
+PreprocessedData_DLBCL.xlsx,isovalerylglycine,False,62,0,0,True
+PreprocessedData_DLBCL.xlsx,malonylcarnitine,False,62,0,0,True
+PreprocessedData_DLBCL.xlsx,pantetheine,False,62,0,0,True
+PreprocessedData_DLBCL.xlsx,phenylacetylglycine,False,62,0,0,True
+PreprocessedData_DLBCL.xlsx,prostaglandin E2,False,62,0,0,True
+PreprocessedData_DLBCL.xlsx,putrescine,True,62,61,1,True
+PreprocessedData_DLBCL.xlsx,pyridoxate,False,62,0,0,True
+PreprocessedData_DLBCL.xlsx,ribitol,True,62,61,1,True
+PreprocessedData_DLBCL.xlsx,riboflavin (Vitamin B2),True,62,27,1,True
+PreprocessedData_DLBCL.xlsx,ribulose 5-phosphate,False,62,0,0,True
+PreprocessedData_DLBCL.xlsx,ribulose/xylulose 5-phosphate,True,62,60,1,True
+PreprocessedData_DLBCL.xlsx,sedoheptulose-7-phosphate,True,62,19,1,True
+PreprocessedData_DLBCL.xlsx,spermidine,True,62,62,1,True
+PreprocessedData_DLBCL.xlsx,sphinganine,True,62,61,1,True
+PreprocessedData_DLBCL.xlsx,sphingosine,True,62,62,1,True
+PreprocessedData_DLBCL.xlsx,testosterone,False,62,0,0,True
+PreprocessedData_DLBCL.xlsx,threonine,True,62,62,1,True
+PreprocessedData_DLBCL.xlsx,tyrosine,True,62,62,1,True
+PreprocessedData_DLBCL.xlsx,xylulose,True,62,51,1,True
+PreprocessedData_GBM.xlsx,1-methylimidazoleacetate,False,80,0,0,True
+PreprocessedData_GBM.xlsx,1-methylnicotinamide,False,80,0,0,True
+PreprocessedData_GBM.xlsx,2'-deoxyadenosine,False,80,0,0,True
+PreprocessedData_GBM.xlsx,"2,3-diphosphoglycerate",False,80,0,0,True
+PreprocessedData_GBM.xlsx,3-ureidoisobutyrate,False,80,0,0,True
+PreprocessedData_GBM.xlsx,4-acetamidophenol,False,80,0,0,True
+PreprocessedData_GBM.xlsx,4-acetaminophen sulfate,False,80,0,0,True
+PreprocessedData_GBM.xlsx,"5,6-dihydrouracil",False,80,0,0,True
+PreprocessedData_GBM.xlsx,N(1)-acetylspermine,False,80,0,0,True
+PreprocessedData_GBM.xlsx,N-6-trimethyllysine,False,80,0,0,True
+PreprocessedData_GBM.xlsx,N-acetyl-glucosamine 1-phosphate,False,80,0,0,True
+PreprocessedData_GBM.xlsx,"N1,N12-diacetylspermine",False,80,0,0,True
+PreprocessedData_GBM.xlsx,UDP-galactose,False,80,0,0,True
+PreprocessedData_GBM.xlsx,UDP-glucuronate,False,80,0,0,True
+PreprocessedData_GBM.xlsx,acetylcarnitine,False,80,0,0,True
+PreprocessedData_GBM.xlsx,agmatine,False,80,0,0,True
+PreprocessedData_GBM.xlsx,androsterone sulfate,False,80,0,0,True
+PreprocessedData_GBM.xlsx,argininosuccinate,False,80,0,0,True
+PreprocessedData_GBM.xlsx,ascorbate (Vitamin C),False,80,0,0,True
+PreprocessedData_GBM.xlsx,betaine aldehyde,False,80,0,0,True
+PreprocessedData_GBM.xlsx,carnosine,False,80,0,0,True
+PreprocessedData_GBM.xlsx,cortisol,False,80,0,0,True
+PreprocessedData_GBM.xlsx,creatine phosphate,False,80,0,0,True
+PreprocessedData_GBM.xlsx,cystine,False,80,0,0,True
+PreprocessedData_GBM.xlsx,docosahexaenoate (DHA; 22:6n3),True,80,20,1,True
+PreprocessedData_GBM.xlsx,galactose,True,80,80,1,True
+PreprocessedData_GBM.xlsx,gluconate,True,80,80,1,True
+PreprocessedData_GBM.xlsx,"glutathione, oxidized (GSSG)",False,80,0,0,True
+PreprocessedData_GBM.xlsx,glycerol 3-phosphate (G3P),True,80,80,1,True
+PreprocessedData_GBM.xlsx,heme,False,80,0,0,True
+PreprocessedData_GBM.xlsx,heme*,False,80,0,0,True
+PreprocessedData_GBM.xlsx,histidine,False,80,0,0,True
+PreprocessedData_GBM.xlsx,homocarnosine,False,80,0,0,True
+PreprocessedData_GBM.xlsx,hypoxanthine,False,80,0,0,True
+PreprocessedData_GBM.xlsx,isovalerylglycine,False,80,0,0,True
+PreprocessedData_GBM.xlsx,malonylcarnitine,False,80,0,0,True
+PreprocessedData_GBM.xlsx,pantetheine,False,80,0,0,True
+PreprocessedData_GBM.xlsx,phenylacetylglycine,False,80,0,0,True
+PreprocessedData_GBM.xlsx,prostaglandin E2,False,80,0,0,True
+PreprocessedData_GBM.xlsx,putrescine,True,80,80,1,True
+PreprocessedData_GBM.xlsx,pyridoxate,False,80,0,0,True
+PreprocessedData_GBM.xlsx,ribitol,False,80,0,0,True
+PreprocessedData_GBM.xlsx,riboflavin (Vitamin B2),False,80,0,0,True
+PreprocessedData_GBM.xlsx,ribulose 5-phosphate,True,80,77,1,True
+PreprocessedData_GBM.xlsx,ribulose/xylulose 5-phosphate,False,80,0,0,True
+PreprocessedData_GBM.xlsx,sedoheptulose-7-phosphate,False,80,0,0,True
+PreprocessedData_GBM.xlsx,spermidine,False,80,0,0,True
+PreprocessedData_GBM.xlsx,sphinganine,False,80,0,0,True
+PreprocessedData_GBM.xlsx,sphingosine,False,80,0,0,True
+PreprocessedData_GBM.xlsx,testosterone,False,80,0,0,True
+PreprocessedData_GBM.xlsx,threonine,True,80,80,1,True
+PreprocessedData_GBM.xlsx,tyrosine,True,80,15,1,True
+PreprocessedData_GBM.xlsx,xylulose,False,80,0,0,True
+PreprocessedData_HCC.xlsx,1-methylimidazoleacetate,False,54,0,0,True
+PreprocessedData_HCC.xlsx,1-methylnicotinamide,False,54,0,0,True
+PreprocessedData_HCC.xlsx,2'-deoxyadenosine,False,54,0,0,True
+PreprocessedData_HCC.xlsx,"2,3-diphosphoglycerate",False,54,0,0,True
+PreprocessedData_HCC.xlsx,3-ureidoisobutyrate,False,54,0,0,True
+PreprocessedData_HCC.xlsx,4-acetamidophenol,True,54,54,1,True
+PreprocessedData_HCC.xlsx,4-acetaminophen sulfate,False,54,0,0,True
+PreprocessedData_HCC.xlsx,"5,6-dihydrouracil",False,54,0,0,True
+PreprocessedData_HCC.xlsx,N(1)-acetylspermine,True,54,54,1,True
+PreprocessedData_HCC.xlsx,N-6-trimethyllysine,False,54,0,0,True
+PreprocessedData_HCC.xlsx,N-acetyl-glucosamine 1-phosphate,True,54,54,1,True
+PreprocessedData_HCC.xlsx,"N1,N12-diacetylspermine",False,54,0,0,True
+PreprocessedData_HCC.xlsx,UDP-galactose,False,54,0,0,True
+PreprocessedData_HCC.xlsx,UDP-glucuronate,True,54,54,1,True
+PreprocessedData_HCC.xlsx,acetylcarnitine,False,54,0,0,True
+PreprocessedData_HCC.xlsx,agmatine,False,54,0,0,True
+PreprocessedData_HCC.xlsx,androsterone sulfate,False,54,0,0,True
+PreprocessedData_HCC.xlsx,argininosuccinate,False,54,0,0,True
+PreprocessedData_HCC.xlsx,ascorbate (Vitamin C),False,54,0,0,True
+PreprocessedData_HCC.xlsx,betaine aldehyde,False,54,0,0,True
+PreprocessedData_HCC.xlsx,carnosine,True,54,54,1,True
+PreprocessedData_HCC.xlsx,cortisol,False,54,0,0,True
+PreprocessedData_HCC.xlsx,creatine phosphate,False,54,0,0,True
+PreprocessedData_HCC.xlsx,cystine,True,54,54,1,True
+PreprocessedData_HCC.xlsx,docosahexaenoate (DHA; 22:6n3),False,54,0,0,True
+PreprocessedData_HCC.xlsx,galactose,False,54,0,0,True
+PreprocessedData_HCC.xlsx,gluconate,True,54,54,1,True
+PreprocessedData_HCC.xlsx,"glutathione, oxidized (GSSG)",False,54,0,0,True
+PreprocessedData_HCC.xlsx,glycerol 3-phosphate (G3P),False,54,0,0,True
+PreprocessedData_HCC.xlsx,heme,True,54,54,1,True
+PreprocessedData_HCC.xlsx,heme*,False,54,0,0,True
+PreprocessedData_HCC.xlsx,histidine,False,54,0,0,True
+PreprocessedData_HCC.xlsx,homocarnosine,False,54,0,0,True
+PreprocessedData_HCC.xlsx,hypoxanthine,False,54,0,0,True
+PreprocessedData_HCC.xlsx,isovalerylglycine,False,54,0,0,True
+PreprocessedData_HCC.xlsx,malonylcarnitine,False,54,0,0,True
+PreprocessedData_HCC.xlsx,pantetheine,False,54,0,0,True
+PreprocessedData_HCC.xlsx,phenylacetylglycine,False,54,0,0,True
+PreprocessedData_HCC.xlsx,prostaglandin E2,False,54,0,0,True
+PreprocessedData_HCC.xlsx,putrescine,False,54,0,0,True
+PreprocessedData_HCC.xlsx,pyridoxate,False,54,0,0,True
+PreprocessedData_HCC.xlsx,ribitol,False,54,0,0,True
+PreprocessedData_HCC.xlsx,riboflavin (Vitamin B2),False,54,0,0,True
+PreprocessedData_HCC.xlsx,ribulose 5-phosphate,False,54,0,0,True
+PreprocessedData_HCC.xlsx,ribulose/xylulose 5-phosphate,False,54,0,0,True
+PreprocessedData_HCC.xlsx,sedoheptulose-7-phosphate,False,54,0,0,True
+PreprocessedData_HCC.xlsx,spermidine,False,54,0,0,True
+PreprocessedData_HCC.xlsx,sphinganine,False,54,0,0,True
+PreprocessedData_HCC.xlsx,sphingosine,False,54,0,0,True
+PreprocessedData_HCC.xlsx,testosterone,False,54,0,0,True
+PreprocessedData_HCC.xlsx,threonine,False,54,0,0,True
+PreprocessedData_HCC.xlsx,tyrosine,False,54,0,0,True
+PreprocessedData_HCC.xlsx,xylulose,False,54,0,0,True
+PreprocessedData_HurthleCC.xlsx,1-methylimidazoleacetate,True,31,31,1,True
+PreprocessedData_HurthleCC.xlsx,1-methylnicotinamide,True,31,31,1,True
+PreprocessedData_HurthleCC.xlsx,2'-deoxyadenosine,True,31,18,1,True
+PreprocessedData_HurthleCC.xlsx,"2,3-diphosphoglycerate",False,31,0,0,True
+PreprocessedData_HurthleCC.xlsx,3-ureidoisobutyrate,True,31,13,1,True
+PreprocessedData_HurthleCC.xlsx,4-acetamidophenol,True,31,6,1,True
+PreprocessedData_HurthleCC.xlsx,4-acetaminophen sulfate,True,31,8,1,True
+PreprocessedData_HurthleCC.xlsx,"5,6-dihydrouracil",True,31,17,1,True
+PreprocessedData_HurthleCC.xlsx,N(1)-acetylspermine,True,31,8,1,True
+PreprocessedData_HurthleCC.xlsx,N-6-trimethyllysine,True,31,31,1,True
+PreprocessedData_HurthleCC.xlsx,N-acetyl-glucosamine 1-phosphate,True,31,28,1,True
+PreprocessedData_HurthleCC.xlsx,"N1,N12-diacetylspermine",True,31,8,1,True
+PreprocessedData_HurthleCC.xlsx,UDP-galactose,False,31,0,0,True
+PreprocessedData_HurthleCC.xlsx,UDP-glucuronate,False,31,0,0,True
+PreprocessedData_HurthleCC.xlsx,acetylcarnitine,True,31,31,1,True
+PreprocessedData_HurthleCC.xlsx,agmatine,False,31,0,0,True
+PreprocessedData_HurthleCC.xlsx,androsterone sulfate,True,31,24,1,True
+PreprocessedData_HurthleCC.xlsx,argininosuccinate,True,31,24,1,True
+PreprocessedData_HurthleCC.xlsx,ascorbate (Vitamin C),True,31,29,1,True
+PreprocessedData_HurthleCC.xlsx,betaine aldehyde,True,31,27,1,True
+PreprocessedData_HurthleCC.xlsx,carnosine,True,31,28,1,True
+PreprocessedData_HurthleCC.xlsx,cortisol,False,31,0,0,True
+PreprocessedData_HurthleCC.xlsx,creatine phosphate,False,31,0,0,True
+PreprocessedData_HurthleCC.xlsx,cystine,True,31,31,1,True
+PreprocessedData_HurthleCC.xlsx,docosahexaenoate (DHA; 22:6n3),True,31,31,1,True
+PreprocessedData_HurthleCC.xlsx,galactose,False,31,0,0,True
+PreprocessedData_HurthleCC.xlsx,gluconate,True,31,31,1,True
+PreprocessedData_HurthleCC.xlsx,"glutathione, oxidized (GSSG)",True,31,22,1,True
+PreprocessedData_HurthleCC.xlsx,glycerol 3-phosphate (G3P),True,31,29,1,True
+PreprocessedData_HurthleCC.xlsx,heme,True,31,31,1,True
+PreprocessedData_HurthleCC.xlsx,heme*,False,31,0,0,True
+PreprocessedData_HurthleCC.xlsx,histidine,True,31,31,1,True
+PreprocessedData_HurthleCC.xlsx,homocarnosine,False,31,0,0,True
+PreprocessedData_HurthleCC.xlsx,hypoxanthine,True,31,31,1,True
+PreprocessedData_HurthleCC.xlsx,isovalerylglycine,False,31,0,0,True
+PreprocessedData_HurthleCC.xlsx,malonylcarnitine,True,31,31,1,True
+PreprocessedData_HurthleCC.xlsx,pantetheine,False,31,0,0,True
+PreprocessedData_HurthleCC.xlsx,phenylacetylglycine,False,31,0,0,True
+PreprocessedData_HurthleCC.xlsx,prostaglandin E2,False,31,0,0,True
+PreprocessedData_HurthleCC.xlsx,putrescine,False,31,0,0,True
+PreprocessedData_HurthleCC.xlsx,pyridoxate,True,31,19,1,True
+PreprocessedData_HurthleCC.xlsx,ribitol,True,31,28,1,True
+PreprocessedData_HurthleCC.xlsx,riboflavin (Vitamin B2),True,31,31,1,True
+PreprocessedData_HurthleCC.xlsx,ribulose 5-phosphate,False,31,0,0,True
+PreprocessedData_HurthleCC.xlsx,ribulose/xylulose 5-phosphate,False,31,0,0,True
+PreprocessedData_HurthleCC.xlsx,sedoheptulose-7-phosphate,True,31,31,1,True
+PreprocessedData_HurthleCC.xlsx,spermidine,True,31,31,1,True
+PreprocessedData_HurthleCC.xlsx,sphinganine,True,31,31,1,True
+PreprocessedData_HurthleCC.xlsx,sphingosine,True,31,31,1,True
+PreprocessedData_HurthleCC.xlsx,testosterone,False,31,0,0,True
+PreprocessedData_HurthleCC.xlsx,threonine,True,31,31,1,True
+PreprocessedData_HurthleCC.xlsx,tyrosine,True,31,31,1,True
+PreprocessedData_HurthleCC.xlsx,xylulose,False,31,0,0,True
+PreprocessedData_ICC.xlsx,1-methylimidazoleacetate,False,86,0,0,True
+PreprocessedData_ICC.xlsx,1-methylnicotinamide,False,86,0,0,True
+PreprocessedData_ICC.xlsx,2'-deoxyadenosine,False,86,0,0,True
+PreprocessedData_ICC.xlsx,"2,3-diphosphoglycerate",False,86,0,0,True
+PreprocessedData_ICC.xlsx,3-ureidoisobutyrate,False,86,0,0,True
+PreprocessedData_ICC.xlsx,4-acetamidophenol,True,86,86,1,True
+PreprocessedData_ICC.xlsx,4-acetaminophen sulfate,False,86,0,0,True
+PreprocessedData_ICC.xlsx,"5,6-dihydrouracil",False,86,0,0,True
+PreprocessedData_ICC.xlsx,N(1)-acetylspermine,True,86,86,1,True
+PreprocessedData_ICC.xlsx,N-6-trimethyllysine,False,86,0,0,True
+PreprocessedData_ICC.xlsx,N-acetyl-glucosamine 1-phosphate,True,86,86,1,True
+PreprocessedData_ICC.xlsx,"N1,N12-diacetylspermine",False,86,0,0,True
+PreprocessedData_ICC.xlsx,UDP-galactose,False,86,0,0,True
+PreprocessedData_ICC.xlsx,UDP-glucuronate,True,86,86,1,True
+PreprocessedData_ICC.xlsx,acetylcarnitine,False,86,0,0,True
+PreprocessedData_ICC.xlsx,agmatine,False,86,0,0,True
+PreprocessedData_ICC.xlsx,androsterone sulfate,False,86,0,0,True
+PreprocessedData_ICC.xlsx,argininosuccinate,False,86,0,0,True
+PreprocessedData_ICC.xlsx,ascorbate (Vitamin C),False,86,0,0,True
+PreprocessedData_ICC.xlsx,betaine aldehyde,False,86,0,0,True
+PreprocessedData_ICC.xlsx,carnosine,True,86,86,1,True
+PreprocessedData_ICC.xlsx,cortisol,False,86,0,0,True
+PreprocessedData_ICC.xlsx,creatine phosphate,False,86,0,0,True
+PreprocessedData_ICC.xlsx,cystine,True,86,86,1,True
+PreprocessedData_ICC.xlsx,docosahexaenoate (DHA; 22:6n3),False,86,0,0,True
+PreprocessedData_ICC.xlsx,galactose,False,86,0,0,True
+PreprocessedData_ICC.xlsx,gluconate,True,86,86,1,True
+PreprocessedData_ICC.xlsx,"glutathione, oxidized (GSSG)",False,86,0,0,True
+PreprocessedData_ICC.xlsx,glycerol 3-phosphate (G3P),False,86,0,0,True
+PreprocessedData_ICC.xlsx,heme,True,86,86,1,True
+PreprocessedData_ICC.xlsx,heme*,False,86,0,0,True
+PreprocessedData_ICC.xlsx,histidine,False,86,0,0,True
+PreprocessedData_ICC.xlsx,homocarnosine,False,86,0,0,True
+PreprocessedData_ICC.xlsx,hypoxanthine,False,86,0,0,True
+PreprocessedData_ICC.xlsx,isovalerylglycine,False,86,0,0,True
+PreprocessedData_ICC.xlsx,malonylcarnitine,False,86,0,0,True
+PreprocessedData_ICC.xlsx,pantetheine,False,86,0,0,True
+PreprocessedData_ICC.xlsx,phenylacetylglycine,False,86,0,0,True
+PreprocessedData_ICC.xlsx,prostaglandin E2,False,86,0,0,True
+PreprocessedData_ICC.xlsx,putrescine,False,86,0,0,True
+PreprocessedData_ICC.xlsx,pyridoxate,False,86,0,0,True
+PreprocessedData_ICC.xlsx,ribitol,False,86,0,0,True
+PreprocessedData_ICC.xlsx,riboflavin (Vitamin B2),False,86,0,0,True
+PreprocessedData_ICC.xlsx,ribulose 5-phosphate,False,86,0,0,True
+PreprocessedData_ICC.xlsx,ribulose/xylulose 5-phosphate,False,86,0,0,True
+PreprocessedData_ICC.xlsx,sedoheptulose-7-phosphate,False,86,0,0,True
+PreprocessedData_ICC.xlsx,spermidine,False,86,0,0,True
+PreprocessedData_ICC.xlsx,sphinganine,False,86,0,0,True
+PreprocessedData_ICC.xlsx,sphingosine,False,86,0,0,True
+PreprocessedData_ICC.xlsx,testosterone,False,86,0,0,True
+PreprocessedData_ICC.xlsx,threonine,False,86,0,0,True
+PreprocessedData_ICC.xlsx,tyrosine,False,86,0,0,True
+PreprocessedData_ICC.xlsx,xylulose,False,86,0,0,True
+PreprocessedData_PDAC.xlsx,1-methylimidazoleacetate,True,39,18,1,True
+PreprocessedData_PDAC.xlsx,1-methylnicotinamide,False,39,0,0,True
+PreprocessedData_PDAC.xlsx,2'-deoxyadenosine,False,39,0,0,True
+PreprocessedData_PDAC.xlsx,"2,3-diphosphoglycerate",False,39,0,0,True
+PreprocessedData_PDAC.xlsx,3-ureidoisobutyrate,False,39,0,0,True
+PreprocessedData_PDAC.xlsx,4-acetamidophenol,True,39,4,1,True
+PreprocessedData_PDAC.xlsx,4-acetaminophen sulfate,True,39,4,1,True
+PreprocessedData_PDAC.xlsx,"5,6-dihydrouracil",True,39,38,1,True
+PreprocessedData_PDAC.xlsx,N(1)-acetylspermine,True,39,1,1,True
+PreprocessedData_PDAC.xlsx,N-6-trimethyllysine,False,39,0,0,True
+PreprocessedData_PDAC.xlsx,N-acetyl-glucosamine 1-phosphate,False,39,0,0,True
+PreprocessedData_PDAC.xlsx,"N1,N12-diacetylspermine",False,39,0,0,True
+PreprocessedData_PDAC.xlsx,UDP-galactose,False,39,0,0,True
+PreprocessedData_PDAC.xlsx,UDP-glucuronate,False,39,0,0,True
+PreprocessedData_PDAC.xlsx,acetylcarnitine,True,39,39,1,True
+PreprocessedData_PDAC.xlsx,agmatine,False,39,0,0,True
+PreprocessedData_PDAC.xlsx,androsterone sulfate,False,39,0,0,True
+PreprocessedData_PDAC.xlsx,argininosuccinate,True,39,6,1,True
+PreprocessedData_PDAC.xlsx,ascorbate (Vitamin C),True,39,37,1,True
+PreprocessedData_PDAC.xlsx,betaine aldehyde,False,39,0,0,True
+PreprocessedData_PDAC.xlsx,carnosine,False,39,0,0,True
+PreprocessedData_PDAC.xlsx,cortisol,True,39,22,1,True
+PreprocessedData_PDAC.xlsx,creatine phosphate,False,39,0,0,True
+PreprocessedData_PDAC.xlsx,cystine,True,39,38,1,True
+PreprocessedData_PDAC.xlsx,docosahexaenoate (DHA; 22:6n3),True,39,39,1,True
+PreprocessedData_PDAC.xlsx,galactose,True,39,33,1,True
+PreprocessedData_PDAC.xlsx,gluconate,True,39,34,1,True
+PreprocessedData_PDAC.xlsx,"glutathione, oxidized (GSSG)",True,39,9,1,True
+PreprocessedData_PDAC.xlsx,glycerol 3-phosphate (G3P),True,39,39,1,True
+PreprocessedData_PDAC.xlsx,heme,True,39,35,1,True
+PreprocessedData_PDAC.xlsx,heme*,False,39,0,0,True
+PreprocessedData_PDAC.xlsx,histidine,True,39,39,1,True
+PreprocessedData_PDAC.xlsx,homocarnosine,False,39,0,0,True
+PreprocessedData_PDAC.xlsx,hypoxanthine,True,39,39,1,True
+PreprocessedData_PDAC.xlsx,isovalerylglycine,False,39,0,0,True
+PreprocessedData_PDAC.xlsx,malonylcarnitine,False,39,0,0,True
+PreprocessedData_PDAC.xlsx,pantetheine,False,39,0,0,True
+PreprocessedData_PDAC.xlsx,phenylacetylglycine,True,39,12,1,True
+PreprocessedData_PDAC.xlsx,prostaglandin E2,True,39,12,1,True
+PreprocessedData_PDAC.xlsx,putrescine,True,39,34,1,True
+PreprocessedData_PDAC.xlsx,pyridoxate,True,39,4,1,True
+PreprocessedData_PDAC.xlsx,ribitol,False,39,0,0,True
+PreprocessedData_PDAC.xlsx,riboflavin (Vitamin B2),True,39,29,1,True
+PreprocessedData_PDAC.xlsx,ribulose 5-phosphate,False,39,0,0,True
+PreprocessedData_PDAC.xlsx,ribulose/xylulose 5-phosphate,True,39,33,1,True
+PreprocessedData_PDAC.xlsx,sedoheptulose-7-phosphate,False,39,0,0,True
+PreprocessedData_PDAC.xlsx,spermidine,True,39,39,1,True
+PreprocessedData_PDAC.xlsx,sphinganine,True,39,19,1,True
+PreprocessedData_PDAC.xlsx,sphingosine,True,39,24,1,True
+PreprocessedData_PDAC.xlsx,testosterone,False,39,0,0,True
+PreprocessedData_PDAC.xlsx,threonine,True,39,39,1,True
+PreprocessedData_PDAC.xlsx,tyrosine,True,39,39,1,True
+PreprocessedData_PDAC.xlsx,xylulose,False,39,0,0,True
+PreprocessedData_PRAD.xlsx,1-methylimidazoleacetate,False,137,0,0,True
+PreprocessedData_PRAD.xlsx,1-methylnicotinamide,False,137,0,0,True
+PreprocessedData_PRAD.xlsx,2'-deoxyadenosine,False,137,0,0,True
+PreprocessedData_PRAD.xlsx,"2,3-diphosphoglycerate",False,137,0,0,True
+PreprocessedData_PRAD.xlsx,3-ureidoisobutyrate,False,137,0,0,True
+PreprocessedData_PRAD.xlsx,4-acetamidophenol,True,137,3,1,True
+PreprocessedData_PRAD.xlsx,4-acetaminophen sulfate,True,137,11,1,True
+PreprocessedData_PRAD.xlsx,"5,6-dihydrouracil",True,137,123,1,True
+PreprocessedData_PRAD.xlsx,N(1)-acetylspermine,False,137,0,0,True
+PreprocessedData_PRAD.xlsx,N-6-trimethyllysine,False,137,0,0,True
+PreprocessedData_PRAD.xlsx,N-acetyl-glucosamine 1-phosphate,False,137,0,0,True
+PreprocessedData_PRAD.xlsx,"N1,N12-diacetylspermine",False,137,0,0,True
+PreprocessedData_PRAD.xlsx,UDP-galactose,False,137,0,0,True
+PreprocessedData_PRAD.xlsx,UDP-glucuronate,False,137,0,0,True
+PreprocessedData_PRAD.xlsx,acetylcarnitine,True,137,137,1,True
+PreprocessedData_PRAD.xlsx,agmatine,True,137,125,1,True
+PreprocessedData_PRAD.xlsx,androsterone sulfate,True,137,98,1,True
+PreprocessedData_PRAD.xlsx,argininosuccinate,False,137,0,0,True
+PreprocessedData_PRAD.xlsx,ascorbate (Vitamin C),True,137,137,1,True
+PreprocessedData_PRAD.xlsx,betaine aldehyde,False,137,0,0,True
+PreprocessedData_PRAD.xlsx,carnosine,True,137,65,1,True
+PreprocessedData_PRAD.xlsx,cortisol,False,137,0,0,True
+PreprocessedData_PRAD.xlsx,creatine phosphate,False,137,0,0,True
+PreprocessedData_PRAD.xlsx,cystine,True,137,70,1,True
+PreprocessedData_PRAD.xlsx,docosahexaenoate (DHA; 22:6n3),True,137,137,1,True
+PreprocessedData_PRAD.xlsx,galactose,True,137,48,1,True
+PreprocessedData_PRAD.xlsx,gluconate,True,137,135,1,True
+PreprocessedData_PRAD.xlsx,"glutathione, oxidized (GSSG)",True,137,137,1,True
+PreprocessedData_PRAD.xlsx,glycerol 3-phosphate (G3P),True,137,137,1,True
+PreprocessedData_PRAD.xlsx,heme,True,137,23,1,True
+PreprocessedData_PRAD.xlsx,heme*,False,137,0,0,True
+PreprocessedData_PRAD.xlsx,histidine,True,137,137,1,True
+PreprocessedData_PRAD.xlsx,homocarnosine,True,137,37,1,True
+PreprocessedData_PRAD.xlsx,hypoxanthine,True,137,137,1,True
+PreprocessedData_PRAD.xlsx,isovalerylglycine,True,137,8,1,True
+PreprocessedData_PRAD.xlsx,malonylcarnitine,False,137,0,0,True
+PreprocessedData_PRAD.xlsx,pantetheine,False,137,0,0,True
+PreprocessedData_PRAD.xlsx,phenylacetylglycine,True,137,0,1,True
+PreprocessedData_PRAD.xlsx,prostaglandin E2,False,137,0,0,True
+PreprocessedData_PRAD.xlsx,putrescine,True,137,136,1,True
+PreprocessedData_PRAD.xlsx,pyridoxate,True,137,52,1,True
+PreprocessedData_PRAD.xlsx,ribitol,True,137,118,1,True
+PreprocessedData_PRAD.xlsx,riboflavin (Vitamin B2),True,137,4,1,True
+PreprocessedData_PRAD.xlsx,ribulose 5-phosphate,False,137,0,0,True
+PreprocessedData_PRAD.xlsx,ribulose/xylulose 5-phosphate,True,137,15,1,True
+PreprocessedData_PRAD.xlsx,sedoheptulose-7-phosphate,False,137,0,0,True
+PreprocessedData_PRAD.xlsx,spermidine,True,137,137,1,True
+PreprocessedData_PRAD.xlsx,sphinganine,True,137,24,1,True
+PreprocessedData_PRAD.xlsx,sphingosine,True,137,122,1,True
+PreprocessedData_PRAD.xlsx,testosterone,False,137,0,0,True
+PreprocessedData_PRAD.xlsx,threonine,True,137,137,1,True
+PreprocessedData_PRAD.xlsx,tyrosine,True,137,137,1,True
+PreprocessedData_PRAD.xlsx,xylulose,True,137,58,1,True
+PreprocessedData_ccRCC1.xlsx,1-methylimidazoleacetate,True,32,29,1,True
+PreprocessedData_ccRCC1.xlsx,1-methylnicotinamide,False,32,0,0,True
+PreprocessedData_ccRCC1.xlsx,2'-deoxyadenosine,False,32,0,0,True
+PreprocessedData_ccRCC1.xlsx,"2,3-diphosphoglycerate",False,32,0,0,True
+PreprocessedData_ccRCC1.xlsx,3-ureidoisobutyrate,False,32,0,0,True
+PreprocessedData_ccRCC1.xlsx,4-acetamidophenol,True,32,1,1,True
+PreprocessedData_ccRCC1.xlsx,4-acetaminophen sulfate,True,32,1,1,True
+PreprocessedData_ccRCC1.xlsx,"5,6-dihydrouracil",True,32,30,1,True
+PreprocessedData_ccRCC1.xlsx,N(1)-acetylspermine,False,32,0,0,True
+PreprocessedData_ccRCC1.xlsx,N-6-trimethyllysine,True,32,32,1,True
+PreprocessedData_ccRCC1.xlsx,N-acetyl-glucosamine 1-phosphate,False,32,0,0,True
+PreprocessedData_ccRCC1.xlsx,"N1,N12-diacetylspermine",False,32,0,0,True
+PreprocessedData_ccRCC1.xlsx,UDP-galactose,False,32,0,0,True
+PreprocessedData_ccRCC1.xlsx,UDP-glucuronate,False,32,0,0,True
+PreprocessedData_ccRCC1.xlsx,acetylcarnitine,True,32,32,1,True
+PreprocessedData_ccRCC1.xlsx,agmatine,True,32,32,1,True
+PreprocessedData_ccRCC1.xlsx,androsterone sulfate,True,32,20,1,True
+PreprocessedData_ccRCC1.xlsx,argininosuccinate,True,32,18,1,True
+PreprocessedData_ccRCC1.xlsx,ascorbate (Vitamin C),True,32,32,1,True
+PreprocessedData_ccRCC1.xlsx,betaine aldehyde,False,32,0,0,True
+PreprocessedData_ccRCC1.xlsx,carnosine,False,32,0,0,True
+PreprocessedData_ccRCC1.xlsx,cortisol,True,32,1,1,True
+PreprocessedData_ccRCC1.xlsx,creatine phosphate,False,32,0,0,True
+PreprocessedData_ccRCC1.xlsx,cystine,True,32,31,1,True
+PreprocessedData_ccRCC1.xlsx,docosahexaenoate (DHA; 22:6n3),True,32,32,1,True
+PreprocessedData_ccRCC1.xlsx,galactose,True,32,25,1,True
+PreprocessedData_ccRCC1.xlsx,gluconate,True,32,32,1,True
+PreprocessedData_ccRCC1.xlsx,"glutathione, oxidized (GSSG)",True,32,11,1,True
+PreprocessedData_ccRCC1.xlsx,glycerol 3-phosphate (G3P),True,32,32,1,True
+PreprocessedData_ccRCC1.xlsx,heme,True,32,18,1,True
+PreprocessedData_ccRCC1.xlsx,heme*,False,32,0,0,True
+PreprocessedData_ccRCC1.xlsx,histidine,True,32,32,1,True
+PreprocessedData_ccRCC1.xlsx,homocarnosine,False,32,0,0,True
+PreprocessedData_ccRCC1.xlsx,hypoxanthine,True,32,32,1,True
+PreprocessedData_ccRCC1.xlsx,isovalerylglycine,False,32,0,0,True
+PreprocessedData_ccRCC1.xlsx,malonylcarnitine,True,32,30,1,True
+PreprocessedData_ccRCC1.xlsx,pantetheine,False,32,0,0,True
+PreprocessedData_ccRCC1.xlsx,phenylacetylglycine,False,32,0,0,True
+PreprocessedData_ccRCC1.xlsx,prostaglandin E2,True,32,3,1,True
+PreprocessedData_ccRCC1.xlsx,putrescine,True,32,31,1,True
+PreprocessedData_ccRCC1.xlsx,pyridoxate,True,32,9,1,True
+PreprocessedData_ccRCC1.xlsx,ribitol,True,32,32,1,True
+PreprocessedData_ccRCC1.xlsx,riboflavin (Vitamin B2),True,32,29,1,True
+PreprocessedData_ccRCC1.xlsx,ribulose 5-phosphate,False,32,0,0,True
+PreprocessedData_ccRCC1.xlsx,ribulose/xylulose 5-phosphate,True,32,32,1,True
+PreprocessedData_ccRCC1.xlsx,sedoheptulose-7-phosphate,True,32,32,1,True
+PreprocessedData_ccRCC1.xlsx,spermidine,True,32,32,1,True
+PreprocessedData_ccRCC1.xlsx,sphinganine,True,32,14,1,True
+PreprocessedData_ccRCC1.xlsx,sphingosine,True,32,30,1,True
+PreprocessedData_ccRCC1.xlsx,testosterone,True,32,26,1,True
+PreprocessedData_ccRCC1.xlsx,threonine,True,32,32,1,True
+PreprocessedData_ccRCC1.xlsx,tyrosine,True,32,32,1,True
+PreprocessedData_ccRCC1.xlsx,xylulose,True,32,32,1,True
+PreprocessedData_ccRCC2.xlsx,1-methylimidazoleacetate,True,30,30,1,True
+PreprocessedData_ccRCC2.xlsx,1-methylnicotinamide,True,30,30,1,True
+PreprocessedData_ccRCC2.xlsx,2'-deoxyadenosine,False,30,0,0,True
+PreprocessedData_ccRCC2.xlsx,"2,3-diphosphoglycerate",False,30,0,0,True
+PreprocessedData_ccRCC2.xlsx,3-ureidoisobutyrate,False,30,0,0,True
+PreprocessedData_ccRCC2.xlsx,4-acetamidophenol,True,30,29,1,True
+PreprocessedData_ccRCC2.xlsx,4-acetaminophen sulfate,True,30,29,1,True
+PreprocessedData_ccRCC2.xlsx,"5,6-dihydrouracil",False,30,0,0,True
+PreprocessedData_ccRCC2.xlsx,N(1)-acetylspermine,True,30,11,1,True
+PreprocessedData_ccRCC2.xlsx,N-6-trimethyllysine,True,30,30,1,True
+PreprocessedData_ccRCC2.xlsx,N-acetyl-glucosamine 1-phosphate,True,30,27,1,True
+PreprocessedData_ccRCC2.xlsx,"N1,N12-diacetylspermine",True,30,11,1,True
+PreprocessedData_ccRCC2.xlsx,UDP-galactose,False,30,0,0,True
+PreprocessedData_ccRCC2.xlsx,UDP-glucuronate,False,30,0,0,True
+PreprocessedData_ccRCC2.xlsx,acetylcarnitine,True,30,30,1,True
+PreprocessedData_ccRCC2.xlsx,agmatine,False,30,0,0,True
+PreprocessedData_ccRCC2.xlsx,androsterone sulfate,True,30,25,1,True
+PreprocessedData_ccRCC2.xlsx,argininosuccinate,True,30,21,1,True
+PreprocessedData_ccRCC2.xlsx,ascorbate (Vitamin C),True,30,20,1,True
+PreprocessedData_ccRCC2.xlsx,betaine aldehyde,False,30,0,0,True
+PreprocessedData_ccRCC2.xlsx,carnosine,True,30,15,1,True
+PreprocessedData_ccRCC2.xlsx,cortisol,True,30,5,1,True
+PreprocessedData_ccRCC2.xlsx,creatine phosphate,True,30,13,1,True
+PreprocessedData_ccRCC2.xlsx,cystine,True,30,28,1,True
+PreprocessedData_ccRCC2.xlsx,docosahexaenoate (DHA; 22:6n3),True,30,30,1,True
+PreprocessedData_ccRCC2.xlsx,galactose,False,30,0,0,True
+PreprocessedData_ccRCC2.xlsx,gluconate,True,30,30,1,True
+PreprocessedData_ccRCC2.xlsx,"glutathione, oxidized (GSSG)",True,30,13,1,True
+PreprocessedData_ccRCC2.xlsx,glycerol 3-phosphate (G3P),True,30,30,1,True
+PreprocessedData_ccRCC2.xlsx,heme,True,30,26,1,True
+PreprocessedData_ccRCC2.xlsx,heme*,False,30,0,0,True
+PreprocessedData_ccRCC2.xlsx,histidine,True,30,30,1,True
+PreprocessedData_ccRCC2.xlsx,homocarnosine,False,30,0,0,True
+PreprocessedData_ccRCC2.xlsx,hypoxanthine,True,30,30,1,True
+PreprocessedData_ccRCC2.xlsx,isovalerylglycine,False,30,0,0,True
+PreprocessedData_ccRCC2.xlsx,malonylcarnitine,True,30,29,1,True
+PreprocessedData_ccRCC2.xlsx,pantetheine,True,30,10,1,True
+PreprocessedData_ccRCC2.xlsx,phenylacetylglycine,False,30,0,0,True
+PreprocessedData_ccRCC2.xlsx,prostaglandin E2,False,30,0,0,True
+PreprocessedData_ccRCC2.xlsx,putrescine,False,30,0,0,True
+PreprocessedData_ccRCC2.xlsx,pyridoxate,True,30,14,1,True
+PreprocessedData_ccRCC2.xlsx,ribitol,True,30,30,1,True
+PreprocessedData_ccRCC2.xlsx,riboflavin (Vitamin B2),True,30,26,1,True
+PreprocessedData_ccRCC2.xlsx,ribulose 5-phosphate,True,30,17,1,True
+PreprocessedData_ccRCC2.xlsx,ribulose/xylulose 5-phosphate,False,30,0,0,True
+PreprocessedData_ccRCC2.xlsx,sedoheptulose-7-phosphate,True,30,30,1,True
+PreprocessedData_ccRCC2.xlsx,spermidine,True,30,30,1,True
+PreprocessedData_ccRCC2.xlsx,sphinganine,True,30,30,1,True
+PreprocessedData_ccRCC2.xlsx,sphingosine,True,30,30,1,True
+PreprocessedData_ccRCC2.xlsx,testosterone,False,30,0,0,True
+PreprocessedData_ccRCC2.xlsx,threonine,True,30,30,1,True
+PreprocessedData_ccRCC2.xlsx,tyrosine,True,30,30,1,True
+PreprocessedData_ccRCC2.xlsx,xylulose,False,30,0,0,True
+PreprocessedData_ccRCC3.xlsx,1-methylimidazoleacetate,True,114,114,1,True
+PreprocessedData_ccRCC3.xlsx,1-methylnicotinamide,True,114,114,1,True
+PreprocessedData_ccRCC3.xlsx,2'-deoxyadenosine,False,114,0,0,True
+PreprocessedData_ccRCC3.xlsx,"2,3-diphosphoglycerate",False,114,0,0,True
+PreprocessedData_ccRCC3.xlsx,3-ureidoisobutyrate,False,114,0,0,True
+PreprocessedData_ccRCC3.xlsx,4-acetamidophenol,True,114,100,1,True
+PreprocessedData_ccRCC3.xlsx,4-acetaminophen sulfate,True,114,96,1,True
+PreprocessedData_ccRCC3.xlsx,"5,6-dihydrouracil",False,114,0,0,True
+PreprocessedData_ccRCC3.xlsx,N(1)-acetylspermine,True,114,5,1,True
+PreprocessedData_ccRCC3.xlsx,N-6-trimethyllysine,True,114,114,1,True
+PreprocessedData_ccRCC3.xlsx,N-acetyl-glucosamine 1-phosphate,True,114,110,1,True
+PreprocessedData_ccRCC3.xlsx,"N1,N12-diacetylspermine",True,114,14,1,True
+PreprocessedData_ccRCC3.xlsx,UDP-galactose,False,114,0,0,True
+PreprocessedData_ccRCC3.xlsx,UDP-glucuronate,False,114,0,0,True
+PreprocessedData_ccRCC3.xlsx,acetylcarnitine,True,114,114,1,True
+PreprocessedData_ccRCC3.xlsx,agmatine,False,114,0,0,True
+PreprocessedData_ccRCC3.xlsx,androsterone sulfate,True,114,111,1,True
+PreprocessedData_ccRCC3.xlsx,argininosuccinate,True,114,105,1,True
+PreprocessedData_ccRCC3.xlsx,ascorbate (Vitamin C),True,114,85,1,True
+PreprocessedData_ccRCC3.xlsx,betaine aldehyde,False,114,0,0,True
+PreprocessedData_ccRCC3.xlsx,carnosine,True,114,78,1,True
+PreprocessedData_ccRCC3.xlsx,cortisol,True,114,24,1,True
+PreprocessedData_ccRCC3.xlsx,creatine phosphate,True,114,37,1,True
+PreprocessedData_ccRCC3.xlsx,cystine,True,114,114,1,True
+PreprocessedData_ccRCC3.xlsx,docosahexaenoate (DHA; 22:6n3),True,114,114,1,True
+PreprocessedData_ccRCC3.xlsx,galactose,False,114,0,0,True
+PreprocessedData_ccRCC3.xlsx,gluconate,True,114,114,1,True
+PreprocessedData_ccRCC3.xlsx,"glutathione, oxidized (GSSG)",True,114,19,1,True
+PreprocessedData_ccRCC3.xlsx,glycerol 3-phosphate (G3P),True,114,114,1,True
+PreprocessedData_ccRCC3.xlsx,heme,True,114,100,1,True
+PreprocessedData_ccRCC3.xlsx,heme*,False,114,0,0,True
+PreprocessedData_ccRCC3.xlsx,histidine,True,114,114,1,True
+PreprocessedData_ccRCC3.xlsx,homocarnosine,False,114,0,0,True
+PreprocessedData_ccRCC3.xlsx,hypoxanthine,True,114,114,1,True
+PreprocessedData_ccRCC3.xlsx,isovalerylglycine,False,114,0,0,True
+PreprocessedData_ccRCC3.xlsx,malonylcarnitine,True,114,113,1,True
+PreprocessedData_ccRCC3.xlsx,pantetheine,True,114,50,1,True
+PreprocessedData_ccRCC3.xlsx,phenylacetylglycine,False,114,0,0,True
+PreprocessedData_ccRCC3.xlsx,prostaglandin E2,False,114,0,0,True
+PreprocessedData_ccRCC3.xlsx,putrescine,False,114,0,0,True
+PreprocessedData_ccRCC3.xlsx,pyridoxate,True,114,87,1,True
+PreprocessedData_ccRCC3.xlsx,ribitol,True,114,112,1,True
+PreprocessedData_ccRCC3.xlsx,riboflavin (Vitamin B2),True,114,113,1,True
+PreprocessedData_ccRCC3.xlsx,ribulose 5-phosphate,True,114,75,1,True
+PreprocessedData_ccRCC3.xlsx,ribulose/xylulose 5-phosphate,False,114,0,0,True
+PreprocessedData_ccRCC3.xlsx,sedoheptulose-7-phosphate,True,114,113,1,True
+PreprocessedData_ccRCC3.xlsx,spermidine,True,114,113,1,True
+PreprocessedData_ccRCC3.xlsx,sphinganine,True,114,114,1,True
+PreprocessedData_ccRCC3.xlsx,sphingosine,True,114,114,1,True
+PreprocessedData_ccRCC3.xlsx,testosterone,False,114,0,0,True
+PreprocessedData_ccRCC3.xlsx,threonine,True,114,114,1,True
+PreprocessedData_ccRCC3.xlsx,tyrosine,True,114,114,1,True
+PreprocessedData_ccRCC3.xlsx,xylulose,False,114,0,0,True
+PreprocessedData_ccRCC4.xlsx,1-methylimidazoleacetate,True,76,76,1,True
+PreprocessedData_ccRCC4.xlsx,1-methylnicotinamide,True,76,76,1,True
+PreprocessedData_ccRCC4.xlsx,2'-deoxyadenosine,False,76,0,0,True
+PreprocessedData_ccRCC4.xlsx,"2,3-diphosphoglycerate",True,76,48,1,True
+PreprocessedData_ccRCC4.xlsx,3-ureidoisobutyrate,False,76,0,0,True
+PreprocessedData_ccRCC4.xlsx,4-acetamidophenol,True,76,74,1,True
+PreprocessedData_ccRCC4.xlsx,4-acetaminophen sulfate,True,76,76,1,True
+PreprocessedData_ccRCC4.xlsx,"5,6-dihydrouracil",False,76,0,0,True
+PreprocessedData_ccRCC4.xlsx,N(1)-acetylspermine,True,76,13,1,True
+PreprocessedData_ccRCC4.xlsx,N-6-trimethyllysine,True,76,76,1,True
+PreprocessedData_ccRCC4.xlsx,N-acetyl-glucosamine 1-phosphate,True,76,67,1,True
+PreprocessedData_ccRCC4.xlsx,"N1,N12-diacetylspermine",True,76,21,1,True
+PreprocessedData_ccRCC4.xlsx,UDP-galactose,True,76,54,1,True
+PreprocessedData_ccRCC4.xlsx,UDP-glucuronate,True,76,53,1,True
+PreprocessedData_ccRCC4.xlsx,acetylcarnitine,True,76,76,1,True
+PreprocessedData_ccRCC4.xlsx,agmatine,False,76,0,0,True
+PreprocessedData_ccRCC4.xlsx,androsterone sulfate,True,76,74,1,True
+PreprocessedData_ccRCC4.xlsx,argininosuccinate,True,76,72,1,True
+PreprocessedData_ccRCC4.xlsx,ascorbate (Vitamin C),True,76,61,1,True
+PreprocessedData_ccRCC4.xlsx,betaine aldehyde,True,76,48,1,True
+PreprocessedData_ccRCC4.xlsx,carnosine,True,76,49,1,True
+PreprocessedData_ccRCC4.xlsx,cortisol,True,76,34,1,True
+PreprocessedData_ccRCC4.xlsx,creatine phosphate,True,76,51,1,True
+PreprocessedData_ccRCC4.xlsx,cystine,True,76,76,1,True
+PreprocessedData_ccRCC4.xlsx,docosahexaenoate (DHA; 22:6n3),True,76,76,1,True
+PreprocessedData_ccRCC4.xlsx,galactose,False,76,0,0,True
+PreprocessedData_ccRCC4.xlsx,gluconate,True,76,76,1,True
+PreprocessedData_ccRCC4.xlsx,"glutathione, oxidized (GSSG)",True,76,53,1,True
+PreprocessedData_ccRCC4.xlsx,glycerol 3-phosphate (G3P),True,76,76,1,True
+PreprocessedData_ccRCC4.xlsx,heme,True,76,68,1,True
+PreprocessedData_ccRCC4.xlsx,heme*,False,76,0,0,True
+PreprocessedData_ccRCC4.xlsx,histidine,True,76,76,1,True
+PreprocessedData_ccRCC4.xlsx,homocarnosine,False,76,0,0,True
+PreprocessedData_ccRCC4.xlsx,hypoxanthine,True,76,76,1,True
+PreprocessedData_ccRCC4.xlsx,isovalerylglycine,True,76,49,1,True
+PreprocessedData_ccRCC4.xlsx,malonylcarnitine,True,76,67,1,True
+PreprocessedData_ccRCC4.xlsx,pantetheine,False,76,0,0,True
+PreprocessedData_ccRCC4.xlsx,phenylacetylglycine,True,76,14,1,True
+PreprocessedData_ccRCC4.xlsx,prostaglandin E2,True,76,20,1,True
+PreprocessedData_ccRCC4.xlsx,putrescine,True,76,51,1,True
+PreprocessedData_ccRCC4.xlsx,pyridoxate,True,76,69,1,True
+PreprocessedData_ccRCC4.xlsx,ribitol,True,76,72,1,True
+PreprocessedData_ccRCC4.xlsx,riboflavin (Vitamin B2),True,76,76,1,True
+PreprocessedData_ccRCC4.xlsx,ribulose 5-phosphate,False,76,0,0,True
+PreprocessedData_ccRCC4.xlsx,ribulose/xylulose 5-phosphate,False,76,0,0,True
+PreprocessedData_ccRCC4.xlsx,sedoheptulose-7-phosphate,True,76,27,1,True
+PreprocessedData_ccRCC4.xlsx,spermidine,True,76,76,1,True
+PreprocessedData_ccRCC4.xlsx,sphinganine,True,76,76,1,True
+PreprocessedData_ccRCC4.xlsx,sphingosine,True,76,76,1,True
+PreprocessedData_ccRCC4.xlsx,testosterone,False,76,0,0,True
+PreprocessedData_ccRCC4.xlsx,threonine,True,76,76,1,True
+PreprocessedData_ccRCC4.xlsx,tyrosine,True,76,76,1,True
+PreprocessedData_ccRCC4.xlsx,xylulose,False,76,0,0,True

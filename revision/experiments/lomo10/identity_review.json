@@ -1,0 +1,29 @@
+{
+  "reviewed": "2026-10-30",
+  "decisions": [
+    {
+      "node": 2342,
+      "feature": "xylulose",
+      "assay_hmdb": "HMDB0000654",
+      "graph_hmdb": "HMDB0001644",
+      "kegg": "C00310",
+      "decision": "include_as_tenth_additional_target",
+      "reason": "The HMDB D-Xylulose record lists HMDB0000654 as a secondary accession of HMDB0001644; KEGG C00310 also identifies D-Xylulose.",
+      "sources": ["https://www.hmdb.ca/metabolites/HMDB0001644", "https://www.kegg.jp/entry/C00310"],
+      "access_note": "HMDB indexed primary-record text verified via web search; direct fetch returned 403. KEGG entry fetched directly."
+    },
+    {
+      "node": 1120,
+      "feature": "androsterone sulfate",
+      "assay_hmdb": "HMDB0002759",
+      "graph_hmdb": "HMDB0000031",
+      "kegg": "C00523",
+      "decision": "exclude_from_corrected_historical_target_panel",
+      "reason": "The assay name and HMDB identify androsterone sulfate, whereas the graph HMDB and KEGG identify androsterone. These are distinct compounds; a shared source KEGG annotation does not resolve the mismatch.",
+      "sources": ["https://www.hmdb.ca/metabolites/HMDB0002759", "https://www.kegg.jp/entry/C00523"],
+      "access_note": "HMDB indexed primary-record text verified via web search; KEGG fetched directly."
+    }
+  ],
+  "resulting_historical_panel": {"original": 50, "existing_completed": 36, "additional": 10, "excluded": 4},
+  "scope": "Target eligibility and recorded identifier reconciliation, not independent experimental confirmation of assay chemistry. Original training data and graph remain byte-identical for comparability; excluding a target from this evaluation does not remove its labels from previous fits or repair every training annotation."
+}

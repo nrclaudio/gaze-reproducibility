@@ -1,0 +1,38 @@
+[
+  {
+    "index": 0,
+    "id": "lomo_n845_full_s42",
+    "kind": "lomo",
+    "variant": "full",
+    "seed": 42,
+    "stage": "annotation_addition",
+    "feature": "4-acetamidophenol",
+    "node": 845,
+    "historical_fold": 11,
+    "n_observed": 366
+  },
+  {
+    "index": 1,
+    "id": "lomo_n1894_full_s42",
+    "kind": "lomo",
+    "variant": "full",
+    "seed": 42,
+    "stage": "annotation_addition",
+    "feature": "ribulose 5-phosphate",
+    "node": 1894,
+    "historical_fold": 28,
+    "n_observed": 169
+  },
+  {
+    "index": 2,
+    "id": "lomo_n1887_full_s42",
+    "kind": "lomo",
+    "variant": "full",
+    "seed": 42,
+    "stage": "annotation_addition",
+    "feature": "heme",
+    "node": 1887,
+    "historical_fold": 40,
+    "n_observed": 584
+  }
+]

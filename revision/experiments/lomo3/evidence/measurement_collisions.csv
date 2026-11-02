@@ -1,0 +1,4 @@
+feature_a,feature_b,observed_a,observed_b,jointly_observed,different_joint_values
+4-acetamidophenol,4-acetaminophen sulfate,366,267,220,220
+ribulose 5-phosphate,ribulose/xylulose 5-phosphate,169,202,0,0
+heme,heme*,584,0,0,0

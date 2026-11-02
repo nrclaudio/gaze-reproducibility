@@ -1,0 +1,17 @@
+# Tested on Python 3.12; CPU replay environment. CUDA training provenance is saved with each run.
+torch==2.10.0
+torch-geometric==2.7.0
+numpy==2.4.2
+pandas==2.3.3
+scipy==1.17.1
+scikit-learn==1.8.0
+mudata==0.3.3
+anndata==0.12.10
+h5py==3.15.1
+networkx==3.6.1
+matplotlib==3.10.8
+tqdm==4.67.1
+pyro-ppl==1.9.2
+openpyxl==3.1.5
+pyyaml==6.0.3
+pytest==9.0.2

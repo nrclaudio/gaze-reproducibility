@@ -1,0 +1,55 @@
+{
+  "reviewed": "2026-10-30",
+  "resolutions": [
+    {
+      "node": 845,
+      "target": "acetaminophen/paracetamol",
+      "feature": "4-acetamidophenol",
+      "decision": "restore_specific_parent_compound",
+      "observed_specimens": 366,
+      "evidence": "Source feature12032/M12032 identifies the parent compound. Sulfate is a separate feature37475/M37475 with different values in every one of220 jointly measured specimens. Do not merge them.",
+      "sources": ["https://www.kegg.jp/entry/C06804", "https://hmdb.ca/metabolites/HMDB0059911"]
+    },
+    {
+      "node": 1894,
+      "target": "ribulose 5-phosphate",
+      "feature": "ribulose 5-phosphate",
+      "decision": "restore_specific_feature_only",
+      "observed_specimens": 169,
+      "evidence": "Source feature1474/M1474 and D-ribulose-5-phosphate annotation support the specific target. The mixed feature37288/M37288 is measured in202 other specimens and is not substituted or merged.",
+      "sources": ["https://www.kegg.jp/entry/C00199"]
+    },
+    {
+      "node": 1887,
+      "target": "heme",
+      "feature": "heme",
+      "decision": "restore_existing_harmonized_feature_only",
+      "observed_specimens": 584,
+      "evidence": "MetinfoFromData.xlsx Sheet2 explicitly maps heme* to heme. The current frozen dataset has584 observations under heme and zero under heme*. Keep the existing harmonized values; do not average, coalesce or add heme2 values. Some source raw annotations contain an asterisk; source identity confidence is not independently validated.",
+      "sources": ["https://www.kegg.jp/entry/C00032"]
+    },
+    {
+      "node": 1120,
+      "target": "androsterone",
+      "feature": "androsterone sulfate",
+      "decision": "exclude_historical_target_and_wrong_training_mapping",
+      "observed_specimens": 405,
+      "evidence": "Source feature31591/M31591 and HMDB02759 consistently identify the sulfate. The graph target HMDB0000031/C00523 is androsterone. There is no matching sulfate node or separate androsterone feature in the frozen dataset. Preserve the measured sulfate values but exclude their incorrect assignment to the parent node.",
+      "sources": ["https://www.hmdb.ca/metabolites/HMDB0002759", "https://www.kegg.jp/entry/C00523"]
+    },
+    {
+      "node": 329,
+      "target": "galactose",
+      "feature": "galactose",
+      "decision": "retain_with_identifier_qualification",
+      "observed_specimens": 290,
+      "source_hmdb": ["HMDB0000143"],
+      "source_kegg": ["C01662"],
+      "graph_hmdb": "HMDB0000143",
+      "graph_kegg": "C00984",
+      "evidence": "The harmonized source name, GBM raw D(+)galactose name and HMDB0000143 support D-galactose. The source KEGG class code differs from the graph alpha-D-galactose representation. Retain the existing HMDB-based graph mapping, disclose the KEGG discrepancy, and do not claim anomer-specific assay resolution.",
+      "sources": ["https://hmdb.ca/metabolites/HMDB0000143", "https://www.kegg.jp/entry/C00984", "https://jglobal.jst.go.jp/en/detail?JGLOBAL_ID=200907084755190461"]
+    }
+  ],
+  "scope": "Recorded source annotation and measurement reconciliation; no mass-spectral re-identification, graph expansion or outcome-based choice. Original submitted bundles remain unchanged."
+}

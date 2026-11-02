@@ -1,0 +1,32 @@
+{
+  "source_sha256": "cdf6522f6eb20d35efe5f7744e85a8989bcb563296700cc453a3ba1b198bb658",
+  "base_manifest_sha256": "ad97327a779bb1befb9a1b16a5ee92b457a5bd5a7ceb7ed052df0cc320938871",
+  "audit_sha256": "4222d80c5953fe4c32d8f349665df8e3c91a461e6a3d7e67b1f390856bd2c16c",
+  "manual_resolution_sha256": "ee92e6f8a52e0d6eed8adc463add380a4d292ee6a0f519f8d9c512672d2b0ab0",
+  "resolution_code_sha256": "5139cc8a21777f2c9ffaadfb77b635fdc8ac8a6bed13beaa57f192b4ab4439d5",
+  "builder_sha256": "7b74deab2cdff6775556ff739ec21e571e3f0a66d525831eafc4cfbc8f35a145",
+  "mapped_features_before": 324,
+  "mapped_features_after": 326,
+  "historical_targets": 50,
+  "eligible_historical_targets": 49,
+  "excluded_historical_nodes": [
+    1120
+  ],
+  "restored_historical_nodes": [
+    845,
+    1887,
+    1894
+  ],
+  "measurement_values_unchanged": true,
+  "existing_runs_modified": false,
+  "new_training_performed": false,
+  "use_warning": "The corrected MuData changes future supervision: three targets become available and the incorrect androsterone-sulfate assignment is removed. It must not silently replace inputs of existing runs. The separate assessment overlay changes only the scoring map for the three previously globally excluded targets; it is not a training-input replacement.",
+  "artifact_sha256": {
+    "lomo_panel49.json": "68a5fc3ea88f086125f433d9d6984b20135b44ef2bf45fc2075f0c431205748e",
+    "resolved_feature_annotations.csv": "c7ba55706bd53aceb617d276143f35ce1dbbdf1f3857c480626537a5f935090c",
+    "metadata_changes.json": "2f92cb143fb431ccb3c9f75e943b16e3a31dce73105fb198a146a402fd2d2247",
+    "restored_targets.json": "f1a4d9853f1949655677410e3f32ce761d06ed406c53c2e4d118e4c34bd90a17",
+    "assessment_restored3.npz": "32c2fa7135c29486a4e2def4ce218ecdbba2af63487478568671942a1117345e",
+    "camp_annotations_resolved.h5mu": "764fc114455f9a4e6a89dfc3544051f922c2f743a3ab56182c0120cd48f5c3e8"
+  }
+}

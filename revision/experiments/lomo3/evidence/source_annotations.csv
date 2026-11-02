@@ -1,0 +1,357 @@
+workbook,feature,observed_specimens,raw_name,biochemical,harmonized_name,source_hmdb,source_kegg,source_compound_id,source_metabolon_id
+PreprocessedData_BRCA1.xlsx,1-methylimidazoleacetate,23,1-methylimidazoleacetate,1-methylimidazoleacetate,1-methylimidazoleacetate,HMDB02820,C05828,32350,M32350
+PreprocessedData_BRCA1.xlsx,1-methylnicotinamide,102,1-methylnicotinamide,1-methylnicotinamide,1-methylnicotinamide,HMDB00699,C02918,27665,M27665
+PreprocessedData_BRCA1.xlsx,4-acetaminophen sulfate,19,4-acetaminophen sulfate,4-acetaminophen sulfate,4-acetaminophen sulfate,HMDB01859,C06804,37475,M37475
+PreprocessedData_BRCA1.xlsx,"5,6-dihydrouracil",68,"5,6-dihydrouracil","5,6-dihydrouracil","5,6-dihydrouracil",HMDB00076,C00429,1559,M1559
+PreprocessedData_BRCA1.xlsx,UDP-glucuronate,25,UDP-glucuronate,UDP-glucuronate,UDP-glucuronate,HMDB00935,C00167,2763,M2763
+PreprocessedData_BRCA1.xlsx,acetylcarnitine,108,acetylcarnitine,acetylcarnitine,acetylcarnitine,HMDB00201,C02571,32198,M32198
+PreprocessedData_BRCA1.xlsx,androsterone sulfate,37,androsterone sulfate,androsterone sulfate,androsterone sulfate,HMDB02759,C00523,31591,M31591
+PreprocessedData_BRCA1.xlsx,ascorbate (Vitamin C),41,ascorbate (Vitamin C),ascorbate (Vitamin C),ascorbate (Vitamin C),HMDB00044,C00072,1640,M1640
+PreprocessedData_BRCA1.xlsx,cortisol,15,cortisol,cortisol,cortisol,HMDB00063,C00735,1712,M1712
+PreprocessedData_BRCA1.xlsx,cystine,91,cystine,cystine,cystine,HMDB00192,C00491,39512,M39512
+PreprocessedData_BRCA1.xlsx,docosahexaenoate (DHA; 22:6n3),107,docosahexaenoate (DHA; 22:6n3),docosahexaenoate (DHA; 22:6n3),docosahexaenoate (DHA; 22:6n3),HMDB02183,C06429,19323,M19323
+PreprocessedData_BRCA1.xlsx,galactose,104,galactose,galactose,galactose,HMDB00143,C01662,12055,M12055
+PreprocessedData_BRCA1.xlsx,gluconate,78,gluconate,gluconate,gluconate,HMDB00625,C00257,587,M587
+PreprocessedData_BRCA1.xlsx,"glutathione, oxidized (GSSG)",88,"glutathione, oxidized (GSSG)","glutathione, oxidized (GSSG)","glutathione, oxidized (GSSG)",HMDB03337,C00127,27727,M27727
+PreprocessedData_BRCA1.xlsx,glycerol 3-phosphate (G3P),107,glycerol 3-phosphate (G3P),glycerol 3-phosphate (G3P),glycerol 3-phosphate (G3P),HMDB00126,C00093,15365,M15365
+PreprocessedData_BRCA1.xlsx,heme,102,heme*,heme*,heme,HMDB03178,C00032,41754,M41754
+PreprocessedData_BRCA1.xlsx,histidine,108,histidine,histidine,histidine,HMDB00177,C00135,59,M59
+PreprocessedData_BRCA1.xlsx,homocarnosine,1,homocarnosine,homocarnosine,homocarnosine,HMDB00745,C00884,1633,M1633
+PreprocessedData_BRCA1.xlsx,hypoxanthine,108,hypoxanthine,hypoxanthine,hypoxanthine,HMDB00157,C00262,3127,M3127
+PreprocessedData_BRCA1.xlsx,phenylacetylglycine,32,phenylacetylglycine,phenylacetylglycine,phenylacetylglycine,HMDB00821,C05598,33945,M33945
+PreprocessedData_BRCA1.xlsx,putrescine,63,putrescine,putrescine,putrescine,HMDB01414,C00134,1408,M1408
+PreprocessedData_BRCA1.xlsx,pyridoxate,4,pyridoxate,pyridoxate,pyridoxate,HMDB00017,C00847,31555,M31555
+PreprocessedData_BRCA1.xlsx,ribitol,34,ribitol,ribitol,ribitol,HMDB00508,C00474,15772,M15772
+PreprocessedData_BRCA1.xlsx,riboflavin (Vitamin B2),55,riboflavin (Vitamin B2),riboflavin (Vitamin B2),riboflavin (Vitamin B2),HMDB00244,C00255,1827,M1827
+PreprocessedData_BRCA1.xlsx,ribulose/xylulose 5-phosphate,45,"Isobar: ribulose 5-phosphate, xylulose 5-phosphate","Isobar: ribulose 5-phosphate, xylulose 5-phosphate",ribulose/xylulose 5-phosphate,,C00199,37288,M37288
+PreprocessedData_BRCA1.xlsx,sedoheptulose-7-phosphate,29,sedoheptulose-7-phosphate,sedoheptulose-7-phosphate,sedoheptulose-7-phosphate,HMDB01068,C05382,35649,M35649
+PreprocessedData_BRCA1.xlsx,spermidine,105,spermidine,spermidine,spermidine,HMDB01257,C00315,485,M485
+PreprocessedData_BRCA1.xlsx,sphinganine,43,sphinganine,sphinganine,sphinganine,HMDB00269,C00836,17769,M17769
+PreprocessedData_BRCA1.xlsx,sphingosine,56,sphingosine,sphingosine,sphingosine,HMDB00252,C00319,17747,M17747
+PreprocessedData_BRCA1.xlsx,threonine,108,threonine,threonine,threonine,HMDB00167,C00188,1284,M1284
+PreprocessedData_BRCA1.xlsx,tyrosine,108,tyrosine,tyrosine,tyrosine,HMDB00158,C00082,1299,M1299
+PreprocessedData_BRCA1.xlsx,xylulose,23,xylulose,xylulose,xylulose,HMDB00654,C00310,18344,M18344
+PreprocessedData_BRCA2.xlsx,4-acetamidophenol,3,4-acetamidophenol,4-acetamidophenol,4-acetamidophenol,HMDB01859,C06804,12032,M12032
+PreprocessedData_BRCA2.xlsx,4-acetaminophen sulfate,5,4-acetaminophen sulfate,4-acetaminophen sulfate,4-acetaminophen sulfate,HMDB01859,C06804,37475,M37475
+PreprocessedData_BRCA2.xlsx,"5,6-dihydrouracil",16,"5,6-dihydrouracil","5,6-dihydrouracil","5,6-dihydrouracil",HMDB00076,C00429,1559,M1559
+PreprocessedData_BRCA2.xlsx,UDP-glucuronate,18,UDP-glucuronate,UDP-glucuronate,UDP-glucuronate,HMDB00935,C00167,2763,M2763
+PreprocessedData_BRCA2.xlsx,acetylcarnitine,18,acetylcarnitine,acetylcarnitine,acetylcarnitine,HMDB00201,C02571,32198,M32198
+PreprocessedData_BRCA2.xlsx,agmatine,18,agmatine,agmatine,agmatine,HMDB01432,C00179,15496,M15496
+PreprocessedData_BRCA2.xlsx,androsterone sulfate,16,androsterone sulfate,androsterone sulfate,androsterone sulfate,HMDB02759,C00523,31591,M31591
+PreprocessedData_BRCA2.xlsx,ascorbate (Vitamin C),18,ascorbate (Vitamin C),ascorbate (Vitamin C),ascorbate (Vitamin C),HMDB00044,C00072,1640,M1640
+PreprocessedData_BRCA2.xlsx,carnosine,10,carnosine,carnosine,carnosine,HMDB00033,C00386,1768,M1768
+PreprocessedData_BRCA2.xlsx,cystine,5,cystine,cystine,cystine,HMDB00192,C00491,39512,M39512
+PreprocessedData_BRCA2.xlsx,docosahexaenoate (DHA; 22:6n3),18,docosahexaenoate (DHA; 22:6n3),docosahexaenoate (DHA; 22:6n3),docosahexaenoate (DHA; 22:6n3),HMDB02183,C06429,19323,M19323
+PreprocessedData_BRCA2.xlsx,gluconate,18,gluconate,gluconate,gluconate,HMDB00625,C00257,587,M587
+PreprocessedData_BRCA2.xlsx,"glutathione, oxidized (GSSG)",17,"glutathione, oxidized (GSSG)","glutathione, oxidized (GSSG)","glutathione, oxidized (GSSG)",HMDB03337,C00127,27727,M27727
+PreprocessedData_BRCA2.xlsx,glycerol 3-phosphate (G3P),18,glycerol 3-phosphate (G3P),glycerol 3-phosphate (G3P),glycerol 3-phosphate (G3P),HMDB00126,C00093,15365,M15365
+PreprocessedData_BRCA2.xlsx,heme,17,heme*,heme*,heme,HMDB03178,C00032,41754,M41754
+PreprocessedData_BRCA2.xlsx,histidine,18,histidine,histidine,histidine,HMDB00177,C00135,59,M59
+PreprocessedData_BRCA2.xlsx,hypoxanthine,18,hypoxanthine,hypoxanthine,hypoxanthine,HMDB00157,C00262,3127,M3127
+PreprocessedData_BRCA2.xlsx,malonylcarnitine,16,malonylcarnitine,malonylcarnitine,malonylcarnitine,HMDB02095,,37059,M37059
+PreprocessedData_BRCA2.xlsx,putrescine,18,putrescine,putrescine,putrescine,HMDB01414,C00134,1408,M1408
+PreprocessedData_BRCA2.xlsx,pyridoxate,7,pyridoxate,pyridoxate,pyridoxate,HMDB00017,C00847,31555,M31555
+PreprocessedData_BRCA2.xlsx,ribitol,17,ribitol,ribitol,ribitol,HMDB00508,C00474,15772,M15772
+PreprocessedData_BRCA2.xlsx,ribulose/xylulose 5-phosphate,17,"Isobar: ribulose 5-phosphate, xylulose 5-phosphate","Isobar: ribulose 5-phosphate, xylulose 5-phosphate",ribulose/xylulose 5-phosphate,,C00199,37288,M37288
+PreprocessedData_BRCA2.xlsx,sedoheptulose-7-phosphate,11,sedoheptulose-7-phosphate,sedoheptulose-7-phosphate,sedoheptulose-7-phosphate,HMDB01068,C05382,35649,M35649
+PreprocessedData_BRCA2.xlsx,spermidine,18,spermidine,spermidine,spermidine,HMDB01257,C00315,485,M485
+PreprocessedData_BRCA2.xlsx,sphinganine,17,sphinganine,sphinganine,sphinganine,HMDB00269,C00836,17769,M17769
+PreprocessedData_BRCA2.xlsx,sphingosine,18,sphingosine,sphingosine,sphingosine,HMDB00252,C00319,17747,M17747
+PreprocessedData_BRCA2.xlsx,threonine,18,threonine,threonine,threonine,HMDB00167,C00188,1284,M1284
+PreprocessedData_BRCA2.xlsx,tyrosine,18,tyrosine,tyrosine,tyrosine,HMDB00158,C00082,1299,M1299
+PreprocessedData_BRCA2.xlsx,xylulose,14,xylulose,xylulose,xylulose,HMDB00654,C00310,18344,M18344
+PreprocessedData_DLBCL.xlsx,1-methylnicotinamide,17,1-methylnicotinamide,1-methylnicotinamide,1-methylnicotinamide,HMDB00699,C02918,27665,M27665
+PreprocessedData_DLBCL.xlsx,4-acetamidophenol,6,4-acetamidophenol,4-acetamidophenol,4-acetamidophenol,HMDB01859,C06804,12032,M12032
+PreprocessedData_DLBCL.xlsx,4-acetaminophen sulfate,18,4-acetaminophen sulfate,4-acetaminophen sulfate,4-acetaminophen sulfate,HMDB01859,C06804,37475,M37475
+PreprocessedData_DLBCL.xlsx,"5,6-dihydrouracil",61,"5,6-dihydrouracil","5,6-dihydrouracil","5,6-dihydrouracil",HMDB00076,C00429,1559,M1559
+PreprocessedData_DLBCL.xlsx,UDP-galactose,7,UDP-galactose,UDP-galactose,UDP-galactose,HMDB00302,C00052,15860,M15860
+PreprocessedData_DLBCL.xlsx,UDP-glucuronate,59,UDP-glucuronate,UDP-glucuronate,UDP-glucuronate,HMDB00935,C00167,2763,M2763
+PreprocessedData_DLBCL.xlsx,acetylcarnitine,62,acetylcarnitine,acetylcarnitine,acetylcarnitine,HMDB00201,C02571,32198,M32198
+PreprocessedData_DLBCL.xlsx,agmatine,43,agmatine,agmatine,agmatine,HMDB01432,C00179,15496,M15496
+PreprocessedData_DLBCL.xlsx,argininosuccinate,4,argininosuccinate,argininosuccinate,argininosuccinate,HMDB00052,C03406,15497,M15497
+PreprocessedData_DLBCL.xlsx,ascorbate (Vitamin C),62,ascorbate (Vitamin C),ascorbate (Vitamin C),ascorbate (Vitamin C),HMDB00044,C00072,1640,M1640
+PreprocessedData_DLBCL.xlsx,carnosine,8,carnosine,carnosine,carnosine,HMDB00033,C00386,1768,M1768
+PreprocessedData_DLBCL.xlsx,cystine,18,cystine,cystine,cystine,HMDB00192,C00491,39512,M39512
+PreprocessedData_DLBCL.xlsx,docosahexaenoate (DHA; 22:6n3),62,docosahexaenoate (DHA; 22:6n3),docosahexaenoate (DHA; 22:6n3),docosahexaenoate (DHA; 22:6n3),HMDB02183,C06429,19323,M19323
+PreprocessedData_DLBCL.xlsx,gluconate,35,gluconate,gluconate,gluconate,HMDB00625,C00257,587,M587
+PreprocessedData_DLBCL.xlsx,"glutathione, oxidized (GSSG)",61,"glutathione, oxidized (GSSG)","glutathione, oxidized (GSSG)","glutathione, oxidized (GSSG)",HMDB03337,C00127,27727,M27727
+PreprocessedData_DLBCL.xlsx,glycerol 3-phosphate (G3P),62,glycerol 3-phosphate (G3P),glycerol 3-phosphate (G3P),glycerol 3-phosphate (G3P),HMDB00126,C00093,15365,M15365
+PreprocessedData_DLBCL.xlsx,heme,24,heme,heme,heme,HMDB03178,C00032,41754,M41754
+PreprocessedData_DLBCL.xlsx,histidine,62,histidine,histidine,histidine,HMDB00177,C00135,59,M59
+PreprocessedData_DLBCL.xlsx,hypoxanthine,62,hypoxanthine,hypoxanthine,hypoxanthine,HMDB00157,C00262,3127,M3127
+PreprocessedData_DLBCL.xlsx,putrescine,61,putrescine,putrescine,putrescine,HMDB01414,C00134,1408,M1408
+PreprocessedData_DLBCL.xlsx,ribitol,61,ribitol,ribitol,ribitol,HMDB00508,C00474,15772,M15772
+PreprocessedData_DLBCL.xlsx,riboflavin (Vitamin B2),27,riboflavin (Vitamin B2),riboflavin (Vitamin B2),riboflavin (Vitamin B2),HMDB00244,C00255,1827,M1827
+PreprocessedData_DLBCL.xlsx,ribulose/xylulose 5-phosphate,60,"Isobar: ribulose 5-phosphate, xylulose 5-phosphate","Isobar: ribulose 5-phosphate, xylulose 5-phosphate",ribulose/xylulose 5-phosphate,,C00199,37288,M37288
+PreprocessedData_DLBCL.xlsx,sedoheptulose-7-phosphate,19,sedoheptulose-7-phosphate,sedoheptulose-7-phosphate,sedoheptulose-7-phosphate,HMDB01068,C05382,35649,M35649
+PreprocessedData_DLBCL.xlsx,spermidine,62,spermidine,spermidine,spermidine,HMDB01257,C00315,485,M485
+PreprocessedData_DLBCL.xlsx,sphinganine,61,sphinganine,sphinganine,sphinganine,HMDB00269,C00836,17769,M17769
+PreprocessedData_DLBCL.xlsx,sphingosine,62,sphingosine,sphingosine,sphingosine,HMDB00252,C00319,17747,M17747
+PreprocessedData_DLBCL.xlsx,threonine,62,threonine,threonine,threonine,HMDB00167,C00188,1284,M1284
+PreprocessedData_DLBCL.xlsx,tyrosine,62,tyrosine,tyrosine,tyrosine,HMDB00158,C00082,1299,M1299
+PreprocessedData_DLBCL.xlsx,xylulose,51,xylulose,xylulose,xylulose,HMDB00654,C00310,18344,M18344
+PreprocessedData_GBM.xlsx,docosahexaenoate (DHA; 22:6n3),20,docosahexaenoic acid,docosahexaenoic acid,docosahexaenoate (DHA; 22:6n3),HMDB02183,C06429,19323,M19323
+PreprocessedData_GBM.xlsx,galactose,80,D (+) galactose,D (+) galactose,galactose,HMDB00143,C01662,12055,M12055
+PreprocessedData_GBM.xlsx,gluconate,80,D-gluconic acid,D-gluconic acid,gluconate,HMDB00625,C00257,587,M587
+PreprocessedData_GBM.xlsx,glycerol 3-phosphate (G3P),80,glycerol 3-phosphate,glycerol 3-phosphate,glycerol 3-phosphate (G3P),HMDB00126,C00093,15365,M15365
+PreprocessedData_GBM.xlsx,putrescine,80,putrescine,putrescine,putrescine,HMDB01414,C00134,1408,M1408
+PreprocessedData_GBM.xlsx,ribulose 5-phosphate,77,D-ribulose-5-phosphate,D-ribulose-5-phosphate,ribulose 5-phosphate,HMDB00618,C00199,1474,M1474
+PreprocessedData_GBM.xlsx,threonine,80,L-threonine,L-threonine,threonine,HMDB00167,C00188,1284,M1284
+PreprocessedData_GBM.xlsx,tyrosine,15,L-tyrosine,L-tyrosine,tyrosine,HMDB00158,C00082,1299,M1299
+PreprocessedData_HCC.xlsx,4-acetamidophenol,54,4-acetamidophenol,4-acetamidophenol,4-acetamidophenol,HMDB01859,C06804,12032,M12032
+PreprocessedData_HCC.xlsx,N(1)-acetylspermine,54,N(1)-acetylspermine,N(1)-acetylspermine,N(1)-acetylspermine,HMDB01186,C02567,32360,M32360
+PreprocessedData_HCC.xlsx,N-acetyl-glucosamine 1-phosphate,54,N-acetyl-glucosamine 1-phosphate,N-acetyl-glucosamine 1-phosphate,N-acetyl-glucosamine 1-phosphate,HMDB01367,C04256,15741,M15741
+PreprocessedData_HCC.xlsx,UDP-glucuronate,54,UDP-glucuronate,UDP-glucuronate,UDP-glucuronate,HMDB00935,C00167,2763,M2763
+PreprocessedData_HCC.xlsx,carnosine,54,carnosine,carnosine,carnosine,HMDB00033,C00386,1768,M1768
+PreprocessedData_HCC.xlsx,cystine,54,cystine,cystine,cystine,HMDB00192,C00491,39512,M39512
+PreprocessedData_HCC.xlsx,gluconate,54,gluconate,gluconate,gluconate,HMDB00625,C00257,587,M587
+PreprocessedData_HCC.xlsx,heme,54,heme,heme,heme,HMDB03178,C00032,41754,M41754
+PreprocessedData_HurthleCC.xlsx,1-methylimidazoleacetate,31,1-methyl-4-imidazoleacetate,1-methyl-4-imidazoleacetate,1-methylimidazoleacetate,HMDB02820,C05828,32350,M32350
+PreprocessedData_HurthleCC.xlsx,1-methylnicotinamide,31,1-methylnicotinamide,1-methylnicotinamide,1-methylnicotinamide,HMDB00699,C02918,27665,M27665
+PreprocessedData_HurthleCC.xlsx,2'-deoxyadenosine,18,2'-deoxyadenosine,2'-deoxyadenosine,2'-deoxyadenosine,HMDB00101,C00559,1553,M1553
+PreprocessedData_HurthleCC.xlsx,3-ureidoisobutyrate,13,3-ureidoisobutyrate,3-ureidoisobutyrate,3-ureidoisobutyrate,HMDB02031,C05100,57549,M57549
+PreprocessedData_HurthleCC.xlsx,4-acetamidophenol,6,4-acetamidophenol,4-acetamidophenol,4-acetamidophenol,HMDB01859,C06804,12032,M12032
+PreprocessedData_HurthleCC.xlsx,4-acetaminophen sulfate,8,4-acetaminophen sulfate,4-acetaminophen sulfate,4-acetaminophen sulfate,HMDB01859,C06804,37475,M37475
+PreprocessedData_HurthleCC.xlsx,"5,6-dihydrouracil",17,"5,6-dihydrouracil","5,6-dihydrouracil","5,6-dihydrouracil",HMDB00076,C00429,1559,M1559
+PreprocessedData_HurthleCC.xlsx,N(1)-acetylspermine,8,N(1)-acetylspermine,N(1)-acetylspermine,N(1)-acetylspermine,HMDB01186,C02567,32360,M32360
+PreprocessedData_HurthleCC.xlsx,N-6-trimethyllysine,31,"N6,N6,N6-trimethyllysine","N6,N6,N6-trimethyllysine",N-6-trimethyllysine,HMDB01325,C03793,1498,M1498
+PreprocessedData_HurthleCC.xlsx,N-acetyl-glucosamine 1-phosphate,28,N-acetyl-glucosamine 1-phosphate,N-acetyl-glucosamine 1-phosphate,N-acetyl-glucosamine 1-phosphate,HMDB01367,C04256,15741,M15741
+PreprocessedData_HurthleCC.xlsx,"N1,N12-diacetylspermine",8,"N1,N12-diacetylspermine","N1,N12-diacetylspermine","N1,N12-diacetylspermine",HMDB02172,C03413,52987,M52987
+PreprocessedData_HurthleCC.xlsx,acetylcarnitine,31,acetylcarnitine (C2),acetylcarnitine (C2),acetylcarnitine,HMDB00201,C02571,32198,M32198
+PreprocessedData_HurthleCC.xlsx,androsterone sulfate,24,androsterone sulfate,androsterone sulfate,androsterone sulfate,HMDB02759,C00523,31591,M31591
+PreprocessedData_HurthleCC.xlsx,argininosuccinate,24,argininosuccinate,argininosuccinate,argininosuccinate,HMDB00052,C03406,15497,M15497
+PreprocessedData_HurthleCC.xlsx,ascorbate (Vitamin C),29,ascorbate (Vitamin C),ascorbate (Vitamin C),ascorbate (Vitamin C),HMDB00044,C00072,1640,M1640
+PreprocessedData_HurthleCC.xlsx,betaine aldehyde,27,betaine aldehyde,betaine aldehyde,betaine aldehyde,HMDB01252,C00576,15499,M15499
+PreprocessedData_HurthleCC.xlsx,carnosine,28,carnosine,carnosine,carnosine,HMDB00033,C00386,1768,M1768
+PreprocessedData_HurthleCC.xlsx,cystine,31,cystine,cystine,cystine,HMDB00192,C00491,39512,M39512
+PreprocessedData_HurthleCC.xlsx,docosahexaenoate (DHA; 22:6n3),31,docosahexaenoate (DHA; 22:6n3),docosahexaenoate (DHA; 22:6n3),docosahexaenoate (DHA; 22:6n3),HMDB02183,C06429,19323,M19323
+PreprocessedData_HurthleCC.xlsx,gluconate,31,gluconate,gluconate,gluconate,HMDB00625,C00257,587,M587
+PreprocessedData_HurthleCC.xlsx,"glutathione, oxidized (GSSG)",22,"glutathione, oxidized (GSSG)","glutathione, oxidized (GSSG)","glutathione, oxidized (GSSG)",HMDB03337,C00127,27727,M27727
+PreprocessedData_HurthleCC.xlsx,glycerol 3-phosphate (G3P),29,glycerol 3-phosphate,glycerol 3-phosphate,glycerol 3-phosphate (G3P),HMDB00126,C00093,15365,M15365
+PreprocessedData_HurthleCC.xlsx,heme,31,heme,heme,heme,HMDB03178,C00032,41754,M41754
+PreprocessedData_HurthleCC.xlsx,histidine,31,histidine,histidine,histidine,HMDB00177,C00135,59,M59
+PreprocessedData_HurthleCC.xlsx,hypoxanthine,31,hypoxanthine,hypoxanthine,hypoxanthine,HMDB00157,C00262,3127,M3127
+PreprocessedData_HurthleCC.xlsx,malonylcarnitine,31,malonylcarnitine,malonylcarnitine,malonylcarnitine,HMDB02095,,37059,M37059
+PreprocessedData_HurthleCC.xlsx,pyridoxate,19,pyridoxate,pyridoxate,pyridoxate,HMDB00017,C00847,31555,M31555
+PreprocessedData_HurthleCC.xlsx,ribitol,28,ribitol,ribitol,ribitol,HMDB00508,C00474,15772,M15772
+PreprocessedData_HurthleCC.xlsx,riboflavin (Vitamin B2),31,riboflavin (Vitamin B2),riboflavin (Vitamin B2),riboflavin (Vitamin B2),HMDB00244,C00255,1827,M1827
+PreprocessedData_HurthleCC.xlsx,sedoheptulose-7-phosphate,31,sedoheptulose-7-phosphate,sedoheptulose-7-phosphate,sedoheptulose-7-phosphate,HMDB01068,C05382,35649,M35649
+PreprocessedData_HurthleCC.xlsx,spermidine,31,spermidine,spermidine,spermidine,HMDB01257,C00315,485,M485
+PreprocessedData_HurthleCC.xlsx,sphinganine,31,sphinganine,sphinganine,sphinganine,HMDB00269,C00836,17769,M17769
+PreprocessedData_HurthleCC.xlsx,sphingosine,31,sphingosine,sphingosine,sphingosine,HMDB00252,C00319,17747,M17747
+PreprocessedData_HurthleCC.xlsx,threonine,31,threonine,threonine,threonine,HMDB00167,C00188,1284,M1284
+PreprocessedData_HurthleCC.xlsx,tyrosine,31,tyrosine,tyrosine,tyrosine,HMDB00158,C00082,1299,M1299
+PreprocessedData_ICC.xlsx,4-acetamidophenol,86,4-acetamidophenol,4-acetamidophenol,4-acetamidophenol,HMDB01859,C06804,12032,M12032
+PreprocessedData_ICC.xlsx,N(1)-acetylspermine,86,N(1)-acetylspermine,N(1)-acetylspermine,N(1)-acetylspermine,HMDB01186,C02567,32360,M32360
+PreprocessedData_ICC.xlsx,N-acetyl-glucosamine 1-phosphate,86,N-acetyl-glucosamine 1-phosphate,N-acetyl-glucosamine 1-phosphate,N-acetyl-glucosamine 1-phosphate,HMDB01367,C04256,15741,M15741
+PreprocessedData_ICC.xlsx,UDP-glucuronate,86,UDP-glucuronate,UDP-glucuronate,UDP-glucuronate,HMDB00935,C00167,2763,M2763
+PreprocessedData_ICC.xlsx,carnosine,86,carnosine,carnosine,carnosine,HMDB00033,C00386,1768,M1768
+PreprocessedData_ICC.xlsx,cystine,86,cystine,cystine,cystine,HMDB00192,C00491,39512,M39512
+PreprocessedData_ICC.xlsx,gluconate,86,gluconate,gluconate,gluconate,HMDB00625,C00257,587,M587
+PreprocessedData_ICC.xlsx,heme,86,heme,heme,heme,HMDB03178,C00032,41754,M41754
+PreprocessedData_PDAC.xlsx,1-methylimidazoleacetate,18,1-methylimidazoleacetate,1-methylimidazoleacetate,1-methylimidazoleacetate,HMDB02820,C05828,32350,M32350
+PreprocessedData_PDAC.xlsx,4-acetamidophenol,4,4-acetamidophenol,4-acetamidophenol,4-acetamidophenol,HMDB01859,C06804,12032,M12032
+PreprocessedData_PDAC.xlsx,4-acetaminophen sulfate,4,4-acetaminophen sulfate,4-acetaminophen sulfate,4-acetaminophen sulfate,HMDB01859,C06804,37475,M37475
+PreprocessedData_PDAC.xlsx,"5,6-dihydrouracil",38,"5,6-dihydrouracil","5,6-dihydrouracil","5,6-dihydrouracil",HMDB00076,C00429,1559,M1559
+PreprocessedData_PDAC.xlsx,N(1)-acetylspermine,1,N(1)-acetylspermine,N(1)-acetylspermine,N(1)-acetylspermine,HMDB01186,C02567,32360,M32360
+PreprocessedData_PDAC.xlsx,acetylcarnitine,39,acetylcarnitine,acetylcarnitine,acetylcarnitine,HMDB00201,C02571,32198,M32198
+PreprocessedData_PDAC.xlsx,argininosuccinate,6,argininosuccinate,argininosuccinate,argininosuccinate,HMDB00052,C03406,15497,M15497
+PreprocessedData_PDAC.xlsx,ascorbate (Vitamin C),37,ascorbate (Vitamin C),ascorbate (Vitamin C),ascorbate (Vitamin C),HMDB00044,C00072,1640,M1640
+PreprocessedData_PDAC.xlsx,cortisol,22,cortisol,cortisol,cortisol,HMDB00063,C00735,1712,M1712
+PreprocessedData_PDAC.xlsx,cystine,38,cystine,cystine,cystine,HMDB00192,C00491,39512,M39512
+PreprocessedData_PDAC.xlsx,docosahexaenoate (DHA; 22:6n3),39,docosahexaenoate (DHA; 22:6n3),docosahexaenoate (DHA; 22:6n3),docosahexaenoate (DHA; 22:6n3),HMDB02183,C06429,19323,M19323
+PreprocessedData_PDAC.xlsx,galactose,33,galactose,galactose,galactose,HMDB00143,C01662,12055,M12055
+PreprocessedData_PDAC.xlsx,gluconate,34,gluconate,gluconate,gluconate,HMDB00625,C00257,587,M587
+PreprocessedData_PDAC.xlsx,"glutathione, oxidized (GSSG)",9,"glutathione, oxidized (GSSG)","glutathione, oxidized (GSSG)","glutathione, oxidized (GSSG)",HMDB03337,C00127,27727,M27727
+PreprocessedData_PDAC.xlsx,glycerol 3-phosphate (G3P),39,glycerol 3-phosphate (G3P),glycerol 3-phosphate (G3P),glycerol 3-phosphate (G3P),HMDB00126,C00093,15365,M15365
+PreprocessedData_PDAC.xlsx,heme,35,heme*,heme*,heme,HMDB03178,C00032,41754,M41754
+PreprocessedData_PDAC.xlsx,histidine,39,histidine,histidine,histidine,HMDB00177,C00135,59,M59
+PreprocessedData_PDAC.xlsx,hypoxanthine,39,hypoxanthine,hypoxanthine,hypoxanthine,HMDB00157,C00262,3127,M3127
+PreprocessedData_PDAC.xlsx,phenylacetylglycine,12,phenylacetylglycine,phenylacetylglycine,phenylacetylglycine,HMDB00821,C05598,33945,M33945
+PreprocessedData_PDAC.xlsx,prostaglandin E2,12,prostaglandin E2,prostaglandin E2,prostaglandin E2,HMDB01220,C00584,7746,M7746
+PreprocessedData_PDAC.xlsx,putrescine,34,putrescine,putrescine,putrescine,HMDB01414,C00134,1408,M1408
+PreprocessedData_PDAC.xlsx,pyridoxate,4,pyridoxate,pyridoxate,pyridoxate,HMDB00017,C00847,31555,M31555
+PreprocessedData_PDAC.xlsx,riboflavin (Vitamin B2),29,riboflavin (Vitamin B2),riboflavin (Vitamin B2),riboflavin (Vitamin B2),HMDB00244,C00255,1827,M1827
+PreprocessedData_PDAC.xlsx,ribulose/xylulose 5-phosphate,33,"Isobar: ribulose 5-phosphate, xylulose 5-phosphate","Isobar: ribulose 5-phosphate, xylulose 5-phosphate",ribulose/xylulose 5-phosphate,,C00199,37288,M37288
+PreprocessedData_PDAC.xlsx,spermidine,39,spermidine,spermidine,spermidine,HMDB01257,C00315,485,M485
+PreprocessedData_PDAC.xlsx,sphinganine,19,sphinganine,sphinganine,sphinganine,HMDB00269,C00836,17769,M17769
+PreprocessedData_PDAC.xlsx,sphingosine,24,sphingosine,sphingosine,sphingosine,HMDB00252,C00319,17747,M17747
+PreprocessedData_PDAC.xlsx,threonine,39,threonine,threonine,threonine,HMDB00167,C00188,1284,M1284
+PreprocessedData_PDAC.xlsx,tyrosine,39,tyrosine,tyrosine,tyrosine,HMDB00158,C00082,1299,M1299
+PreprocessedData_PRAD.xlsx,4-acetamidophenol,3,4-acetamidophenol,4-acetamidophenol,4-acetamidophenol,HMDB01859,C06804,12032,M12032
+PreprocessedData_PRAD.xlsx,4-acetaminophen sulfate,11,4-acetaminophen sulfate,4-acetaminophen sulfate,4-acetaminophen sulfate,HMDB01859,C06804,37475,M37475
+PreprocessedData_PRAD.xlsx,"5,6-dihydrouracil",123,"5,6-dihydrouracil","5,6-dihydrouracil","5,6-dihydrouracil",HMDB00076,C00429,1559,M1559
+PreprocessedData_PRAD.xlsx,acetylcarnitine,137,acetylcarnitine,acetylcarnitine,acetylcarnitine,HMDB00201,C02571,32198,M32198
+PreprocessedData_PRAD.xlsx,agmatine,125,agmatine,agmatine,agmatine,HMDB01432,C00179,15496,M15496
+PreprocessedData_PRAD.xlsx,androsterone sulfate,98,androsterone sulfate,androsterone sulfate,androsterone sulfate,HMDB02759,C00523,31591,M31591
+PreprocessedData_PRAD.xlsx,ascorbate (Vitamin C),137,ascorbate (Vitamin C),ascorbate (Vitamin C),ascorbate (Vitamin C),HMDB00044,C00072,1640,M1640
+PreprocessedData_PRAD.xlsx,carnosine,65,carnosine,carnosine,carnosine,HMDB00033,C00386,1768,M1768
+PreprocessedData_PRAD.xlsx,cystine,70,cystine,cystine,cystine,HMDB00192,C00491,39512,M39512
+PreprocessedData_PRAD.xlsx,docosahexaenoate (DHA; 22:6n3),137,docosahexaenoate (DHA; 22:6n3),docosahexaenoate (DHA; 22:6n3),docosahexaenoate (DHA; 22:6n3),HMDB02183,C06429,19323,M19323
+PreprocessedData_PRAD.xlsx,galactose,48,galactose,galactose,galactose,HMDB00143,C01662,12055,M12055
+PreprocessedData_PRAD.xlsx,gluconate,135,gluconate,gluconate,gluconate,HMDB00625,C00257,587,M587
+PreprocessedData_PRAD.xlsx,"glutathione, oxidized (GSSG)",137,"glutathione, oxidized (GSSG)","glutathione, oxidized (GSSG)","glutathione, oxidized (GSSG)",HMDB03337,C00127,27727,M27727
+PreprocessedData_PRAD.xlsx,glycerol 3-phosphate (G3P),137,glycerol 3-phosphate (G3P),glycerol 3-phosphate (G3P),glycerol 3-phosphate (G3P),HMDB00126,C00093,15365,M15365
+PreprocessedData_PRAD.xlsx,heme,23,heme*,heme*,heme,HMDB03178,C00032,41754,M41754
+PreprocessedData_PRAD.xlsx,histidine,137,histidine,histidine,histidine,HMDB00177,C00135,59,M59
+PreprocessedData_PRAD.xlsx,homocarnosine,37,homocarnosine,homocarnosine,homocarnosine,HMDB00745,C00884,1633,M1633
+PreprocessedData_PRAD.xlsx,hypoxanthine,137,hypoxanthine,hypoxanthine,hypoxanthine,HMDB00157,C00262,3127,M3127
+PreprocessedData_PRAD.xlsx,isovalerylglycine,8,isovalerylglycine,isovalerylglycine,isovalerylglycine,HMDB00678,,35107,M35107
+PreprocessedData_PRAD.xlsx,phenylacetylglycine,0,phenylacetylglycine,phenylacetylglycine,phenylacetylglycine,HMDB00821,C05598,33945,M33945
+PreprocessedData_PRAD.xlsx,putrescine,136,putrescine,putrescine,putrescine,HMDB01414,C00134,1408,M1408
+PreprocessedData_PRAD.xlsx,pyridoxate,52,pyridoxate,pyridoxate,pyridoxate,HMDB00017,C00847,31555,M31555
+PreprocessedData_PRAD.xlsx,ribitol,118,ribitol,ribitol,ribitol,HMDB00508,C00474,15772,M15772
+PreprocessedData_PRAD.xlsx,riboflavin (Vitamin B2),4,riboflavin (Vitamin B2),riboflavin (Vitamin B2),riboflavin (Vitamin B2),HMDB00244,C00255,1827,M1827
+PreprocessedData_PRAD.xlsx,ribulose/xylulose 5-phosphate,15,"Isobar: ribulose 5-phosphate, xylulose 5-phosphate","Isobar: ribulose 5-phosphate, xylulose 5-phosphate",ribulose/xylulose 5-phosphate,,C00199,37288,M37288
+PreprocessedData_PRAD.xlsx,spermidine,137,spermidine,spermidine,spermidine,HMDB01257,C00315,485,M485
+PreprocessedData_PRAD.xlsx,sphinganine,24,sphinganine,sphinganine,sphinganine,HMDB00269,C00836,17769,M17769
+PreprocessedData_PRAD.xlsx,sphingosine,122,sphingosine,sphingosine,sphingosine,HMDB00252,C00319,17747,M17747
+PreprocessedData_PRAD.xlsx,threonine,137,threonine,threonine,threonine,HMDB00167,C00188,1284,M1284
+PreprocessedData_PRAD.xlsx,tyrosine,137,tyrosine,tyrosine,tyrosine,HMDB00158,C00082,1299,M1299
+PreprocessedData_PRAD.xlsx,xylulose,58,xylulose,xylulose,xylulose,HMDB00654,C00310,18344,M18344
+PreprocessedData_ccRCC1.xlsx,1-methylimidazoleacetate,29,1-methylimidazoleacetate,1-methylimidazoleacetate,1-methylimidazoleacetate,HMDB02820,C05828,32350,M32350
+PreprocessedData_ccRCC1.xlsx,4-acetamidophenol,1,4-acetamidophenol,4-acetamidophenol,4-acetamidophenol,HMDB01859,C06804,12032,M12032
+PreprocessedData_ccRCC1.xlsx,4-acetaminophen sulfate,1,4-acetaminophen sulfate,4-acetaminophen sulfate,4-acetaminophen sulfate,HMDB01859,C06804,37475,M37475
+PreprocessedData_ccRCC1.xlsx,"5,6-dihydrouracil",30,"5,6-dihydrouracil","5,6-dihydrouracil","5,6-dihydrouracil",HMDB00076,C00429,1559,M1559
+PreprocessedData_ccRCC1.xlsx,N-6-trimethyllysine,32,N-6-trimethyllysine,N-6-trimethyllysine,N-6-trimethyllysine,HMDB01325,C03793,1498,M1498
+PreprocessedData_ccRCC1.xlsx,acetylcarnitine,32,acetylcarnitine,acetylcarnitine,acetylcarnitine,HMDB00201,C02571,32198,M32198
+PreprocessedData_ccRCC1.xlsx,agmatine,32,agmatine,agmatine,agmatine,HMDB01432,C00179,15496,M15496
+PreprocessedData_ccRCC1.xlsx,androsterone sulfate,20,androsterone sulfate,androsterone sulfate,androsterone sulfate,HMDB02759,C00523,31591,M31591
+PreprocessedData_ccRCC1.xlsx,argininosuccinate,18,argininosuccinate,argininosuccinate,argininosuccinate,HMDB00052,C03406,15497,M15497
+PreprocessedData_ccRCC1.xlsx,ascorbate (Vitamin C),32,ascorbate (Vitamin C),ascorbate (Vitamin C),ascorbate (Vitamin C),HMDB00044,C00072,1640,M1640
+PreprocessedData_ccRCC1.xlsx,cortisol,1,cortisol,cortisol,cortisol,HMDB00063,C00735,1712,M1712
+PreprocessedData_ccRCC1.xlsx,cystine,31,cystine,cystine,cystine,HMDB00192,C00491,39512,M39512
+PreprocessedData_ccRCC1.xlsx,docosahexaenoate (DHA; 22:6n3),32,docosahexaenoate (DHA; 22:6n3),docosahexaenoate (DHA; 22:6n3),docosahexaenoate (DHA; 22:6n3),HMDB02183,C06429,19323,M19323
+PreprocessedData_ccRCC1.xlsx,galactose,25,galactose,galactose,galactose,HMDB00143,C01662,12055,M12055
+PreprocessedData_ccRCC1.xlsx,gluconate,32,gluconate,gluconate,gluconate,HMDB00625,C00257,587,M587
+PreprocessedData_ccRCC1.xlsx,"glutathione, oxidized (GSSG)",11,"glutathione, oxidized (GSSG)","glutathione, oxidized (GSSG)","glutathione, oxidized (GSSG)",HMDB03337,C00127,27727,M27727
+PreprocessedData_ccRCC1.xlsx,glycerol 3-phosphate (G3P),32,glycerol 3-phosphate (G3P),glycerol 3-phosphate (G3P),glycerol 3-phosphate (G3P),HMDB00126,C00093,15365,M15365
+PreprocessedData_ccRCC1.xlsx,heme,18,heme,heme,heme,HMDB03178,C00032,41754,M41754
+PreprocessedData_ccRCC1.xlsx,histidine,32,histidine,histidine,histidine,HMDB00177,C00135,59,M59
+PreprocessedData_ccRCC1.xlsx,hypoxanthine,32,hypoxanthine,hypoxanthine,hypoxanthine,HMDB00157,C00262,3127,M3127
+PreprocessedData_ccRCC1.xlsx,malonylcarnitine,30,malonylcarnitine,malonylcarnitine,malonylcarnitine,HMDB02095,,37059,M37059
+PreprocessedData_ccRCC1.xlsx,prostaglandin E2,3,prostaglandin E2,prostaglandin E2,prostaglandin E2,HMDB01220,C00584,7746,M7746
+PreprocessedData_ccRCC1.xlsx,putrescine,31,putrescine,putrescine,putrescine,HMDB01414,C00134,1408,M1408
+PreprocessedData_ccRCC1.xlsx,pyridoxate,9,pyridoxate,pyridoxate,pyridoxate,HMDB00017,C00847,31555,M31555
+PreprocessedData_ccRCC1.xlsx,ribitol,32,ribitol,ribitol,ribitol,HMDB00508,C00474,15772,M15772
+PreprocessedData_ccRCC1.xlsx,riboflavin (Vitamin B2),29,riboflavin (Vitamin B2),riboflavin (Vitamin B2),riboflavin (Vitamin B2),HMDB00244,C00255,1827,M1827
+PreprocessedData_ccRCC1.xlsx,ribulose/xylulose 5-phosphate,32,"Isobar: ribulose 5-phosphate, xylulose 5-phosphate","Isobar: ribulose 5-phosphate, xylulose 5-phosphate",ribulose/xylulose 5-phosphate,,C00199,37288,M37288
+PreprocessedData_ccRCC1.xlsx,sedoheptulose-7-phosphate,32,sedoheptulose-7-phosphate,sedoheptulose-7-phosphate,sedoheptulose-7-phosphate,HMDB01068,C05382,35649,M35649
+PreprocessedData_ccRCC1.xlsx,spermidine,32,spermidine,spermidine,spermidine,HMDB01257,C00315,485,M485
+PreprocessedData_ccRCC1.xlsx,sphinganine,14,sphinganine,sphinganine,sphinganine,HMDB00269,C00836,17769,M17769
+PreprocessedData_ccRCC1.xlsx,sphingosine,30,sphingosine,sphingosine,sphingosine,HMDB00252,C00319,17747,M17747
+PreprocessedData_ccRCC1.xlsx,testosterone,26,testosterone,testosterone,testosterone,HMDB00234,C00535,19464,M19464
+PreprocessedData_ccRCC1.xlsx,threonine,32,threonine,threonine,threonine,HMDB00167,C00188,1284,M1284
+PreprocessedData_ccRCC1.xlsx,tyrosine,32,tyrosine,tyrosine,tyrosine,HMDB00158,C00082,1299,M1299
+PreprocessedData_ccRCC1.xlsx,xylulose,32,xylulose,xylulose,xylulose,HMDB00654,C00310,18344,M18344
+PreprocessedData_ccRCC2.xlsx,1-methylimidazoleacetate,30,1-methyl-4-imidazoleacetate,1-methyl-4-imidazoleacetate,1-methylimidazoleacetate,HMDB02820,C05828,32350,M32350
+PreprocessedData_ccRCC2.xlsx,1-methylnicotinamide,30,1-methylnicotinamide,1-methylnicotinamide,1-methylnicotinamide,HMDB00699,C02918,27665,M27665
+PreprocessedData_ccRCC2.xlsx,4-acetamidophenol,29,4-acetamidophenol,4-acetamidophenol,4-acetamidophenol,HMDB01859,C06804,12032,M12032
+PreprocessedData_ccRCC2.xlsx,4-acetaminophen sulfate,29,4-acetaminophen sulfate,4-acetaminophen sulfate,4-acetaminophen sulfate,HMDB01859,C06804,37475,M37475
+PreprocessedData_ccRCC2.xlsx,N(1)-acetylspermine,11,N(1)-acetylspermine,N(1)-acetylspermine,N(1)-acetylspermine,HMDB01186,C02567,32360,M32360
+PreprocessedData_ccRCC2.xlsx,N-6-trimethyllysine,30,"N6,N6,N6-trimethyllysine","N6,N6,N6-trimethyllysine",N-6-trimethyllysine,HMDB01325,C03793,1498,M1498
+PreprocessedData_ccRCC2.xlsx,N-acetyl-glucosamine 1-phosphate,27,N-acetyl-glucosamine 1-phosphate,N-acetyl-glucosamine 1-phosphate,N-acetyl-glucosamine 1-phosphate,HMDB01367,C04256,15741,M15741
+PreprocessedData_ccRCC2.xlsx,"N1,N12-diacetylspermine",11,"N1,N12-diacetylspermine","N1,N12-diacetylspermine","N1,N12-diacetylspermine",HMDB02172,C03413,52987,M52987
+PreprocessedData_ccRCC2.xlsx,acetylcarnitine,30,acetylcarnitine (C2),acetylcarnitine (C2),acetylcarnitine,HMDB00201,C02571,32198,M32198
+PreprocessedData_ccRCC2.xlsx,androsterone sulfate,25,androsterone sulfate,androsterone sulfate,androsterone sulfate,HMDB02759,C00523,31591,M31591
+PreprocessedData_ccRCC2.xlsx,argininosuccinate,21,argininosuccinate,argininosuccinate,argininosuccinate,HMDB00052,C03406,15497,M15497
+PreprocessedData_ccRCC2.xlsx,ascorbate (Vitamin C),20,ascorbate (Vitamin C),ascorbate (Vitamin C),ascorbate (Vitamin C),HMDB00044,C00072,1640,M1640
+PreprocessedData_ccRCC2.xlsx,carnosine,15,carnosine,carnosine,carnosine,HMDB00033,C00386,1768,M1768
+PreprocessedData_ccRCC2.xlsx,cortisol,5,cortisol,cortisol,cortisol,HMDB00063,C00735,1712,M1712
+PreprocessedData_ccRCC2.xlsx,creatine phosphate,13,creatine phosphate,creatine phosphate,creatine phosphate,HMDB01511,C02305,33951,M33951
+PreprocessedData_ccRCC2.xlsx,cystine,28,cystine,cystine,cystine,HMDB00192,C00491,39512,M39512
+PreprocessedData_ccRCC2.xlsx,docosahexaenoate (DHA; 22:6n3),30,docosahexaenoate (DHA; 22:6n3),docosahexaenoate (DHA; 22:6n3),docosahexaenoate (DHA; 22:6n3),HMDB02183,C06429,19323,M19323
+PreprocessedData_ccRCC2.xlsx,gluconate,30,gluconate,gluconate,gluconate,HMDB00625,C00257,587,M587
+PreprocessedData_ccRCC2.xlsx,"glutathione, oxidized (GSSG)",13,"glutathione, oxidized (GSSG)","glutathione, oxidized (GSSG)","glutathione, oxidized (GSSG)",HMDB03337,C00127,27727,M27727
+PreprocessedData_ccRCC2.xlsx,glycerol 3-phosphate (G3P),30,glycerol 3-phosphate,glycerol 3-phosphate,glycerol 3-phosphate (G3P),HMDB00126,C00093,15365,M15365
+PreprocessedData_ccRCC2.xlsx,heme,26,heme,heme,heme,HMDB03178,C00032,41754,M41754
+PreprocessedData_ccRCC2.xlsx,histidine,30,histidine,histidine,histidine,HMDB00177,C00135,59,M59
+PreprocessedData_ccRCC2.xlsx,hypoxanthine,30,hypoxanthine,hypoxanthine,hypoxanthine,HMDB00157,C00262,3127,M3127
+PreprocessedData_ccRCC2.xlsx,malonylcarnitine,29,malonylcarnitine,malonylcarnitine,malonylcarnitine,HMDB02095,,37059,M37059
+PreprocessedData_ccRCC2.xlsx,pantetheine,10,pantetheine,pantetheine,pantetheine,,C00831,57555,M57555
+PreprocessedData_ccRCC2.xlsx,pyridoxate,14,pyridoxate,pyridoxate,pyridoxate,HMDB00017,C00847,31555,M31555
+PreprocessedData_ccRCC2.xlsx,ribitol,30,ribitol,ribitol,ribitol,HMDB00508,C00474,15772,M15772
+PreprocessedData_ccRCC2.xlsx,riboflavin (Vitamin B2),26,riboflavin (Vitamin B2),riboflavin (Vitamin B2),riboflavin (Vitamin B2),HMDB00244,C00255,1827,M1827
+PreprocessedData_ccRCC2.xlsx,ribulose 5-phosphate,17,ribulose 5-phosphate,ribulose 5-phosphate,ribulose 5-phosphate,HMDB00618,C00199,1474,M1474
+PreprocessedData_ccRCC2.xlsx,sedoheptulose-7-phosphate,30,sedoheptulose-7-phosphate,sedoheptulose-7-phosphate,sedoheptulose-7-phosphate,HMDB01068,C05382,35649,M35649
+PreprocessedData_ccRCC2.xlsx,spermidine,30,spermidine,spermidine,spermidine,HMDB01257,C00315,485,M485
+PreprocessedData_ccRCC2.xlsx,sphinganine,30,sphinganine,sphinganine,sphinganine,HMDB00269,C00836,17769,M17769
+PreprocessedData_ccRCC2.xlsx,sphingosine,30,sphingosine,sphingosine,sphingosine,HMDB00252,C00319,17747,M17747
+PreprocessedData_ccRCC2.xlsx,threonine,30,threonine,threonine,threonine,HMDB00167,C00188,1284,M1284
+PreprocessedData_ccRCC2.xlsx,tyrosine,30,tyrosine,tyrosine,tyrosine,HMDB00158,C00082,1299,M1299
+PreprocessedData_ccRCC3.xlsx,1-methylimidazoleacetate,114,1-methyl-4-imidazoleacetate,1-methyl-4-imidazoleacetate,1-methylimidazoleacetate,HMDB02820,C05828,32350,M32350
+PreprocessedData_ccRCC3.xlsx,1-methylnicotinamide,114,1-methylnicotinamide,1-methylnicotinamide,1-methylnicotinamide,HMDB00699,C02918,27665,M27665
+PreprocessedData_ccRCC3.xlsx,4-acetamidophenol,100,4-acetamidophenol,4-acetamidophenol,4-acetamidophenol,HMDB01859,C06804,12032,M12032
+PreprocessedData_ccRCC3.xlsx,4-acetaminophen sulfate,96,4-acetaminophen sulfate,4-acetaminophen sulfate,4-acetaminophen sulfate,HMDB01859,C06804,37475,M37475
+PreprocessedData_ccRCC3.xlsx,N(1)-acetylspermine,5,N(1)-acetylspermine,N(1)-acetylspermine,N(1)-acetylspermine,HMDB01186,C02567,32360,M32360
+PreprocessedData_ccRCC3.xlsx,N-6-trimethyllysine,114,"N6,N6,N6-trimethyllysine","N6,N6,N6-trimethyllysine",N-6-trimethyllysine,HMDB01325,C03793,1498,M1498
+PreprocessedData_ccRCC3.xlsx,N-acetyl-glucosamine 1-phosphate,110,N-acetyl-glucosamine 1-phosphate,N-acetyl-glucosamine 1-phosphate,N-acetyl-glucosamine 1-phosphate,HMDB01367,C04256,15741,M15741
+PreprocessedData_ccRCC3.xlsx,"N1,N12-diacetylspermine",14,"N1,N12-diacetylspermine","N1,N12-diacetylspermine","N1,N12-diacetylspermine",HMDB02172,C03413,52987,M52987
+PreprocessedData_ccRCC3.xlsx,acetylcarnitine,114,acetylcarnitine (C2),acetylcarnitine (C2),acetylcarnitine,HMDB00201,C02571,32198,M32198
+PreprocessedData_ccRCC3.xlsx,androsterone sulfate,111,androsterone sulfate,androsterone sulfate,androsterone sulfate,HMDB02759,C00523,31591,M31591
+PreprocessedData_ccRCC3.xlsx,argininosuccinate,105,argininosuccinate,argininosuccinate,argininosuccinate,HMDB00052,C03406,15497,M15497
+PreprocessedData_ccRCC3.xlsx,ascorbate (Vitamin C),85,ascorbate (Vitamin C),ascorbate (Vitamin C),ascorbate (Vitamin C),HMDB00044,C00072,1640,M1640
+PreprocessedData_ccRCC3.xlsx,carnosine,78,carnosine,carnosine,carnosine,HMDB00033,C00386,1768,M1768
+PreprocessedData_ccRCC3.xlsx,cortisol,24,cortisol,cortisol,cortisol,HMDB00063,C00735,1712,M1712
+PreprocessedData_ccRCC3.xlsx,creatine phosphate,37,creatine phosphate,creatine phosphate,creatine phosphate,HMDB01511,C02305,33951,M33951
+PreprocessedData_ccRCC3.xlsx,cystine,114,cystine,cystine,cystine,HMDB00192,C00491,39512,M39512
+PreprocessedData_ccRCC3.xlsx,docosahexaenoate (DHA; 22:6n3),114,docosahexaenoate (DHA; 22:6n3),docosahexaenoate (DHA; 22:6n3),docosahexaenoate (DHA; 22:6n3),HMDB02183,C06429,19323,M19323
+PreprocessedData_ccRCC3.xlsx,gluconate,114,gluconate,gluconate,gluconate,HMDB00625,C00257,587,M587
+PreprocessedData_ccRCC3.xlsx,"glutathione, oxidized (GSSG)",19,"glutathione, oxidized (GSSG)","glutathione, oxidized (GSSG)","glutathione, oxidized (GSSG)",HMDB03337,C00127,27727,M27727
+PreprocessedData_ccRCC3.xlsx,glycerol 3-phosphate (G3P),114,glycerol 3-phosphate,glycerol 3-phosphate,glycerol 3-phosphate (G3P),HMDB00126,C00093,15365,M15365
+PreprocessedData_ccRCC3.xlsx,heme,100,heme,heme,heme,HMDB03178,C00032,41754,M41754
+PreprocessedData_ccRCC3.xlsx,histidine,114,histidine,histidine,histidine,HMDB00177,C00135,59,M59
+PreprocessedData_ccRCC3.xlsx,hypoxanthine,114,hypoxanthine,hypoxanthine,hypoxanthine,HMDB00157,C00262,3127,M3127
+PreprocessedData_ccRCC3.xlsx,malonylcarnitine,113,malonylcarnitine,malonylcarnitine,malonylcarnitine,HMDB02095,,37059,M37059
+PreprocessedData_ccRCC3.xlsx,pantetheine,50,pantetheine,pantetheine,pantetheine,,C00831,57555,M57555
+PreprocessedData_ccRCC3.xlsx,pyridoxate,87,pyridoxate,pyridoxate,pyridoxate,HMDB00017,C00847,31555,M31555
+PreprocessedData_ccRCC3.xlsx,ribitol,112,ribitol,ribitol,ribitol,HMDB00508,C00474,15772,M15772
+PreprocessedData_ccRCC3.xlsx,riboflavin (Vitamin B2),113,riboflavin (Vitamin B2),riboflavin (Vitamin B2),riboflavin (Vitamin B2),HMDB00244,C00255,1827,M1827
+PreprocessedData_ccRCC3.xlsx,ribulose 5-phosphate,75,ribulose 5-phosphate,ribulose 5-phosphate,ribulose 5-phosphate,HMDB00618,C00199,1474,M1474
+PreprocessedData_ccRCC3.xlsx,sedoheptulose-7-phosphate,113,sedoheptulose-7-phosphate,sedoheptulose-7-phosphate,sedoheptulose-7-phosphate,HMDB01068,C05382,35649,M35649
+PreprocessedData_ccRCC3.xlsx,spermidine,113,spermidine,spermidine,spermidine,HMDB01257,C00315,485,M485
+PreprocessedData_ccRCC3.xlsx,sphinganine,114,sphinganine,sphinganine,sphinganine,HMDB00269,C00836,17769,M17769
+PreprocessedData_ccRCC3.xlsx,sphingosine,114,sphingosine,sphingosine,sphingosine,HMDB00252,C00319,17747,M17747
+PreprocessedData_ccRCC3.xlsx,threonine,114,threonine,threonine,threonine,HMDB00167,C00188,1284,M1284
+PreprocessedData_ccRCC3.xlsx,tyrosine,114,tyrosine,tyrosine,tyrosine,HMDB00158,C00082,1299,M1299
+PreprocessedData_ccRCC4.xlsx,1-methylimidazoleacetate,76,1-methyl-4-imidazoleacetate,1-methyl-4-imidazoleacetate,1-methylimidazoleacetate,HMDB02820,C05828,32350,M32350
+PreprocessedData_ccRCC4.xlsx,1-methylnicotinamide,76,1-methylnicotinamide,1-methylnicotinamide,1-methylnicotinamide,HMDB00699,C02918,27665,M27665
+PreprocessedData_ccRCC4.xlsx,"2,3-diphosphoglycerate",48,"2,3-diphosphoglycerate","2,3-diphosphoglycerate","2,3-diphosphoglycerate",HMDB0001294,C01159,15664,M15664
+PreprocessedData_ccRCC4.xlsx,4-acetamidophenol,74,4-acetamidophenol,4-acetamidophenol,4-acetamidophenol,HMDB01859,C06804,12032,M12032
+PreprocessedData_ccRCC4.xlsx,4-acetaminophen sulfate,76,4-acetaminophen sulfate,4-acetaminophen sulfate,4-acetaminophen sulfate,HMDB01859,C06804,37475,M37475
+PreprocessedData_ccRCC4.xlsx,N(1)-acetylspermine,13,N(1)-acetylspermine,N(1)-acetylspermine,N(1)-acetylspermine,HMDB01186,C02567,32360,M32360
+PreprocessedData_ccRCC4.xlsx,N-6-trimethyllysine,76,"N6,N6,N6-trimethyllysine","N6,N6,N6-trimethyllysine",N-6-trimethyllysine,HMDB01325,C03793,1498,M1498
+PreprocessedData_ccRCC4.xlsx,N-acetyl-glucosamine 1-phosphate,67,N-acetyl-glucosamine 1-phosphate,N-acetyl-glucosamine 1-phosphate,N-acetyl-glucosamine 1-phosphate,HMDB01367,C04256,15741,M15741
+PreprocessedData_ccRCC4.xlsx,"N1,N12-diacetylspermine",21,"N1,N12-diacetylspermine","N1,N12-diacetylspermine","N1,N12-diacetylspermine",HMDB02172,C03413,52987,M52987
+PreprocessedData_ccRCC4.xlsx,UDP-galactose,54,UDP-galactose,UDP-galactose,UDP-galactose,HMDB00302,C00052,15860,M15860
+PreprocessedData_ccRCC4.xlsx,UDP-glucuronate,53,UDP-glucuronate,UDP-glucuronate,UDP-glucuronate,HMDB00935,C00167,2763,M2763
+PreprocessedData_ccRCC4.xlsx,acetylcarnitine,76,acetylcarnitine (C2),acetylcarnitine (C2),acetylcarnitine,HMDB00201,C02571,32198,M32198
+PreprocessedData_ccRCC4.xlsx,androsterone sulfate,74,androsterone sulfate,androsterone sulfate,androsterone sulfate,HMDB02759,C00523,31591,M31591
+PreprocessedData_ccRCC4.xlsx,argininosuccinate,72,argininosuccinate,argininosuccinate,argininosuccinate,HMDB00052,C03406,15497,M15497
+PreprocessedData_ccRCC4.xlsx,ascorbate (Vitamin C),61,ascorbate (Vitamin C),ascorbate (Vitamin C),ascorbate (Vitamin C),HMDB00044,C00072,1640,M1640
+PreprocessedData_ccRCC4.xlsx,betaine aldehyde,48,betaine aldehyde,betaine aldehyde,betaine aldehyde,HMDB01252,C00576,15499,M15499
+PreprocessedData_ccRCC4.xlsx,carnosine,49,carnosine,carnosine,carnosine,HMDB00033,C00386,1768,M1768
+PreprocessedData_ccRCC4.xlsx,cortisol,34,cortisol,cortisol,cortisol,HMDB00063,C00735,1712,M1712
+PreprocessedData_ccRCC4.xlsx,creatine phosphate,51,creatine phosphate,creatine phosphate,creatine phosphate,HMDB01511,C02305,33951,M33951
+PreprocessedData_ccRCC4.xlsx,cystine,76,cystine,cystine,cystine,HMDB00192,C00491,39512,M39512
+PreprocessedData_ccRCC4.xlsx,docosahexaenoate (DHA; 22:6n3),76,docosahexaenoate (DHA; 22:6n3),docosahexaenoate (DHA; 22:6n3),docosahexaenoate (DHA; 22:6n3),HMDB02183,C06429,19323,M19323
+PreprocessedData_ccRCC4.xlsx,gluconate,76,gluconate,gluconate,gluconate,HMDB00625,C00257,587,M587
+PreprocessedData_ccRCC4.xlsx,"glutathione, oxidized (GSSG)",53,"glutathione, oxidized (GSSG)","glutathione, oxidized (GSSG)","glutathione, oxidized (GSSG)",HMDB03337,C00127,27727,M27727
+PreprocessedData_ccRCC4.xlsx,glycerol 3-phosphate (G3P),76,glycerol 3-phosphate,glycerol 3-phosphate,glycerol 3-phosphate (G3P),HMDB00126,C00093,15365,M15365
+PreprocessedData_ccRCC4.xlsx,heme,68,heme,heme,heme,HMDB03178,C00032,41754,M41754
+PreprocessedData_ccRCC4.xlsx,histidine,76,histidine,histidine,histidine,HMDB00177,C00135,59,M59
+PreprocessedData_ccRCC4.xlsx,hypoxanthine,76,hypoxanthine,hypoxanthine,hypoxanthine,HMDB00157,C00262,3127,M3127
+PreprocessedData_ccRCC4.xlsx,isovalerylglycine,49,isovalerylglycine,isovalerylglycine,isovalerylglycine,HMDB00678,,35107,M35107
+PreprocessedData_ccRCC4.xlsx,malonylcarnitine,67,malonylcarnitine,malonylcarnitine,malonylcarnitine,HMDB02095,,37059,M37059
+PreprocessedData_ccRCC4.xlsx,phenylacetylglycine,14,phenylacetylglycine,phenylacetylglycine,phenylacetylglycine,HMDB00821,C05598,33945,M33945
+PreprocessedData_ccRCC4.xlsx,prostaglandin E2,20,prostaglandin E2,prostaglandin E2,prostaglandin E2,HMDB01220,C00584,7746,M7746
+PreprocessedData_ccRCC4.xlsx,putrescine,51,putrescine,putrescine,putrescine,HMDB01414,C00134,1408,M1408
+PreprocessedData_ccRCC4.xlsx,pyridoxate,69,pyridoxate,pyridoxate,pyridoxate,HMDB00017,C00847,31555,M31555
+PreprocessedData_ccRCC4.xlsx,ribitol,72,ribitol,ribitol,ribitol,HMDB00508,C00474,15772,M15772
+PreprocessedData_ccRCC4.xlsx,riboflavin (Vitamin B2),76,riboflavin (Vitamin B2),riboflavin (Vitamin B2),riboflavin (Vitamin B2),HMDB00244,C00255,1827,M1827
+PreprocessedData_ccRCC4.xlsx,sedoheptulose-7-phosphate,27,sedoheptulose-7-phosphate,sedoheptulose-7-phosphate,sedoheptulose-7-phosphate,HMDB01068,C05382,35649,M35649
+PreprocessedData_ccRCC4.xlsx,spermidine,76,spermidine,spermidine,spermidine,HMDB01257,C00315,485,M485
+PreprocessedData_ccRCC4.xlsx,sphinganine,76,sphinganine,sphinganine,sphinganine,HMDB00269,C00836,17769,M17769
+PreprocessedData_ccRCC4.xlsx,sphingosine,76,sphingosine,sphingosine,sphingosine,HMDB00252,C00319,17747,M17747
+PreprocessedData_ccRCC4.xlsx,threonine,76,threonine,threonine,threonine,HMDB00167,C00188,1284,M1284
+PreprocessedData_ccRCC4.xlsx,tyrosine,76,tyrosine,tyrosine,tyrosine,HMDB00158,C00082,1299,M1299

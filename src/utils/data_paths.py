@@ -18,7 +18,7 @@ def get_project_root() -> str:
 
 def get_data_dir() -> str:
     """Get the data directory path."""
-    return os.path.join(get_project_root(), 'data')
+    return os.path.abspath(os.path.expanduser(os.environ.get('GAZE_DATA_DIR', os.path.join(get_project_root(), 'data'))))
 
 
 def get_mudata_path() -> str:

@@ -1,0 +1,89 @@
+{
+  "version": 1,
+  "purpose": "Reviewer-requested fixed-model ablations and corrected core LOMO panel.",
+  "tasks": 157,
+  "stages": {
+    "core": 57,
+    "lomo_ablation": 100
+  },
+  "max_gpus": 8,
+  "variants": [
+    "full",
+    "no_mcr",
+    "no_attention",
+    "no_balance",
+    "no_correlation",
+    "no_variance",
+    "no_aux"
+  ],
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "lomo_targets": 36,
+  "lomo_ablation_targets": [
+    {
+      "feature": "cortisol",
+      "node": 3613,
+      "historical_fold": 0,
+      "n_observed": 101
+    },
+    {
+      "feature": "2'-deoxyadenosine",
+      "node": 814,
+      "historical_fold": 1,
+      "n_observed": 18
+    },
+    {
+      "feature": "N(1)-acetylspermine",
+      "node": 3406,
+      "historical_fold": 2,
+      "n_observed": 178
+    },
+    {
+      "feature": "cystine",
+      "node": 1386,
+      "historical_fold": 4,
+      "n_observed": 642
+    },
+    {
+      "feature": "prostaglandin E2",
+      "node": 1221,
+      "historical_fold": 5,
+      "n_observed": 35
+    }
+  ],
+  "allocation_hours": 6,
+  "training_gpu_hour_ceiling": 942,
+  "gpu_preflight_hour_ceiling": 1,
+  "deadline": "2026-10-30 Europe/Amsterdam; no guarantee of queue capacity or completion by that date.",
+  "role": "Retrospective revision analysis; no new independent external-validation claim.",
+  "data": "Corrected CAMP relative-abundance input and ALICE graph, without new RNA/target scaling; historical source-study preprocessing retained.",
+  "lomo": "All labels of one target node excluded in BOTH training phases and validation used for epoch selection. Phase2 trains on all867 specimens using only other metabolite labels. Assess held target labels by source study; pooled results are secondary.",
+  "sample": "Whole-source-study sample holdout inside the615 development candidates. Largest original training source selected by sample count then name, independent of model performance. Original renal holdout specimens excluded from both phases. This is one source-study split, not five-fold within-study CV.",
+  "sample_heldout_source": "Cornell_PROSTATE.BatchAdj.hugene20st.gene_symbol.csv",
+  "sample_phase1_counts": {
+    "train": 276,
+    "excluded": 252,
+    "validation": 202,
+    "holdout": 137
+  },
+  "sample_phase2_counts": {
+    "train": 478,
+    "excluded": 252,
+    "holdout": 137
+  },
+  "configuration": "Enhanced Relational GAZE,128 hidden,3 layers,dropout.2,SMILES masking.5,Adam lr.001/L2.0005,batch4,gradient accumulation4,cosine T_max300,maximum300 epochs,patience20. Flux messages/projection and structural loss1 remain fixed.",
+  "loss_weights": {
+    "balance": 0.5,
+    "correlation": 0.1,
+    "variance": 1.0,
+    "kl": 0.0
+  },
+  "selection": "Every variant uses ordinary observed-metabolite validation MSE. For LOMO this excludes the held target. Reinitialize and refit for selected epoch count. Never use holdout performance or constraint residuals to select checkpoints.",
+  "reuse": "No historical fitted weights reused: prior five LOMO controls selected epochs by a composite loss and are not matched controls for these MSE-selected ablations. No additional UnitedMet,MEBOCOST,scCellFie or ridge fits.",
+  "initialization": "Identical full-model seed initialization supplies all shared parameter tensors to ablated architectures. Removed components change stochastic forward paths. New shared readout parameters use the recorded seed.",
+  "reporting": "All targets,all seeds,all failures. Fixed outcome-coverage panels; constant prediction correlation scored0 when truth varies. Calibration/error and per-study metrics retained. Patient-row/seed paired bootstrap intervals descriptive; exact paired seed sign tests with Holm adjustment across6 contrasts per evaluation. Three seeds limit inferential power.",
+  "limitations": "Incomplete universal donor identifiers. One sample-study split and five-target multi-seed LOMO ablation panel; full36-target panel has seed42 only. No claim of full-panel multi-seed validation or experimentally validated fluxes. Runtime failure is incomplete, not a truncated successful experiment."
+}

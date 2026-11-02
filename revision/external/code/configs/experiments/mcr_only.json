@@ -1,0 +1,48 @@
+{
+  "seed": 42,
+  "config_name": "mcr_only",
+  "model": {
+    "variant": "enhanced",
+    "hidden_dim": 256,
+    "num_layers": 3,
+    "dropout": 0.2,
+    "use_directionality": true,
+    "use_flux_messages": false,
+    "use_mass_balance_projection": false,
+    "enhanced_config": {
+      "use_cross_modal_attention": false,
+      "use_residual_connections": false,
+      "use_layer_normalization": false,
+      "use_similarity_regularization": false,
+      "use_flux_messages": false,
+      "use_mass_balance_projection": false,
+      "use_mcr": true,
+      "reader_hidden_dim": 128,
+      "reader_mlp_hidden": 128,
+      "reader_two_hop": false,
+      "reader_normalize_descriptors": true,
+      "reader_max_neighbors": 10,
+      "reader_shuffle_descriptors": false,
+      "use_contrastive_pretraining": false
+    }
+  },
+  "data": {
+    "batch_size": 8,
+    "gradient_accumulation_steps": 1,
+    "train_fraction": 0.7,
+    "val_fraction": 0.15,
+    "normalized": false,
+    "random_graph": false
+  },
+  "training": {
+    "learning_rate": 0.00075,
+    "max_epochs": 300,
+    "patience": 20
+  },
+  "physics": {
+    "lambda_balance": 0.0,
+    "lambda_correlation": 0.0,
+    "lambda_variance": 0.0,
+    "lambda_kl": 0.0
+  }
+}

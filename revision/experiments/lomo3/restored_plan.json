@@ -1,0 +1,1032 @@
+{
+  "base_manifest_sha256": "ad97327a779bb1befb9a1b16a5ee92b457a5bd5a7ceb7ed052df0cc320938871",
+  "previous_bundle": "panel_addition_20261030",
+  "previous_manifest_sha256": "53a3da9482dc7f9ff77890dedec5d7131fe90f5b52ea156adb1070467f5d1ff6",
+  "original_core_tasks": [
+    {
+      "index": 0,
+      "id": "lomo_n3613_full_s42",
+      "kind": "lomo",
+      "variant": "full",
+      "seed": 42,
+      "stage": "core",
+      "feature": "cortisol",
+      "node": 3613,
+      "historical_fold": 0,
+      "n_observed": 101
+    },
+    {
+      "index": 1,
+      "id": "lomo_n814_full_s42",
+      "kind": "lomo",
+      "variant": "full",
+      "seed": 42,
+      "stage": "core",
+      "feature": "2'-deoxyadenosine",
+      "node": 814,
+      "historical_fold": 1,
+      "n_observed": 18
+    },
+    {
+      "index": 2,
+      "id": "lomo_n3406_full_s42",
+      "kind": "lomo",
+      "variant": "full",
+      "seed": 42,
+      "stage": "core",
+      "feature": "N(1)-acetylspermine",
+      "node": 3406,
+      "historical_fold": 2,
+      "n_observed": 178
+    },
+    {
+      "index": 3,
+      "id": "lomo_n1386_full_s42",
+      "kind": "lomo",
+      "variant": "full",
+      "seed": 42,
+      "stage": "core",
+      "feature": "cystine",
+      "node": 1386,
+      "historical_fold": 4,
+      "n_observed": 642
+    },
+    {
+      "index": 4,
+      "id": "lomo_n1221_full_s42",
+      "kind": "lomo",
+      "variant": "full",
+      "seed": 42,
+      "stage": "core",
+      "feature": "prostaglandin E2",
+      "node": 1221,
+      "historical_fold": 5,
+      "n_observed": 35
+    },
+    {
+      "index": 5,
+      "id": "lomo_n218_full_s42",
+      "kind": "lomo",
+      "variant": "full",
+      "seed": 42,
+      "stage": "core",
+      "feature": "tyrosine",
+      "node": 218,
+      "historical_fold": 7,
+      "n_observed": 662
+    },
+    {
+      "index": 6,
+      "id": "lomo_n441_full_s42",
+      "kind": "lomo",
+      "variant": "full",
+      "seed": 42,
+      "stage": "core",
+      "feature": "histidine",
+      "node": 441,
+      "historical_fold": 8,
+      "n_observed": 647
+    },
+    {
+      "index": 7,
+      "id": "lomo_n1759_full_s42",
+      "kind": "lomo",
+      "variant": "full",
+      "seed": 42,
+      "stage": "core",
+      "feature": "5,6-dihydrouracil",
+      "node": 1759,
+      "historical_fold": 9,
+      "n_observed": 353
+    },
+    {
+      "index": 8,
+      "id": "lomo_n1108_full_s42",
+      "kind": "lomo",
+      "variant": "full",
+      "seed": 42,
+      "stage": "core",
+      "feature": "testosterone",
+      "node": 1108,
+      "historical_fold": 10,
+      "n_observed": 26
+    },
+    {
+      "index": 9,
+      "id": "lomo_n3100_full_s42",
+      "kind": "lomo",
+      "variant": "full",
+      "seed": 42,
+      "stage": "core",
+      "feature": "putrescine",
+      "node": 3100,
+      "historical_fold": 12,
+      "n_observed": 474
+    },
+    {
+      "index": 10,
+      "id": "lomo_n768_full_s42",
+      "kind": "lomo",
+      "variant": "full",
+      "seed": 42,
+      "stage": "core",
+      "feature": "hypoxanthine",
+      "node": 768,
+      "historical_fold": 13,
+      "n_observed": 647
+    },
+    {
+      "index": 11,
+      "id": "lomo_n2853_full_s42",
+      "kind": "lomo",
+      "variant": "full",
+      "seed": 42,
+      "stage": "core",
+      "feature": "carnosine",
+      "node": 2853,
+      "historical_fold": 14,
+      "n_observed": 393
+    },
+    {
+      "index": 12,
+      "id": "lomo_n1521_full_s42",
+      "kind": "lomo",
+      "variant": "full",
+      "seed": 42,
+      "stage": "core",
+      "feature": "docosahexaenoate (DHA; 22:6n3)",
+      "node": 1521,
+      "historical_fold": 16,
+      "n_observed": 666
+    },
+    {
+      "index": 13,
+      "id": "lomo_n2_full_s42",
+      "kind": "lomo",
+      "variant": "full",
+      "seed": 42,
+      "stage": "core",
+      "feature": "riboflavin (Vitamin B2)",
+      "node": 2,
+      "historical_fold": 17,
+      "n_observed": 390
+    },
+    {
+      "index": 14,
+      "id": "lomo_n848_full_s42",
+      "kind": "lomo",
+      "variant": "full",
+      "seed": 42,
+      "stage": "core",
+      "feature": "UDP-glucuronate",
+      "node": 848,
+      "historical_fold": 20,
+      "n_observed": 295
+    },
+    {
+      "index": 15,
+      "id": "lomo_n447_full_s42",
+      "kind": "lomo",
+      "variant": "full",
+      "seed": 42,
+      "stage": "core",
+      "feature": "1-methylimidazoleacetate",
+      "node": 447,
+      "historical_fold": 21,
+      "n_observed": 321
+    },
+    {
+      "index": 16,
+      "id": "lomo_n2846_full_s42",
+      "kind": "lomo",
+      "variant": "full",
+      "seed": 42,
+      "stage": "core",
+      "feature": "spermidine",
+      "node": 2846,
+      "historical_fold": 22,
+      "n_observed": 643
+    },
+    {
+      "index": 17,
+      "id": "lomo_n129_full_s42",
+      "kind": "lomo",
+      "variant": "full",
+      "seed": 42,
+      "stage": "core",
+      "feature": "threonine",
+      "node": 129,
+      "historical_fold": 23,
+      "n_observed": 727
+    },
+    {
+      "index": 18,
+      "id": "lomo_n197_full_s42",
+      "kind": "lomo",
+      "variant": "full",
+      "seed": 42,
+      "stage": "core",
+      "feature": "glutathione, oxidized (GSSG)",
+      "node": 197,
+      "historical_fold": 25,
+      "n_observed": 430
+    },
+    {
+      "index": 19,
+      "id": "lomo_n2522_full_s42",
+      "kind": "lomo",
+      "variant": "full",
+      "seed": 42,
+      "stage": "core",
+      "feature": "sphinganine",
+      "node": 2522,
+      "historical_fold": 26,
+      "n_observed": 429
+    },
+    {
+      "index": 20,
+      "id": "lomo_n3114_full_s42",
+      "kind": "lomo",
+      "variant": "full",
+      "seed": 42,
+      "stage": "core",
+      "feature": "pyridoxate",
+      "node": 3114,
+      "historical_fold": 27,
+      "n_observed": 265
+    },
+    {
+      "index": 21,
+      "id": "lomo_n1918_full_s42",
+      "kind": "lomo",
+      "variant": "full",
+      "seed": 42,
+      "stage": "core",
+      "feature": "ribitol",
+      "node": 1918,
+      "historical_fold": 29,
+      "n_observed": 504
+    },
+    {
+      "index": 22,
+      "id": "lomo_n426_full_s42",
+      "kind": "lomo",
+      "variant": "full",
+      "seed": 42,
+      "stage": "core",
+      "feature": "sphingosine",
+      "node": 426,
+      "historical_fold": 31,
+      "n_observed": 563
+    },
+    {
+      "index": 23,
+      "id": "lomo_n1879_full_s42",
+      "kind": "lomo",
+      "variant": "full",
+      "seed": 42,
+      "stage": "core",
+      "feature": "acetylcarnitine",
+      "node": 1879,
+      "historical_fold": 32,
+      "n_observed": 647
+    },
+    {
+      "index": 24,
+      "id": "lomo_n91_full_s42",
+      "kind": "lomo",
+      "variant": "full",
+      "seed": 42,
+      "stage": "core",
+      "feature": "isovalerylglycine",
+      "node": 91,
+      "historical_fold": 33,
+      "n_observed": 57
+    },
+    {
+      "index": 25,
+      "id": "lomo_n626_full_s42",
+      "kind": "lomo",
+      "variant": "full",
+      "seed": 42,
+      "stage": "core",
+      "feature": "ascorbate (Vitamin C)",
+      "node": 626,
+      "historical_fold": 35,
+      "n_observed": 522
+    },
+    {
+      "index": 26,
+      "id": "lomo_n3416_full_s42",
+      "kind": "lomo",
+      "variant": "full",
+      "seed": 42,
+      "stage": "core",
+      "feature": "N1,N12-diacetylspermine",
+      "node": 3416,
+      "historical_fold": 38,
+      "n_observed": 54
+    },
+    {
+      "index": 27,
+      "id": "lomo_n3387_full_s42",
+      "kind": "lomo",
+      "variant": "full",
+      "seed": 42,
+      "stage": "core",
+      "feature": "agmatine",
+      "node": 3387,
+      "historical_fold": 39,
+      "n_observed": 218
+    },
+    {
+      "index": 28,
+      "id": "lomo_n329_full_s42",
+      "kind": "lomo",
+      "variant": "full",
+      "seed": 42,
+      "stage": "core",
+      "feature": "galactose",
+      "node": 329,
+      "historical_fold": 41,
+      "n_observed": 290
+    },
+    {
+      "index": 29,
+      "id": "lomo_n316_full_s42",
+      "kind": "lomo",
+      "variant": "full",
+      "seed": 42,
+      "stage": "core",
+      "feature": "1-methylnicotinamide",
+      "node": 316,
+      "historical_fold": 42,
+      "n_observed": 370
+    },
+    {
+      "index": 30,
+      "id": "lomo_n2694_full_s42",
+      "kind": "lomo",
+      "variant": "full",
+      "seed": 42,
+      "stage": "core",
+      "feature": "N-6-trimethyllysine",
+      "node": 2694,
+      "historical_fold": 43,
+      "n_observed": 283
+    },
+    {
+      "index": 31,
+      "id": "lomo_n181_full_s42",
+      "kind": "lomo",
+      "variant": "full",
+      "seed": 42,
+      "stage": "core",
+      "feature": "argininosuccinate",
+      "node": 181,
+      "historical_fold": 44,
+      "n_observed": 250
+    },
+    {
+      "index": 32,
+      "id": "lomo_n431_full_s42",
+      "kind": "lomo",
+      "variant": "full",
+      "seed": 42,
+      "stage": "core",
+      "feature": "UDP-galactose",
+      "node": 431,
+      "historical_fold": 45,
+      "n_observed": 61
+    },
+    {
+      "index": 33,
+      "id": "lomo_n1877_full_s42",
+      "kind": "lomo",
+      "variant": "full",
+      "seed": 42,
+      "stage": "core",
+      "feature": "malonylcarnitine",
+      "node": 1877,
+      "historical_fold": 47,
+      "n_observed": 286
+    },
+    {
+      "index": 34,
+      "id": "lomo_n1788_full_s42",
+      "kind": "lomo",
+      "variant": "full",
+      "seed": 42,
+      "stage": "core",
+      "feature": "3-ureidoisobutyrate",
+      "node": 1788,
+      "historical_fold": 48,
+      "n_observed": 13
+    },
+    {
+      "index": 35,
+      "id": "lomo_n1907_full_s42",
+      "kind": "lomo",
+      "variant": "full",
+      "seed": 42,
+      "stage": "core",
+      "feature": "gluconate",
+      "node": 1907,
+      "historical_fold": 49,
+      "n_observed": 803
+    }
+  ],
+  "previous_additional_tasks": [
+    {
+      "index": 0,
+      "id": "lomo_n1001_full_s42",
+      "kind": "lomo",
+      "variant": "full",
+      "seed": 42,
+      "stage": "panel_addition",
+      "feature": "phenylacetylglycine",
+      "node": 1001,
+      "historical_fold": 3,
+      "n_observed": 58
+    },
+    {
+      "index": 1,
+      "id": "lomo_n1445_full_s42",
+      "kind": "lomo",
+      "variant": "full",
+      "seed": 42,
+      "stage": "panel_addition",
+      "feature": "N-acetyl-glucosamine 1-phosphate",
+      "node": 1445,
+      "historical_fold": 6,
+      "n_observed": 372
+    },
+    {
+      "index": 2,
+      "id": "lomo_n176_full_s42",
+      "kind": "lomo",
+      "variant": "full",
+      "seed": 42,
+      "stage": "panel_addition",
+      "feature": "glycerol 3-phosphate (G3P)",
+      "node": 176,
+      "historical_fold": 18,
+      "n_observed": 724
+    },
+    {
+      "index": 3,
+      "id": "lomo_n138_full_s42",
+      "kind": "lomo",
+      "variant": "full",
+      "seed": 42,
+      "stage": "panel_addition",
+      "feature": "creatine phosphate",
+      "node": 138,
+      "historical_fold": 19,
+      "n_observed": 101
+    },
+    {
+      "index": 4,
+      "id": "lomo_n451_full_s42",
+      "kind": "lomo",
+      "variant": "full",
+      "seed": 42,
+      "stage": "panel_addition",
+      "feature": "homocarnosine",
+      "node": 451,
+      "historical_fold": 24,
+      "n_observed": 38
+    },
+    {
+      "index": 5,
+      "id": "lomo_n2731_full_s42",
+      "kind": "lomo",
+      "variant": "full",
+      "seed": 42,
+      "stage": "panel_addition",
+      "feature": "2,3-diphosphoglycerate",
+      "node": 2731,
+      "historical_fold": 30,
+      "n_observed": 48
+    },
+    {
+      "index": 6,
+      "id": "lomo_n141_full_s42",
+      "kind": "lomo",
+      "variant": "full",
+      "seed": 42,
+      "stage": "panel_addition",
+      "feature": "betaine aldehyde",
+      "node": 141,
+      "historical_fold": 34,
+      "n_observed": 75
+    },
+    {
+      "index": 7,
+      "id": "lomo_n1910_full_s42",
+      "kind": "lomo",
+      "variant": "full",
+      "seed": 42,
+      "stage": "panel_addition",
+      "feature": "sedoheptulose-7-phosphate",
+      "node": 1910,
+      "historical_fold": 36,
+      "n_observed": 292
+    },
+    {
+      "index": 8,
+      "id": "lomo_n3523_full_s42",
+      "kind": "lomo",
+      "variant": "full",
+      "seed": 42,
+      "stage": "panel_addition",
+      "feature": "pantetheine",
+      "node": 3523,
+      "historical_fold": 37,
+      "n_observed": 60
+    },
+    {
+      "index": 9,
+      "id": "lomo_n2342_full_s42",
+      "kind": "lomo",
+      "variant": "full",
+      "seed": 42,
+      "stage": "panel_addition",
+      "feature": "xylulose",
+      "node": 2342,
+      "historical_fold": 46,
+      "n_observed": 178
+    }
+  ],
+  "additional_tasks": [
+    {
+      "index": 0,
+      "id": "lomo_n845_full_s42",
+      "kind": "lomo",
+      "variant": "full",
+      "seed": 42,
+      "stage": "annotation_addition",
+      "feature": "4-acetamidophenol",
+      "node": 845,
+      "historical_fold": 11,
+      "n_observed": 366
+    },
+    {
+      "index": 1,
+      "id": "lomo_n1894_full_s42",
+      "kind": "lomo",
+      "variant": "full",
+      "seed": 42,
+      "stage": "annotation_addition",
+      "feature": "ribulose 5-phosphate",
+      "node": 1894,
+      "historical_fold": 28,
+      "n_observed": 169
+    },
+    {
+      "index": 2,
+      "id": "lomo_n1887_full_s42",
+      "kind": "lomo",
+      "variant": "full",
+      "seed": 42,
+      "stage": "annotation_addition",
+      "feature": "heme",
+      "node": 1887,
+      "historical_fold": 40,
+      "n_observed": 584
+    }
+  ],
+  "combined_panel": {
+    "retained": [
+      {
+        "feature": "cortisol",
+        "node": 3613,
+        "historical_fold": 0,
+        "n_observed": 101
+      },
+      {
+        "feature": "2'-deoxyadenosine",
+        "node": 814,
+        "historical_fold": 1,
+        "n_observed": 18
+      },
+      {
+        "feature": "N(1)-acetylspermine",
+        "node": 3406,
+        "historical_fold": 2,
+        "n_observed": 178
+      },
+      {
+        "feature": "phenylacetylglycine",
+        "node": 1001,
+        "historical_fold": 3,
+        "n_observed": 58
+      },
+      {
+        "feature": "cystine",
+        "node": 1386,
+        "historical_fold": 4,
+        "n_observed": 642
+      },
+      {
+        "feature": "prostaglandin E2",
+        "node": 1221,
+        "historical_fold": 5,
+        "n_observed": 35
+      },
+      {
+        "feature": "N-acetyl-glucosamine 1-phosphate",
+        "node": 1445,
+        "historical_fold": 6,
+        "n_observed": 372
+      },
+      {
+        "feature": "tyrosine",
+        "node": 218,
+        "historical_fold": 7,
+        "n_observed": 662
+      },
+      {
+        "feature": "histidine",
+        "node": 441,
+        "historical_fold": 8,
+        "n_observed": 647
+      },
+      {
+        "feature": "5,6-dihydrouracil",
+        "node": 1759,
+        "historical_fold": 9,
+        "n_observed": 353
+      },
+      {
+        "feature": "testosterone",
+        "node": 1108,
+        "historical_fold": 10,
+        "n_observed": 26
+      },
+      {
+        "feature": "4-acetamidophenol",
+        "node": 845,
+        "historical_fold": 11,
+        "n_observed": 366
+      },
+      {
+        "feature": "putrescine",
+        "node": 3100,
+        "historical_fold": 12,
+        "n_observed": 474
+      },
+      {
+        "feature": "hypoxanthine",
+        "node": 768,
+        "historical_fold": 13,
+        "n_observed": 647
+      },
+      {
+        "feature": "carnosine",
+        "node": 2853,
+        "historical_fold": 14,
+        "n_observed": 393
+      },
+      {
+        "feature": "docosahexaenoate (DHA; 22:6n3)",
+        "node": 1521,
+        "historical_fold": 16,
+        "n_observed": 666
+      },
+      {
+        "feature": "riboflavin (Vitamin B2)",
+        "node": 2,
+        "historical_fold": 17,
+        "n_observed": 390
+      },
+      {
+        "feature": "glycerol 3-phosphate (G3P)",
+        "node": 176,
+        "historical_fold": 18,
+        "n_observed": 724
+      },
+      {
+        "feature": "creatine phosphate",
+        "node": 138,
+        "historical_fold": 19,
+        "n_observed": 101
+      },
+      {
+        "feature": "UDP-glucuronate",
+        "node": 848,
+        "historical_fold": 20,
+        "n_observed": 295
+      },
+      {
+        "feature": "1-methylimidazoleacetate",
+        "node": 447,
+        "historical_fold": 21,
+        "n_observed": 321
+      },
+      {
+        "feature": "spermidine",
+        "node": 2846,
+        "historical_fold": 22,
+        "n_observed": 643
+      },
+      {
+        "feature": "threonine",
+        "node": 129,
+        "historical_fold": 23,
+        "n_observed": 727
+      },
+      {
+        "feature": "homocarnosine",
+        "node": 451,
+        "historical_fold": 24,
+        "n_observed": 38
+      },
+      {
+        "feature": "glutathione, oxidized (GSSG)",
+        "node": 197,
+        "historical_fold": 25,
+        "n_observed": 430
+      },
+      {
+        "feature": "sphinganine",
+        "node": 2522,
+        "historical_fold": 26,
+        "n_observed": 429
+      },
+      {
+        "feature": "pyridoxate",
+        "node": 3114,
+        "historical_fold": 27,
+        "n_observed": 265
+      },
+      {
+        "feature": "ribulose 5-phosphate",
+        "node": 1894,
+        "historical_fold": 28,
+        "n_observed": 169
+      },
+      {
+        "feature": "ribitol",
+        "node": 1918,
+        "historical_fold": 29,
+        "n_observed": 504
+      },
+      {
+        "feature": "2,3-diphosphoglycerate",
+        "node": 2731,
+        "historical_fold": 30,
+        "n_observed": 48
+      },
+      {
+        "feature": "sphingosine",
+        "node": 426,
+        "historical_fold": 31,
+        "n_observed": 563
+      },
+      {
+        "feature": "acetylcarnitine",
+        "node": 1879,
+        "historical_fold": 32,
+        "n_observed": 647
+      },
+      {
+        "feature": "isovalerylglycine",
+        "node": 91,
+        "historical_fold": 33,
+        "n_observed": 57
+      },
+      {
+        "feature": "betaine aldehyde",
+        "node": 141,
+        "historical_fold": 34,
+        "n_observed": 75
+      },
+      {
+        "feature": "ascorbate (Vitamin C)",
+        "node": 626,
+        "historical_fold": 35,
+        "n_observed": 522
+      },
+      {
+        "feature": "sedoheptulose-7-phosphate",
+        "node": 1910,
+        "historical_fold": 36,
+        "n_observed": 292
+      },
+      {
+        "feature": "pantetheine",
+        "node": 3523,
+        "historical_fold": 37,
+        "n_observed": 60
+      },
+      {
+        "feature": "N1,N12-diacetylspermine",
+        "node": 3416,
+        "historical_fold": 38,
+        "n_observed": 54
+      },
+      {
+        "feature": "agmatine",
+        "node": 3387,
+        "historical_fold": 39,
+        "n_observed": 218
+      },
+      {
+        "feature": "heme",
+        "node": 1887,
+        "historical_fold": 40,
+        "n_observed": 584
+      },
+      {
+        "feature": "galactose",
+        "node": 329,
+        "historical_fold": 41,
+        "n_observed": 290
+      },
+      {
+        "feature": "1-methylnicotinamide",
+        "node": 316,
+        "historical_fold": 42,
+        "n_observed": 370
+      },
+      {
+        "feature": "N-6-trimethyllysine",
+        "node": 2694,
+        "historical_fold": 43,
+        "n_observed": 283
+      },
+      {
+        "feature": "argininosuccinate",
+        "node": 181,
+        "historical_fold": 44,
+        "n_observed": 250
+      },
+      {
+        "feature": "UDP-galactose",
+        "node": 431,
+        "historical_fold": 45,
+        "n_observed": 61
+      },
+      {
+        "feature": "xylulose",
+        "node": 2342,
+        "historical_fold": 46,
+        "n_observed": 178
+      },
+      {
+        "feature": "malonylcarnitine",
+        "node": 1877,
+        "historical_fold": 47,
+        "n_observed": 286
+      },
+      {
+        "feature": "3-ureidoisobutyrate",
+        "node": 1788,
+        "historical_fold": 48,
+        "n_observed": 13
+      },
+      {
+        "feature": "gluconate",
+        "node": 1907,
+        "historical_fold": 49,
+        "n_observed": 803
+      }
+    ],
+    "excluded": [
+      {
+        "fold_idx": 15,
+        "metabolite_id": "HMDB0000031",
+        "node": 1120,
+        "reason": "no unique non-excluded assay feature for graph node"
+      }
+    ]
+  },
+  "reused_files_sha256": {
+    "aggregate.py": "3e5c6faee87b7e34fa1ad40bd626caed963ec39fd45cdb3dfa8af440d12854cd",
+    "code/src/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "code/src/config/__init__.py": "22c986f7fde10e25c1991c7dce202d98efdee32b560934c0a84eb75855995985",
+    "code/src/config/experiment.py": "8bd32f11dfcaa8a3f3f4c5ce70ef66e47ba983f727b4108017bd46aae7fdb886",
+    "code/src/data/__init__.py": "144f6eb436e4be05058ce6408417c03a6de1d2c0ba04087e0752f185ba6d4e86",
+    "code/src/data/batching.py": "a540f6adc91ba28329c129fe39a2bdd5be5b48b8238ebefb40db2f24b31f91bd",
+    "code/src/data/datamodule.py": "98e5e1b13b506c56afa05789cb5c1080cca447ffa3e366997d2001576c532d15",
+    "code/src/data/dataset.py": "aed13de4c62e89afd47a447cbc24acc7ad1a1bbf0f466ce0b8bbfdf8fa626253",
+    "code/src/data/dataset_smiles.py": "fb11f54907ba84efebd1288702a99fcae207bbde7720a0ad5da729a66f12d515",
+    "code/src/data/film_dataset.py": "4ec467373fce09bda1a238bbcbc1aba03349a7e164ade0be2748c7c4b591ab5a",
+    "code/src/data/gpu_cached_graph.py": "ba50be1a1f299f763dc63761cccab02157053f8b213fb6b6dc56b363f319c6cc",
+    "code/src/data/metabolite_mapping.py": "d1a4c050ea190a165320194550eb29fb85026f3aa1c63a07fc6738347d90ca36",
+    "code/src/data/processing.py": "f771af2aabc7d4621dd62946c8be36a4fda19fb7a8388a2ae7a0dd228995b513",
+    "code/src/data/sample_splits.py": "84f7ed624c14e20fc21b80947c5407a154443f9069029073803f3864cb8af8f5",
+    "code/src/evaluation/coverage_statistics.py": "657dba6050255b5b6825cc2815b727fc5f07c4260b92403da36259eefdd34c60",
+    "code/src/evaluation/lomo_cross_validation.py": "e725643082b5bd96233183b089348952a7641cb7a15fb2000f1808edd9d3081a",
+    "code/src/inference/__init__.py": "b03d4424e8ea0b9cc0ac2161e03bba71b22eb68e13c94108d0a9a1601d35cc24",
+    "code/src/inference/normalization.py": "8628f16120b469a7081c9784175d7f98a43ccbfd291c4c9dc6da0919d2e61c38",
+    "code/src/inference/spatial.py": "7062f1b4b05b56a824b4bea68a0a91d8276066fdd289e08446b2ae4238232f47",
+    "code/src/losses/__init__.py": "b412f1d0dfcc3b1a85efaf8c0c666f117c56bf4118bdf56dcedb06ea3f2cc60a",
+    "code/src/losses/base.py": "45080698c10497e67813d5c0c4f73b0a6fe21fb9b0a1530e59996f6a0b3a21ce",
+    "code/src/losses/contrastive.py": "124dc4e7e6a6199e80d4b5836597d0965e6c334493ac2b4e8ddf645b9e9cba77",
+    "code/src/losses/contrastive_pretraining.py": "d268688b8c6f7deebc284dfa5ea607d6d505a68783d984e8ed8470973be155e1",
+    "code/src/losses/flux_alignment.py": "021e9830a3c75bfd75a3637c4b0751bc5a07684cb3a913a4ccff89861b4368c2",
+    "code/src/losses/physics.py": "e91cc97408675bf75558d980c68103fbb3c0c085573a4fb26e5c6731d2fdd12c",
+    "code/src/losses/regularization.py": "48bf67a2e2a5d7ab59e77405ea728647219c14ea8affd9253b831d6e6aea029f",
+    "code/src/models/__init__.py": "4d55fe1cf89b69bde213dfea476b56634b9889f88dff3d8e90849399db9ff464",
+    "code/src/models/components/__init__.py": "615ca80a7902c5be8b9b8ca7b5b93ac02f021b0fd0af386cec186cd608419f60",
+    "code/src/models/components/base.py": "b4ae7915bd1dd5f003c09aaef72c8a6c574f9e8ebae1b3a34d568150217d2aad",
+    "code/src/models/components/builders.py": "074267ad82c4050a215e27b04bdf892d970ff23e44f99065675335826536ae60",
+    "code/src/models/components/enhanced_config.py": "059b23cf86101c6a69ffb25a60683489073473d2ff1ef216c9cb3cb7b27def35",
+    "code/src/models/components/met_reader.py": "6e0137b0f999426a27f1151f85fad1a3c4ae98e59c763120248df67a8757d635",
+    "code/src/models/concat_gnn_smiles.py": "1a4829e860e3cecadffbd1ee679b75bcb697f317623dac9af38948ba61ba824d",
+    "code/src/models/enhanced_concat_gnn_smiles.py": "339d5a80b2056a2f656c89890256f8f4309dfc06ef7b52aaf98f7d6966fff076",
+    "code/src/models/factory.py": "bfa2e7cb8828e908141e1673d50f8793a88f02dbc824d3f7ab78f9b26ec6dc4d",
+    "code/src/models/losses/__init__.py": "aed25a4bd76cc5a9ae3853bac4dc56be94a3ba6ab1df9d805f986000ed667793",
+    "code/src/models/losses/similarity_regularization.py": "2157f800997a0dd2372e887f9feddf98490436911d8a75ab2aa77f0da6377c5d",
+    "code/src/models/losses/structural_consistency.py": "e26fa44a19468ac65cc931d3154adb60eb2f5ff0f8ab10eacd93e66eeb8a0352",
+    "code/src/models/modules/__init__.py": "22e381a58fbc85a9458a6b741fb340c6c61779801090a96f5c7d161a0cacf6e9",
+    "code/src/models/modules/cross_modal_attention.py": "538dc0eb31d8e7750a3b10f83aefd26b4c7abac7744f3a326d7c585e684625de",
+    "code/src/models/modules/directional_conv.py": "a93da65602eb287c67fe0ba0ce5a2352646c9e6898f4ae062b4ead2bee601ce4",
+    "code/src/models/modules/flux_messages.py": "932988d9c6166c7eac202d0bc2ea3a40d867e6f8c1637a8af68dad1d1d0d0ce3",
+    "code/src/models/modules/gene_film.py": "9bae4d98a38938e71cf18dce4a5be9e6c87d913e632df636b7f8265f8c6b139f",
+    "code/src/models/modules/graph_positional_encodings.py": "9b0d7f926e8995d569ad6a01827ab65749a791b23e88346dd32d530ad872cef4",
+    "code/src/models/modules/mass_balance.py": "5ed51871cfd90e4fcb91a0ee2d2d7e2de02c780dbd1e5905fdb71e4a9e04363d",
+    "code/src/models/modules/pna_layer.py": "6f56255b5f197e1f92675cc360e39cb612de3f15f47be11848a5dbdfc35a88e5",
+    "code/src/models/modules/relational_conv.py": "908ae651b019a4c4be55384c4bc6fae9ab87d78ded86d0d606330c42bfb10a93",
+    "code/src/models/modules/residual_layers.py": "05bd5d7d13fd1c3fa8fd7745dbfda8bbb0de86fcfa0137cf27a251778926a6b6",
+    "code/src/training/__init__.py": "1b9641e074f91f3165832de50870efe062ff466b4b3d9b81ae235d783846a6a2",
+    "code/src/training/callbacks/__init__.py": "599ffe9d173edaa44fcc11a5597d6291e8bf5e107b0f0f69152975b7a35abb43",
+    "code/src/training/callbacks/base.py": "68b5843edc06b4edc8eba6c50ac04467a0ea230c01a666d33d20980b1c5a30ae",
+    "code/src/training/callbacks/diagnostics.py": "d187a4531163359b98fa529fec70e0f8061b47fdd318d9a4516c4d044ec04619",
+    "code/src/training/callbacks/logging.py": "fabb79f871786bca5511436178a2f3f83f602c069416c42f5a7d6643c72ac15a",
+    "code/src/training/diagnostics.py": "389ae29ce1e7d3068d6f6abe41909b09bae5adfc32809e0b560825e51abe16ea",
+    "code/src/training/loss_factory.py": "a7a3a3a83bfec0443e578c96c5cb985cdd08a90fd260ed53731b80089b3a793f",
+    "code/src/training/trainer.py": "7c9ff9eeeb524206a2b8c5c9c88d291673e6bcb1ac15e8c2f2ae48e9eb3bcfa0",
+    "code/src/training/trainer_engine.py": "09957bdb251fa1ebe476e884c8a5b9726176d4d4cf32ba4a26af60ca1ae64f1f",
+    "code/src/utils/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "code/src/utils/batch_utils.py": "948371f23e6f290d17fb617319337ce61ef83be7244fa00a2558c2c0ce666f69",
+    "code/src/utils/constants.py": "9ff64c44f67a9704acba41dba7d8d45d1f0ce1689879b42b0500aade26983061",
+    "code/src/utils/data_paths.py": "cce459a7bd825da42a81d76c508bbfc7c6a167b00356c4526d64c4abab9c6638",
+    "code/src/utils/gene_parsing.py": "52c951922e4da79da61bb23fe996b6e2e11898cbe7f72905266cbb41545ea148",
+    "code/src/utils/graph_randomization.py": "5c29cc413b5d7c830a5613ad84a6d24ffbdd171fb192572a70f53896b731ea8b",
+    "code/src/utils/masking.py": "b3d724f7873d464f75b5aed7a939d73f8391b73a6496922baa86b0faef6a5c0d",
+    "code/src/utils/tensor_utils.py": "05144e0abddc9476f979f19111c6e87324ab45c0c7eabde90ab6f21820523f6c",
+    "common.py": "82e79ba899a32f07ffe19a5b90a3be4c27f8e54de2957ea6ca9e787a29c1cdce",
+    "inputs/camp_reanalysis.h5mu": "cdf6522f6eb20d35efe5f7744e85a8989bcb563296700cc453a3ba1b198bb658",
+    "inputs/gene_mapping.json": "7cb1839305292b5beed154bc32eb931179ee6eaff083039563dea6d91457875c",
+    "inputs/graph.pt": "289b21ab7242fd24a21d34c6aac9245a243d6bf0f0894b3f077264c2268f5038",
+    "inputs/lomo_panel.json": "9b734306df71d1ee074fc45c0f33204c26bc47dd7b886953c849889d538b3734",
+    "inputs/lomo_phase1.csv": "c81430a9c115c72c27d26a2f5264d5edfc027472b129ff3714027ac9e7bea1cf",
+    "inputs/lomo_phase2.csv": "b4c110a624863731e66900e8ca5da5ae52f551dcb694333a714dcd47698324ef",
+    "inputs/mapping_exclusions.csv": "75cd8418563f7841418033f2856117fab1e4fe4335978624b7d583582a4eb4b4",
+    "inputs/sample_phase1.csv": "efe1b01dd747ad36701c9c758fc6cad22c08f91e55c08b3dbd5b3dfed3ca571d",
+    "inputs/sample_phase2.csv": "41c88e7e94adda596b9f2636b3faba1c0b760efc80787a5b7cdc3004022de26b",
+    "inputs/splits.json": "c14cadf51641dc0a78327fc8c19463cd7a497449dee919857f44632da95ec241",
+    "protocol.py": "52cdfcf03d8c169cb7fb2d172de4a5a6eb0b233aefcccaf8b8c320a5c7d9fc4a",
+    "reporting_stats.py": "712e14ff0d625bbccb95c3c411a3269441692ee0608d3efdb9bf47b0093b7080",
+    "worker.py": "69bec423a1acaf4cfffdcf337d38f3f12ca9ab7af757cfb8dfc6c1ea26cdd8ea"
+  },
+  "existing_status_sha256": {
+    "lomo_n3613_full_s42": "725150103ba37b93cf42d04de69bb13bc9e335df32bd821395f37f79f14b6714",
+    "lomo_n814_full_s42": "ff8461f3e0084db7c47013b6bdb9a45bf932716f63a63b714e2163ff533b520a",
+    "lomo_n3406_full_s42": "559587e22fa215a2a44e9906f94a3dcffde0d21a81604e93875772e60a32dd1e",
+    "lomo_n1386_full_s42": "073805d822c8cefc62fca9973e66e298acd68e9148cad778661ecd6897914238",
+    "lomo_n1221_full_s42": "e5cd5e3c316a60f80deb039640f004b1aff86ebf7381407206985b6aed726c80",
+    "lomo_n218_full_s42": "da7c3b369d79a92c74be6d82f0c5c885752caef8d37ecc1bef8a276e940974c6",
+    "lomo_n441_full_s42": "48a5d9069fd604924b7e1c9273976db0a383b62727898ec28083c2d79b545287",
+    "lomo_n1759_full_s42": "3f5988b65a1f4ca7f1d84de6473edf0d3431018feb9d1af0bd8ac283dea4afe1",
+    "lomo_n1108_full_s42": "f32db47e8a43520685a14d2d68d4b7ff6ccd0dadce643559ecdfdd8eab9e23b2",
+    "lomo_n3100_full_s42": "ce7b4744ef58ef38f4b7537136afcdb877a8686df83e9044378a4305d918ce8c",
+    "lomo_n768_full_s42": "1b141d71934ad96711699c0f3ee5d46ff1012bdb64d9149a448704c3a22f7b37",
+    "lomo_n2853_full_s42": "25a9a7b0dd9f25436b586939d730db569e3bb21feec54a4b27c542daa78a83a8",
+    "lomo_n1521_full_s42": "0c1af692f22fb24b2c640503f4b44bbf43694a60b631bb9ca275c7d83b7c1a3a",
+    "lomo_n2_full_s42": "007d52f6d7ec2cb3542cb6cb4de4831f487a33877192104393a622940b6d9731",
+    "lomo_n848_full_s42": "cf9e2a5f5322f1fe8cdfc1b77827e9cef5613a13967d8385224b8b369b11ac35",
+    "lomo_n447_full_s42": "368196920891e554cdb738c787988b6a5f3b12b8730558c4fb72352fceabe1a4",
+    "lomo_n2846_full_s42": "08f2a3c48ef67d811babb73e714003f75a91097b7200bef51aac1c104eef4e1a",
+    "lomo_n129_full_s42": "a5d1ea848c640b6d3a52263f03cd3b968fda01cdeab289940f3eb23e06ad0431",
+    "lomo_n197_full_s42": "d45c4aa54d28cad49adebb2ee05230c1644f0ec41c8fed7cdfa6d8f9de587764",
+    "lomo_n2522_full_s42": "5eb191f22c9eb10c88ec71f8cab2b2c5b11adf334718a523e9ac86595cc8784b",
+    "lomo_n3114_full_s42": "0ff3082fb0d3ed617deb95134dfbd1de033dc2f6508510955861dcb891a1267f",
+    "lomo_n1918_full_s42": "1d59a2cdb8b971766253b431cf61036f0c06c100fcd9152f93d87efea57f1811",
+    "lomo_n426_full_s42": "381640516235e7a75d510e57d5d1eda8fbe7432b9e8bd61cd79505e1848547c0",
+    "lomo_n1879_full_s42": "6ea3de2b1906f0317d216a0a33dbf602b2a0afd87bce384c978b6fcba14e5a19",
+    "lomo_n91_full_s42": "ce33b8b6d26533eb9b02afb5a404baeaa0d96ca6b098805e32fc6635573e5f6a",
+    "lomo_n626_full_s42": "0319aa5ab4cc2171ba4c2d989e16492199f6a23b84da22fcee071bebe62bcbd5",
+    "lomo_n3416_full_s42": "893abe9ccbf45003084c2234c4e063d2f1b14377909c0a36335360ea5b8c8afd",
+    "lomo_n3387_full_s42": "fe1d4a35a136c2cd9c9c718a1b229b74614b1f2e574780db35d33af9882faf19",
+    "lomo_n329_full_s42": "2f9d9db2bf30cd051b0e18a725b75440fe89c6cfdcc300f11fe08ce29aa41d56",
+    "lomo_n316_full_s42": "7b6da25042d60fe3d515689ff23aeadbbe57bbd768f0acc839d5ddb1654ad2f0",
+    "lomo_n2694_full_s42": "b5b48c027e7e806bea785860fc8b366bbecac192a45bde50834703a1f4d8cbf5",
+    "lomo_n181_full_s42": "038b070cfbd845d9f076de7873d3644d25a21182f771ea45652d4d71b44e2fd5",
+    "lomo_n431_full_s42": "4ea82886ebbb121540c32cb5346fc846a140d3fc40be6f3ad24d9b7b5ece7cc4",
+    "lomo_n1877_full_s42": "4c1df7d36039ccb3b3bd8ab2c78060c653eef78501e97afb755898304e10c6c6",
+    "lomo_n1788_full_s42": "56d077f0b123d6284b176c331a6a3ad576149148d2095bbc7fb8019380b0aeb1",
+    "lomo_n1907_full_s42": "b94d8e497c3a4668513dc5c3c56780be660417b0bf50777ce238a5a14b74f429"
+  },
+  "expected_torch_version": "2.6.0+cu124",
+  "training_hours_per_task": 8,
+  "additional_gpu_hour_ceiling": 24,
+  "total_addition_gpu_hour_ceiling": 104,
+  "maximum_gpu_concurrency": 8,
+  "protocol": "Same original model, seed42, training MuData, graph, splits and two-phase selection/refit. Only assessment mappings change for three source-resolved targets. All three were already globally absent from supervised labels; their individual masks remain explicit in both phases.",
+  "qualifications": "49 source-supported historical targets; androsterone excluded because only its sulfate is measured. The training inputs retain the historical sulfate-to-parent assignment for other-target supervision. The corrected training MuData is deliberately not used. Galactose is retained with an identifier qualification. These are source-annotation decisions, not mass-spectral validation. One seed, fixed graph, not independent cohort validation.",
+  "concurrency_policy": "The three-target array waits for termination of the recorded ten-target array, which already waits for active original/recovery GPU jobs. No automatic retries or duplicate submissions."
+}

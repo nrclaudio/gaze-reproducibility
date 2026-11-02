@@ -1,0 +1,17 @@
+{
+  "files": {
+    "common.py": "82e79ba899a32f07ffe19a5b90a3be4c27f8e54de2957ea6ca9e787a29c1cdce",
+    "inputs/assessment.npz": "06f875b866455d4407ea5ade4c1f80a41b772039c71d1d935e898c613b695947",
+    "inputs/fit.npz": "d7bd93d64a74786b548131306ce42065d178afd82ea6916f535e457b3c4db839",
+    "model.py": "d49e6695ab7003c58ddf7e2958d7de612281b0d573bd28e53c1a5ee9addb6d81",
+    "protocol.json": "b3038daaccceac0ed37888b7745c309c87a679d6c657b239e3fb52ed70db8314",
+    "review.py": "967d355cfb3a3c34e8c64cd8215491709eaa34ef965dba9a081bbcc5b091f8f6",
+    "submit.py": "fdd3233550c9b83e9e7462d23befafcbc89ca9827432d00abcb5bf14eac5b10b",
+    "tasks.json": "dd3548d2817f836c6b7fcc99551b179f895c521def7b50c88cea31e401d02c1e",
+    "upstream/Performance_Benchmarking/scripts/pyro_model.py": "256c605f7a11dd830c684d6430a1b50e1b2cd8155f1d5c4eeeb6e7b4e2338d75",
+    "upstream/Performance_Benchmarking/scripts/utils.py": "bfda18b31e5c8cec5a00b96dbd37441679490c33111d82d8e5e9e5524a3de597",
+    "upstream/commit.json": "b192816ef3934c4191eb06ea8344880d06551ccadb777dc5808d8b38a7afa68d",
+    "worker.py": "2b75012e1a45de6bb7ec084673dfb8e83abdce172b5666b5403ee515a91792a8",
+    "worker.sh": "bcb13ed88f62ecb448b959fb582e8f6f346374b5129048093a8eaddd73636fed"
+  }
+}
