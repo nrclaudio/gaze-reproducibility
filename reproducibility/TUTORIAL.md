@@ -1,69 +1,126 @@
-# Worked reproduction and inference tutorial
+# Get started with GAZE
 
-## 1. Install and retrieve the fixed inputs
+This guide answers two questions:
 
-Follow the checkout and installation commands in the repository README. Use Python 3.12 and `requirements-release.txt` for the tested CPU environment. CUDA training versions are recorded in the original run status files; exact training trajectories may differ across devices and library versions.
+1. **Can I reproduce the reported numbers from the supplied results?** Follow steps 1–3.
+2. **Can I use a trained GAZE model to make predictions?** Continue to step 4.
 
-`python reproducibility/download.py` retrieves `gaze-artifacts-v2026.11.02.tar.gz`, checks its SHA-256 and extracts it into this directory. `release_manifest.json` lists every released experiment file with its checksum. No cluster access or private author paths are required.
+Steps 1–3 run on a computer with Python 3.12 and Git. They do not require ALICE, a GPU or another training run. The commands below use a macOS/Linux terminal.
 
-The main data are `external/artifacts/camp_reanalysis.h5mu`, `graph.pt`, `gene_mapping.json`, `phase1_manifest.csv` and `phase2_manifest.csv`. Frozen LOMO inputs and splits are in `experiments/lomo36/inputs`; `lomo10` and `lomo3` hold the additional target lists and assessment annotations. The 867-sample MuData has `rna` and `metabolomics` modalities. RNA columns carry `ensembl_gene_id`; metabolite columns carry source identifiers and explicit graph-node mappings. Preserve their recorded ordering. The graph has 3,687 nodes and 6,760 directed edges.
+## 1. Download the code and install its Python environment
 
-The released MuData is the processed training input. Use it directly: do not apply another log transform, impute assessment outcomes, renormalize across metabolites, or fit scaling on assessment labels. The original source-workbook intensity scale and missing values are preserved. Missing metabolite outcomes are masked by the loaders. `gene_mapping.json` and gene–reaction rules place RNA values into graph features. This release does not claim that arbitrary raw RNA counts are already compatible.
-
-## 2. Recompute reported summaries without training
-
-```bash
-python reproducibility/verify.py --output numerical_verification.json
-```
-
-This verifies all released file hashes and experiment manifests, checks the 170 completed GAZE result records, and recalculates per-target correlations/R² and all 42 ablation seed summaries from predictions and measured outcomes. It also recomputes the matched UnitedMet LOMO and per-cohort external correlations. Expected values are in the repository README. Numerical source tables, mappings and per-cohort activity-score comparisons are in `manuscript_data/`.
-
-The original frozen aggregate scripts additionally compute diagnostic summaries. The manuscript uses the pooled per-target correlations documented in `manuscript_data/ablation_seed_metrics.csv`; do not substitute the within-study diagnostic from an older aggregate report. Each ablation table uses the median over its complete target set for each seed and the average paired difference across seeds 42, 43 and 44.
-
-## 3. Replay saved model weights
+For a new copy, run:
 
 ```bash
-python reproducibility/verify.py --replay --output checkpoint_verification.json
+git clone --branch v2026.11.02.1 https://github.com/nrclaudio/gaze-reproducibility.git
+cd gaze-reproducibility
+python3.12 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements-release.txt
 ```
 
-This strictly loads both `external/runs/*/phase2/best_model.pt` checkpoints and predicts the first, middle and last sample in each cohort. All metabolite labels are hidden during prediction. Twelve sample/checkpoint combinations must agree with the saved GPU predictions within `rtol=1e-4, atol=1e-3`. This is an inference check, not a new model fit.
+The first two commands download the code and enter its folder. The next three create a separate Python environment and install the required libraries.
 
-`cohort` was refitted on all 615 development samples for 59 selected epochs. `cohort_plus_targets` additionally withholds the fixed 20 target label sets and uses 35 selected epochs. Both exclude RC18 and RC20 throughout training and epoch selection. Do not substitute the older 867-sample deployment checkpoint for these experiments.
+**Run all remaining commands from this `gaze-reproducibility` folder.** If you already have this version and its environment, enter the folder and activate the environment; you can skip the installation commands.
 
-## 4. Run a short training check or a full LOMO fit
-
-Create a separate output bundle so the archived results remain intact:
+## 2. Download the data, saved predictions and trained models
 
 ```bash
-python reproducibility/new_run.py --experiment lomo36 --output work/lomo36
-python work/lomo36/worker.py --root work/lomo36 --task 0 --smoke
+python reproducibility/download.py
 ```
 
-The smoke run fits two tiny development-only phases for one epoch and checks finite predictions. It is not a scientific performance estimate. For a full fit, omit `--smoke`; `tasks.json` enumerates all experiment indices. The worker selects the epoch using other-metabolite validation MSE and freshly initializes the final fit; held target labels remain masked. Full fits require substantial compute, normally a GPU. `lomo36` contains the 157 core/panel/ablation tasks; `lomo10` and `lomo3` add 13 full-model targets. Full-panel results use seed 42; ablations use three seeds and five predefined LOMO targets.
+This downloads about **215 MB** and places the files under `reproducibility/`. It also checks that the download is intact. It finishes with:
 
-UnitedMet can be retrained using the same `new_run.py --experiment unitedmet49` command and its `worker.py --task N` (or `--smoke`). All target labels are removed before ranking. In this LOMO setting, the held target has no likelihood training signal; its output is based on the fitted variational approximation and posterior sampling. This is distinct from usual reference-supported metabolite imputation.
+```text
+Artifacts extracted. Run: python reproducibility/verify.py --replay
+```
 
-## 5. Train or evaluate the external model
+You do not need to find or download CAMP, the graph or the external-validation models separately. If you have already extracted these files, skip this step.
+
+## 3. Check that the released results match the paper
 
 ```bash
-python reproducibility/external/code/scripts/experiments/train_cohort_reanalysis.py \
-  --artifacts reproducibility/external/artifacts --output work/cohort_smoke --mode cohort --smoke
+python reproducibility/verify.py --replay --output verification.json
 ```
 
-For full training use a new output directory and omit `--smoke`. `--mode cohort_plus_targets` adds the 20 target-label exclusions. The saved configurations and sample indices describe both phases.
+This command does two things:
 
-To evaluate the supplied full checkpoint on all external samples:
+- Reads the saved predictions and measured metabolite values, then recalculates the reported results.
+- Loads both supplied trained models and checks a small set of predictions against the saved outputs. Here, `--replay` means “run the trained models again”; it does not train them.
+
+At the end, it prints the checks and saves them in **`verification.json`**, in the current folder. The main expected results are:
+
+| Check | Expected result |
+|---|---:|
+| GAZE completed fit records checked | 170 |
+| Metabolites in the full-model LOMO evaluation | 49 |
+| GAZE median LOMO Spearman correlation | approximately 0.523 |
+| UnitedMet median correlation on the same 49 targets | approximately 0.115 |
+| Targets where GAZE has higher correlation | 40 |
+| Ablation summaries checked, counting each seed separately | 42 |
+| Sample/model combinations checked using the supplied weights | 12 |
+
+A successful run reaches the final report without a traceback. The calculation uses the supplied predictions; it does not repeat all 170 training fits. The model check uses the two released external-validation models. Individual GAZE LOMO weights are not in the archive.
+
+**You can stop here if your aim is to check the reported results.** The numerical tables behind the figures are in `reproducibility/manuscript_data/`.
+
+## 4. Optional: make predictions using a trained model
+
+First install the GAZE inference package in the same activated environment:
 
 ```bash
-python reproducibility/external/code/scripts/experiments/evaluate_cohort_reanalysis.py \
-  --artifacts reproducibility/external/artifacts --run reproducibility/external/runs/cohort \
-  --output work/external_evaluation
+python -m pip install --no-deps 'git+https://github.com/nrclaudio/GAZE.git@v0.2.1'
 ```
 
-The split manifests define cohort identities and exclusions. These commands accept local paths and make no SSH or Slurm connections.
+The following example uses RNA from the first two samples in the supplied data. It loads the trained model, makes predictions and writes **`example_predictions.csv`**. Metabolite measurements are not passed to the predictor. This demonstrates how to use the model; the external-validation check is performed in step 3.
 
-## 6. Predict compatible RNA-only inputs
+Copy this whole block into the terminal:
 
-Install GAZE v0.2.1 and use `GAZEPredictor.from_release("reproducibility")`; see the runnable `examples/replay_release.py` in the GAZE repository. `predict_rna(frame)` accepts a samples-by-genes pandas DataFrame with Ensembl gene IDs, unique sample IDs and numeric values. NaN marks a missing measurement and leaves its graph feature at zero, as in training; infinite values and wholly unmeasured samples are rejected. Supply every gene present in the released RNA schema in training-compatible units and preprocessing; missing columns raise an error. No metabolite measurements are required. Output columns are graph node indices; names and identifiers are in `graph.pt`.
+```bash
+python - <<'PY'
+import mudata as mu
+import pandas as pd
+import torch
+from gaze import GAZEPredictor
 
-The default checkpoint is `cohort`. All model parameters are frozen at inference. A prediction is a relative abundance estimate on the training scale, not a calibrated molar concentration. Extending to new graph nodes or adapting a new assay's preprocessing is a separate modelling task.
+torch.set_num_threads(2)
+data = mu.read_h5mu("reproducibility/external/artifacts/camp_reanalysis.h5mu")
+rna = data["rna"][:2]
+values = rna.X.toarray() if hasattr(rna.X, "toarray") else rna.X
+rna_table = pd.DataFrame(
+    values,
+    index=rna.obs_names,
+    columns=rna.var["ensembl_gene_id"].astype(str),
+)
+
+model = GAZEPredictor.from_release("reproducibility")
+predictions = model.predict_rna(rna_table)
+predictions.to_csv("example_predictions.csv")
+print(f"Saved predictions for {len(predictions)} samples to example_predictions.csv")
+PY
+```
+
+Each output row is a sample. Each output column is a metabolite's node number in the supplied graph. Predictions are relative metabolite abundances on the training scale.
+
+For your own RNA data, replace `rna_table` with a pandas table containing samples as rows and Ensembl gene IDs as columns. Supply all 2,184 genes in the released RNA schema, using the same preprocessing and units. NaN can mark an unmeasured value; the loader handles it as it did during training. Raw RNA counts need appropriate preprocessing before this step.
+
+### Which model does this use?
+
+The default is the CAMP model trained on 615 samples, excluding RC18 and RC20. These are the two final model files, relative to the repository folder:
+
+| Model | File |
+|---|---|
+| Standard external-validation model | `reproducibility/external/runs/cohort/phase2/best_model.pt` |
+| Model also withholding 20 metabolite label sets | `reproducibility/external/runs/cohort_plus_targets/phase2/best_model.pt` |
+
+A `.pt` checkpoint contains the trained model weights. Use **`phase2`** for final predictions; `phase1` was used to select training duration. The loading function finds the matching configuration, graph and gene mapping automatically.
+
+To select the second model:
+
+```python
+model = GAZEPredictor.from_release("reproducibility", mode="cohort_plus_targets")
+```
+
+## Optional: train the models again
+
+If you specifically want to repeat model fitting, follow [the training instructions](https://github.com/nrclaudio/gaze-reproducibility/blob/main/reproducibility/TRAINING.md). They cover a small training check, individual LOMO fits, UnitedMet and the external-validation models. Full fits take substantially more compute than the checks above.

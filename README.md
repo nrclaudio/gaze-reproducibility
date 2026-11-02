@@ -2,9 +2,11 @@
 
 GAZE (Graph Attention for Zero-shot metabolite Estimation) predicts relative metabolite abundances from RNA using a metabolic graph, molecular descriptors and biochemical regularization. Zero-shot evaluation withholds a metabolite's abundance labels while retaining its node and descriptors in the graph.
 
-## Versioned manuscript release
+## Start here
 
-Use [v2026.11.02.1](https://github.com/nrclaudio/gaze-reproducibility/releases/tag/v2026.11.02.1) and the [worked tutorial](reproducibility/TUTORIAL.md). It provides the compatible processed CAMP inputs, graph, gene mapping, sample splits, target lists, configurations, saved predictions, and the two external-validation checkpoints. It includes the exact training implementations for the 49-metabolite LOMO panel, three-seed component ablations and RC18/RC20 evaluation, plus the matched UnitedMet LOMO code and posterior outputs.
+Use [v2026.11.02.1](https://github.com/nrclaudio/gaze-reproducibility/releases/tag/v2026.11.02.1) and start with the [step-by-step tutorial](https://github.com/nrclaudio/gaze-reproducibility/blob/main/reproducibility/TUTORIAL.md). The release provides the compatible processed CAMP inputs, graph, gene mapping, sample splits, target lists, configurations, saved predictions, and the two external-validation checkpoints. It includes the exact training implementations for the 49-metabolite LOMO panel, three-seed component ablations and RC18/RC20 evaluation, plus the matched UnitedMet LOMO code and posterior outputs.
+
+The tutorial explains what each command does and what output to expect. Its main route is **download the files → check the reported results → optionally make predictions with a trained model**. Retraining is documented separately.
 
 ```bash
 git clone https://github.com/nrclaudio/gaze-reproducibility.git
