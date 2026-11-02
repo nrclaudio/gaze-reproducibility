@@ -4,7 +4,7 @@
 
 Follow the checkout and installation commands in the repository README. Use Python 3.12 and `requirements-release.txt` for the tested CPU environment. CUDA training versions are recorded in the original run status files; exact training trajectories may differ across devices and library versions.
 
-`python revision/download.py` retrieves `gaze-artifacts-v2026.11.02.tar.gz`, checks its SHA-256 and extracts it into this directory. `release_manifest.json` lists every released experiment file with its checksum. No cluster access or private author paths are required.
+`python reproducibility/download.py` retrieves `gaze-artifacts-v2026.11.02.tar.gz`, checks its SHA-256 and extracts it into this directory. `release_manifest.json` lists every released experiment file with its checksum. No cluster access or private author paths are required.
 
 The main data are `external/artifacts/camp_reanalysis.h5mu`, `graph.pt`, `gene_mapping.json`, `phase1_manifest.csv` and `phase2_manifest.csv`. Frozen LOMO inputs and splits are in `experiments/lomo36/inputs`; `lomo10` and `lomo3` hold the additional target lists and assessment annotations. The 867-sample MuData has `rna` and `metabolomics` modalities. RNA columns carry `ensembl_gene_id`; metabolite columns carry source identifiers and explicit graph-node mappings. Preserve their recorded ordering. The graph has 3,687 nodes and 6,760 directed edges.
 
@@ -13,7 +13,7 @@ The released MuData is the processed training input. Use it directly: do not app
 ## 2. Recompute reported summaries without training
 
 ```bash
-python revision/verify.py --output numerical_verification.json
+python reproducibility/verify.py --output numerical_verification.json
 ```
 
 This verifies all released file hashes and experiment manifests, checks the 170 completed GAZE result records, and recalculates per-target correlations/R² and all 42 ablation seed summaries from predictions and measured outcomes. It also recomputes the matched UnitedMet LOMO and per-cohort external correlations. Expected values are in the repository README. Numerical source tables, mappings and per-cohort activity-score comparisons are in `manuscript_data/`.
@@ -23,7 +23,7 @@ The original frozen aggregate scripts additionally compute diagnostic summaries.
 ## 3. Replay saved model weights
 
 ```bash
-python revision/verify.py --replay --output checkpoint_verification.json
+python reproducibility/verify.py --replay --output checkpoint_verification.json
 ```
 
 This strictly loads both `external/runs/*/phase2/best_model.pt` checkpoints and predicts the first, middle and last sample in each cohort. All metabolite labels are hidden during prediction. Twelve sample/checkpoint combinations must agree with the saved GPU predictions within `rtol=1e-4, atol=1e-3`. This is an inference check, not a new model fit.
@@ -35,7 +35,7 @@ This strictly loads both `external/runs/*/phase2/best_model.pt` checkpoints and 
 Create a separate output bundle so the archived results remain intact:
 
 ```bash
-python revision/new_run.py --experiment lomo36 --output work/lomo36
+python reproducibility/new_run.py --experiment lomo36 --output work/lomo36
 python work/lomo36/worker.py --root work/lomo36 --task 0 --smoke
 ```
 
@@ -46,8 +46,8 @@ UnitedMet can be retrained using the same `new_run.py --experiment unitedmet49` 
 ## 5. Train or evaluate the external model
 
 ```bash
-python revision/external/code/scripts/experiments/train_cohort_reanalysis.py \
-  --artifacts revision/external/artifacts --output work/cohort_smoke --mode cohort --smoke
+python reproducibility/external/code/scripts/experiments/train_cohort_reanalysis.py \
+  --artifacts reproducibility/external/artifacts --output work/cohort_smoke --mode cohort --smoke
 ```
 
 For full training use a new output directory and omit `--smoke`. `--mode cohort_plus_targets` adds the 20 target-label exclusions. The saved configurations and sample indices describe both phases.
@@ -55,8 +55,8 @@ For full training use a new output directory and omit `--smoke`. `--mode cohort_
 To evaluate the supplied full checkpoint on all external samples:
 
 ```bash
-python revision/external/code/scripts/experiments/evaluate_cohort_reanalysis.py \
-  --artifacts revision/external/artifacts --run revision/external/runs/cohort \
+python reproducibility/external/code/scripts/experiments/evaluate_cohort_reanalysis.py \
+  --artifacts reproducibility/external/artifacts --run reproducibility/external/runs/cohort \
   --output work/external_evaluation
 ```
 
@@ -64,6 +64,6 @@ The split manifests define cohort identities and exclusions. These commands acce
 
 ## 6. Predict compatible RNA-only inputs
 
-Install GAZE v0.2.0 and use `GAZEPredictor.from_release("revision")`; see the runnable `examples/replay_release.py` in the GAZE repository. `predict_rna(frame)` accepts a samples-by-genes pandas DataFrame with Ensembl gene IDs, unique sample IDs and numeric values. NaN marks a missing measurement and leaves its graph feature at zero, as in training; infinite values and wholly unmeasured samples are rejected. Supply every gene present in the released RNA schema in training-compatible units and preprocessing; missing columns raise an error. No metabolite measurements are required. Output columns are graph node indices; names and identifiers are in `graph.pt`.
+Install GAZE v0.2.1 and use `GAZEPredictor.from_release("reproducibility")`; see the runnable `examples/replay_release.py` in the GAZE repository. `predict_rna(frame)` accepts a samples-by-genes pandas DataFrame with Ensembl gene IDs, unique sample IDs and numeric values. NaN marks a missing measurement and leaves its graph feature at zero, as in training; infinite values and wholly unmeasured samples are rejected. Supply every gene present in the released RNA schema in training-compatible units and preprocessing; missing columns raise an error. No metabolite measurements are required. Output columns are graph node indices; names and identifiers are in `graph.pt`.
 
 The default checkpoint is `cohort`. All model parameters are frozen at inference. A prediction is a relative abundance estimate on the training scale, not a calibrated molar concentration. Extending to new graph nodes or adapting a new assay's preprocessing is a separate modelling task.

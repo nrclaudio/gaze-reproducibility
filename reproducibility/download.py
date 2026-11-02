@@ -17,5 +17,5 @@ def main():
    target=(ROOT/member.name).resolve()
    if not target.is_relative_to(ROOT) or member.issym() or member.islnk():raise ValueError('Unsafe archive member')
   tf.extractall(ROOT,filter='data')
- print('Artifacts extracted. Run: python revision/verify.py --replay')
+ print('Artifacts extracted. Run: python reproducibility/verify.py --replay')
 if __name__=='__main__':main()

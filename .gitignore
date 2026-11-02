@@ -156,13 +156,13 @@ tmp_slurm_scripts/
 tmp_lomo_scripts/
 
 # Downloadable release artifacts (code and manifests stay in Git).
-/revision/experiments/*/inputs/
-/revision/experiments/*/results/
-/revision/experiments/*/summary/
-/revision/experiments/*/review/
-/revision/experiments/*/recovery_*/
-/revision/external/artifacts/
-/revision/external/runs/
-/revision/manuscript_data/
-/revision/release_manifest.json
-/revision/downloads/
+/reproducibility/experiments/*/inputs/
+/reproducibility/experiments/*/results/
+/reproducibility/experiments/*/summary/
+/reproducibility/experiments/*/review/
+/reproducibility/experiments/*/recovery_*/
+/reproducibility/external/artifacts/
+/reproducibility/external/runs/
+/reproducibility/manuscript_data/
+/reproducibility/release_manifest.json
+/reproducibility/downloads/
