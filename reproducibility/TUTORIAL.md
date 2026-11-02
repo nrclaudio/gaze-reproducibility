@@ -93,7 +93,7 @@ rna_table = pd.DataFrame(
     columns=rna.var["ensembl_gene_id"].astype(str),
 )
 
-model = GAZEPredictor.from_release("reproducibility")
+model = GAZEPredictor.from_release("reproducibility", mode="cohort")
 predictions = model.predict_rna(rna_table)
 predictions.to_csv("example_predictions.csv")
 print(f"Saved predictions for {len(predictions)} samples to example_predictions.csv")
@@ -106,12 +106,14 @@ For your own RNA data, replace `rna_table` with a pandas table containing sample
 
 ### Which model does this use?
 
-The default is the CAMP model trained on 615 samples, excluding RC18 and RC20. These are the two final model files, relative to the repository folder:
+The example explicitly selects `cohort`: the CAMP model trained on 615 samples, excluding RC18 and RC20. It demonstrates a model used in external validation; it is not a selection of the best model across experiments. These are the two final external-validation model files, relative to the repository folder:
 
 | Model | File |
 |---|---|
 | Standard external-validation model | `reproducibility/external/runs/cohort/phase2/best_model.pt` |
 | Model also withholding 20 metabolite label sets | `reproducibility/external/runs/cohort_plus_targets/phase2/best_model.pt` |
+
+The original all-867-sample deployment weights are also public in [GAZE/weights](https://github.com/nrclaudio/GAZE/tree/v0.2.1/weights). They use the earlier implementation and have not been validated with the current `GAZEPredictor` loading workflow.
 
 A `.pt` checkpoint contains the trained model weights. Use **`phase2`** for final predictions; `phase1` was used to select training duration. The loading function finds the matching configuration, graph and gene mapping automatically.
 
